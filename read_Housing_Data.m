@@ -1,11 +1,10 @@
+%% 
 % read housing data downloaded from US Census web site
+%
+%
 
 function housingData = read_Housing_Data(housingFile)
-housingFile = './housing_county_DP04/ACS_12_5YR_DP04_with_ann.csv';
-housingData = readtable(housingFile);
-%housingData = importdata(housingFile,',',1);
-save('housingData_all.mat','housingData');
-load('housingData_all.mat.BAK');
+load('housingData_all.mat');%load('housingData_all.mat');
 
 % the columns that we are interested
 usedColumns = [1,2,3,4,28,244,256];

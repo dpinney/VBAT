@@ -39,7 +39,7 @@ saturationRate = virtualBatteryData(stateIdx).saturationRate ; % saturation rate
 temperature_NCDC = stateData.temperature_NCDC;
 nTemperature = length(temperature_NCDC);
 for i = 1:nTemperature
-    str = ['Temeprature Data # ',num2str(i), ' of ', num2str(nTemperature)];
+    str = ['Temperature Data # ',num2str(i), ' of ', num2str(nTemperature)];
     disp(str);
     nHousing = 1000; % using 1000 houses as reference
      

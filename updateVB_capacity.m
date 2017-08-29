@@ -2,6 +2,7 @@
 % 1/24/2017 updated to get 10-minute capacities for residential buildings
 %
 
+clc;
 clear;
 
 %% load data set

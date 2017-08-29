@@ -58,7 +58,7 @@ theta_upper_wh = theta_s_wh + delta_wh/2;
 
 
 % m_water is the water draw in unit of gallon per minute
-m_water = csvread('./other_inputs/Flow_raw_1minute_BPA.csv', 1, 1)*0.00378541178*1000/h;
+m_water = csvread('Flow_raw_1minute_BPA.csv', 1, 1)*0.00378541178*1000/h;
 
 water_draw = m_water;
 

@@ -63,7 +63,7 @@ if(~isempty(k))
     e_lower_ac(k) =0;
 end
 e_upper_ac = N_ac*participation_ac.*(mean(P_ac./mean(eta_ac)) - P0_ac);
-k = find(e_upper_ac < 0);
+k = find(e_upper_ac < 0, 1);
 if(~isempty(k))
     e_upper_ac =0;
 end

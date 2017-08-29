@@ -16,13 +16,18 @@
 %
 % Output: 
 %   'virtualBatteryData_org.mat': a structure list with each US State as an structure element
+%
+% 
+%
 
 clear;
+clc;
 
 %% read in the housing data and re-organize data into a structure
 % read the data
-housingFile = './housing_county_DP04/ACS_12_5YR_DP04_with_ann.xlsx';
-housingData = read_Housing_Data(housingFile);
+
+%housingFile = '.\housing_county_DP04\ACS_12_5YR_DP04_with_ann.xlsx'; %USELESS
+housingData = read_Housing_Data(); %housingData = read_Housing_Data(housingFile);
 
 % re-organize the data
 geography = housingData.Geography;
@@ -38,14 +43,14 @@ end
 
 uniqueState = unique(state);
 
-statePostalCodes = readtable('./climate_zone_files/statePostalCode.xlsx');
+statePostalCodes = readtable('.\climate_zone_files\statePostalCode.xlsx');
 
 for i = 1:length(uniqueState)
    currState = uniqueState{i};   
    idx = find(strcmp(state,currState));    
    virtualBatteryData(i).state = strtrim(currState);
-   k = find(strcmp(statePostalCodes.State, currState));
-   virtualBatteryData(i).stateCode = statePostalCodes.PostalCode{k};
+   k = strcmp(statePostalCodes.State, currState);
+   virtualBatteryData(i).stateCode = statePostalCodes.PostalCode{i};%virtualBatteryData(i).stateCode = statePostalCodes.PostalCode{k};
    virtualBatteryData(i).nCounty = length(idx);
    counties = county(idx);
    for j = 1:length(counties)
@@ -63,8 +68,9 @@ for i = 1:length(uniqueState)
    virtualBatteryData(i).elecHeatingOccupiedHousing = housingData.elecHeatingOccupiedHousing(idx);   
 end
 
+
 %% get IECC climate zone index for each county
-climateZones = readtable('./climate_zone_files/climate_zones.xlsx');
+climateZones = readtable('.\climate_zone_files\climate_zones.xlsx');
 climateZones = sortrows(climateZones,[1,2]);
 
 % need to delete Alexandria (city) to match housing data
@@ -85,6 +91,7 @@ for i = 1:length(virtualBatteryData)
     virtualBatteryData(i).IECCMoistureRegime = climateZones.IECCMoistureRegime(k);    
 end
 
+
 %% create a temperature data cell list for 8 climate zones as the place holder
 zoneTemp_0 = cell(1,8);
 
@@ -96,31 +103,31 @@ end
 % get the index for CA
 allStates = {virtualBatteryData.stateCode};
 CA_Idx = find(strcmp(allStates,'CA'));
-tempDataFile = './temperature_files/CA_all_stations.csv';
-dataLinkFile = './temperature_files/NCDC_obs_locations_county_CA.csv';
-countyTempMapFile = './temperature_files/CA_county_station_map.csv';
+tempDataFile = '.\temperature_files\CA_all_stations.csv';
+dataLinkFile = '.\temperature_files\NCDC_obs_locations_county_CA.csv';
+countyTempMapFile = '.\temperature_files\CA_county_station_map.csv';
 
 virtualBatteryData = update_temperature_county_mapping(virtualBatteryData, CA_Idx,tempDataFile, dataLinkFile, countyTempMapFile);
 
 %% load temperature data for WA 
-tempFile = './temperature_files/Washington_zone_4_Temperature.csv';
+tempFile = '.\temperature_files\Washington_zone_4_Temperature.csv';
 virtualBatteryData = updateTemperature_NCDC(virtualBatteryData, tempFile, 'Washington', 4);
 
-tempFile = './temperature_files/Washington_zone_5_Temperature.csv';
+tempFile = '.\temperature_files\Washington_zone_5_Temperature.csv';
 virtualBatteryData = updateTemperature_NCDC(virtualBatteryData, tempFile, 'Washington', 5);
 
-tempFile = './temperature_files/Washington_zone_6_Temperature.csv';
+tempFile = '.\temperature_files\Washington_zone_6_Temperature.csv';
 virtualBatteryData = updateTemperature_NCDC(virtualBatteryData, tempFile, 'Washington', 6);
 
 %% load temperature data for OR
-tempFile = './temperature_files/Oregon_zone_4_Temperature.csv';
+tempFile = '.\temperature_files\Oregon_zone_4_Temperature.csv';
 virtualBatteryData = updateTemperature_NCDC(virtualBatteryData, tempFile, 'Oregon', 4);
 
-tempFile = './temperature_files/Oregon_zone_5_Temperature.csv';
+tempFile = '.\temperature_files\Oregon_zone_5_Temperature.csv';
 virtualBatteryData = updateTemperature_NCDC(virtualBatteryData, tempFile, 'Oregon', 5);
 
 %% load saturation rates
-saturationRateFile = './other_inputs/saturation_rate.csv';
+saturationRateFile = '.\saturation_rate.csv';
 virtualBatteryData = update_saturation_rate(virtualBatteryData, saturationRateFile);
 
 %% save the data
