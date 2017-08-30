@@ -27,7 +27,8 @@ clc;
 % read the data
 
 %housingFile = '.\housing_county_DP04\ACS_12_5YR_DP04_with_ann.xlsx'; %USELESS
-housingData = read_Housing_Data(); %housingData = read_Housing_Data(housingFile);
+%housingData = read_Housing_Data(housingFile);
+housingData = read_Housing_Data(); 
 
 % re-organize the data
 geography = housingData.Geography;
