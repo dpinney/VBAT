@@ -51,7 +51,9 @@ for i = 1:nTemperature
     [minPCap, maxPCap, ECap] = estimate_Capacity_core_update1(nHousing, temperatureData,saturationRate);
         
     % update water heater results with He Hao's new model
-    [minPCap_WH, maxPCap_WH, ECap_WH] = estimate_Capacity_core_update2_WH(nHousing, saturationRate);
+    
+    [minPCap_WH, maxPCap_WH, ECap_WH] = estimate_Capacity_core_update2_WH(nHousing, saturationRate); %takes 1m43s
+    
     % extract data from output minute data
     usedMinutes = 0:deltaT:1440;
     usedMinutes = usedMinutes+1;

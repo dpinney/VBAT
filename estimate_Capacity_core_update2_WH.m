@@ -69,11 +69,13 @@ end
 
 Po = zeros(T, N_wh);
 
-for t = 1:T
+for t = 1:T %long
     for i = 1:N_wh
         Po(t, i) = -(theta_a(t)-theta_s_wh(i))/R_wh(i) - 4.2*water_draw(t, i)*((55-32)*5/9 - theta_s_wh(i));
     end
 end
+%theta_a(t) is full of a single value?
+
 
 % Po_total is the analytically predicted aggregate baseline power
 Po_total = sum(Po,2);
@@ -89,8 +91,7 @@ theta(:,1) = theta_s_wh;
 m = ones(N_wh,T);
 m(1:N_wh*0.8,1) = 0;
 
-
-for t=1:1:T-1
+for t=1:1:T-1 %very long
 
     for i=1:N_wh
 
@@ -117,7 +118,7 @@ m(:,1) = m(:,end);
 Po_total_sim = zeros(T,1);
 Po_total_sim(1) = sum(m(:,1).*P_wh);
 
-for t=1:1:T-1
+for t=1:1:T-1 %very very long
 
     for i=1:N_wh
 
@@ -140,7 +141,8 @@ end
 
 index_available = ones(N_wh, T);
 
-for t=1:1:T-1
+
+for t=1:1:T-1 %little long
 
     for i=1:N_wh
         if theta(i,t) < theta_lower_wh(i)-0.5 || theta(i,t) > theta_upper_wh(i)+0.5

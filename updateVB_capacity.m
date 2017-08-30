@@ -16,6 +16,7 @@ deltaT = 60;
 str = [num2str(deltaT),'-minute capacity:'];
 disp(str);
 capData = updateVB_capacity_Temperrature_data(virtualBatteryData, 'California', deltaT);
+
 virtualBatteryData(state_Idx).cap_60_minute=capData;
 
 % deltaT = 10;
