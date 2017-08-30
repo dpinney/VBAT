@@ -22,7 +22,7 @@
 
 clear;
 clc;
-
+Run_time = clock;
 %% read in the housing data and re-organize data into a structure
 % read the data
 
@@ -132,3 +132,4 @@ virtualBatteryData = update_saturation_rate(virtualBatteryData, saturationRateFi
 
 %% save the data
 save('virtualBatteryData_org.mat','virtualBatteryData');
+Run_time = seconds(clock) - seconds(Run_time);Run_time = Run_time(6)
