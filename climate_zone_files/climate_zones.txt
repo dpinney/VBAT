@@ -1,0 +1,3143 @@
+State,	County,	BA Climate Zone,	IECC Climate Zone,	IECC Moisture Regime
+AL,	Autauga,	Hot-Humid,	3,	A
+AL,	Baldwin,	Hot-Humid,	2,	A
+AL,	Barbour,	Hot-Humid,	3,	A
+AL,	Bibb,	Mixed-Humid,	3,	A
+AL,	Blount,	Mixed-Humid,	3,	A
+AL,	Bullock,	Hot-Humid,	3,	A
+AL,	Butler,	Hot-Humid,	3,	A
+AL,	Calhoun,	Mixed-Humid,	3,	A
+AL,	Chambers,	Mixed-Humid,	3,	A
+AL,	Cherokee,	Mixed-Humid,	3,	A
+AL,	Chilton,	Mixed-Humid,	3,	A
+AL,	Choctaw,	Hot-Humid,	3,	A
+AL,	Clarke,	Hot-Humid,	3,	A
+AL,	Clay,	Mixed-Humid,	3,	A
+AL,	Cleburne,	Mixed-Humid,	3,	A
+AL,	Coffee,	Hot-Humid,	3,	A
+AL,	Colbert,	Mixed-Humid,	3,	A
+AL,	Conecuh,	Hot-Humid,	3,	A
+AL,	Coosa,	Mixed-Humid,	3,	A
+AL,	Covington,	Hot-Humid,	3,	A
+AL,	Crenshaw,	Hot-Humid,	3,	A
+AL,	Cullman,	Mixed-Humid,	3,	A
+AL,	Dale,	Hot-Humid,	3,	A
+AL,	Dallas,	Hot-Humid,	3,	A
+AL,	DeKalb,	Mixed-Humid,	3,	A
+AL,	Elmore,	Hot-Humid,	3,	A
+AL,	Escambia,	Hot-Humid,	3,	A
+AL,	Etowah,	Mixed-Humid,	3,	A
+AL,	Fayette,	Mixed-Humid,	3,	A
+AL,	Franklin,	Mixed-Humid,	3,	A
+AL,	Geneva,	Hot-Humid,	3,	A
+AL,	Greene,	Mixed-Humid,	3,	A
+AL,	Hale,	Mixed-Humid,	3,	A
+AL,	Henry,	Hot-Humid,	3,	A
+AL,	Houston,	Hot-Humid,	3,	A
+AL,	Jackson,	Mixed-Humid,	3,	A
+AL,	Jefferson,	Mixed-Humid,	3,	A
+AL,	Lamar,	Mixed-Humid,	3,	A
+AL,	Lauderdale,	Mixed-Humid,	3,	A
+AL,	Lawrence,	Mixed-Humid,	3,	A
+AL,	Lee,	Mixed-Humid,	3,	A
+AL,	Limestone,	Mixed-Humid,	3,	A
+AL,	Lowndes,	Hot-Humid,	3,	A
+AL,	Macon,	Hot-Humid,	3,	A
+AL,	Madison,	Mixed-Humid,	3,	A
+AL,	Marengo,	Hot-Humid,	3,	A
+AL,	Marion,	Mixed-Humid,	3,	A
+AL,	Marshall,	Mixed-Humid,	3,	A
+AL,	Mobile,	Hot-Humid,	2,	A
+AL,	Monroe,	Hot-Humid,	3,	A
+AL,	Montgomery,	Hot-Humid,	3,	A
+AL,	Morgan,	Mixed-Humid,	3,	A
+AL,	Perry,	Hot-Humid,	3,	A
+AL,	Pickens,	Mixed-Humid,	3,	A
+AL,	Pike,	Hot-Humid,	3,	A
+AL,	Randolph,	Mixed-Humid,	3,	A
+AL,	Russell,	Hot-Humid,	3,	A
+AL,	Shelby,	Mixed-Humid,	3,	A
+AL,	St. Clair,	Mixed-Humid,	3,	A
+AL,	Sumter,	Mixed-Humid,	3,	A
+AL,	Talladega,	Mixed-Humid,	3,	A
+AL,	Tallapoosa,	Mixed-Humid,	3,	A
+AL,	Tuscaloosa,	Mixed-Humid,	3,	A
+AL,	Walker,	Mixed-Humid,	3,	A
+AL,	Washington,	Hot-Humid,	3,	A
+AL,	Wilcox,	Hot-Humid,	3,	A
+AL,	Winston,	Mixed-Humid,	3,	A
+AK,	Aleutians East,	Very Cold,	7,	N/A
+AK,	Aleutians West (CA*),	Very Cold,	7,	N/A
+AK,	Anchorage,	Very Cold,	7,	N/A
+AK,	Bethel (CA),	Subarctic,	8,	N/A
+AK,	Bristol Bay,	Very Cold,	7,	N/A
+AK,	Denali,	Very Cold,	7,	N/A
+AK,	Dillingham (CA),	Subarctic,	8,	N/A
+AK,	Fairbanks North Star,	Subarctic,	8,	N/A
+AK,	Haines,	Very Cold,	7,	N/A
+AK,	Juneau,	Very Cold,	7,	N/A
+AK,	Kenai Peninsula,	Very Cold,	7,	N/A
+AK,	Ketchikan Gateway,	Very Cold,	7,	N/A
+AK,	Kodiak Island,	Very Cold,	7,	N/A
+AK,	Lake and Peninsula,	Very Cold,	7,	N/A
+AK,	Matanuska-Susitna,	Very Cold,	7,	N/A
+AK,	Nome (CA),	Subarctic,	8,	N/A
+AK,	North Slope,	Subarctic,	8,	N/A
+AK,	Northwest Arctic,	Subarctic,	8,	N/A
+AK,	Prince of Wales- Outer Ketchikan (CA),	Very Cold,	7,	N/A
+AK,	Sitka,	Very Cold,	7,	N/A
+AK,	Skagway-Hoonah- Angoon (CA),	Very Cold,	7,	N/A
+AK,	Southeast Fair- banks (CA),	Subarctic,	8,	N/A
+AK,	Valdez-Cordova (CA),	Very Cold,	7,	N/A
+AK,	Wade Hampton (CA),	Subarctic,	8,	N/A
+AK,	Wrangell-Pe- tersburg (CA),	Very Cold,	7,	N/A
+AK,	Yakutat,	Very Cold,	7,	N/A
+AK,	Yukon-Koyukuk (CA),	Subarctic,	8,	N/A
+AZ,	Apache,	Cold,	5,	B
+AZ,	Cochise,	Hot-Dry,	3,	B
+AZ,	Coconino,	Cold,	5,	B
+AZ,	Gila,	Mixed-Dry,	4,	B
+AZ,	Graham,	Hot-Dry,	3,	B
+AZ,	Greenlee,	Hot-Dry,	3,	B
+AZ,	La Paz,	Hot-Dry,	2,	B
+AZ,	Maricopa,	Hot-Dry,	2,	B
+AZ,	Mohave,	Hot-Dry,	3,	B
+AZ,	Navajo,	Cold,	5,	B
+AZ,	Pima,	Hot-Dry,	2,	B
+AZ,	Pinal,	Hot-Dry,	2,	B
+AZ,	Santa Cruz,	Hot-Dry,	3,	B
+AZ,	Yavapai,	Mixed-Dry,	4,	B
+AZ,	Yuma,	Hot-Dry,	2,	B
+AR,	Arkansas,	Mixed-Humid,	3,	A
+AR,	Ashley,	Mixed-Humid,	3,	A
+AR,	Baxter,	Mixed-Humid,	4,	A
+AR,	Benton,	Mixed-Humid,	4,	A
+AR,	Boone,	Mixed-Humid,	4,	A
+AR,	Bradley,	Mixed-Humid,	3,	A
+AR,	Calhoun,	Mixed-Humid,	3,	A
+AR,	Carroll,	Mixed-Humid,	4,	A
+AR,	Chicot,	Mixed-Humid,	3,	A
+AR,	Clark,	Mixed-Humid,	3,	A
+AR,	Clay,	Mixed-Humid,	3,	A
+AR,	Cleburne,	Mixed-Humid,	3,	A
+AR,	Cleveland,	Mixed-Humid,	3,	A
+AR,	Columbia,	Hot-Humid,	3,	A
+AR,	Conway,	Mixed-Humid,	3,	A
+AR,	Craighead,	Mixed-Humid,	3,	A
+AR,	Crawford,	Mixed-Humid,	3,	A
+AR,	Crittenden,	Mixed-Humid,	3,	A
+AR,	Cross,	Mixed-Humid,	3,	A
+AR,	Dallas,	Mixed-Humid,	3,	A
+AR,	Desha,	Mixed-Humid,	3,	A
+AR,	Drew,	Mixed-Humid,	3,	A
+AR,	Faulkner,	Mixed-Humid,	3,	A
+AR,	Franklin,	Mixed-Humid,	3,	A
+AR,	Fulton,	Mixed-Humid,	4,	A
+AR,	Garland,	Mixed-Humid,	3,	A
+AR,	Grant,	Mixed-Humid,	3,	A
+AR,	Greene,	Mixed-Humid,	3,	A
+AR,	Hempstead,	Mixed-Humid,	3,	A
+AR,	Hot Spring,	Mixed-Humid,	3,	A
+AR,	Howard,	Mixed-Humid,	3,	A
+AR,	Independence,	Mixed-Humid,	3,	A
+AR,	Izard,	Mixed-Humid,	4,	A
+AR,	Jackson,	Mixed-Humid,	3,	A
+AR,	Jefferson,	Mixed-Humid,	3,	A
+AR,	Johnson,	Mixed-Humid,	3,	A
+AR,	Lafayette,	Hot-Humid,	3,	A
+AR,	Lawrence,	Mixed-Humid,	3,	A
+AR,	Lee,	Mixed-Humid,	3,	A
+AR,	Lincoln,	Mixed-Humid,	3,	A
+AR,	Little River,	Hot-Humid,	3,	A
+AR,	Logan,	Mixed-Humid,	3,	A
+AR,	Lonoke,	Mixed-Humid,	3,	A
+AR,	Madison,	Mixed-Humid,	4,	A
+AR,	Marion,	Mixed-Humid,	4,	A
+AR,	Miller,	Hot-Humid,	3,	A
+AR,	Mississippi,	Mixed-Humid,	3,	A
+AR,	Monroe,	Mixed-Humid,	3,	A
+AR,	Montgomery,	Mixed-Humid,	3,	A
+AR,	Nevada,	Mixed-Humid,	3,	A
+AR,	Newton,	Mixed-Humid,	4,	A
+AR,	Ouachita,	Mixed-Humid,	3,	A
+AR,	Perry,	Mixed-Humid,	3,	A
+AR,	Phillips,	Mixed-Humid,	3,	A
+AR,	Pike,	Mixed-Humid,	3,	A
+AR,	Poinsett,	Mixed-Humid,	3,	A
+AR,	Polk,	Mixed-Humid,	3,	A
+AR,	Pope,	Mixed-Humid,	3,	A
+AR,	Prairie,	Mixed-Humid,	3,	A
+AR,	Pulaski,	Mixed-Humid,	3,	A
+AR,	Randolph,	Mixed-Humid,	3,	A
+AR,	Saline,	Mixed-Humid,	3,	A
+AR,	Scott,	Mixed-Humid,	3,	A
+AR,	Searcy,	Mixed-Humid,	4,	A
+AR,	Sebastian,	Mixed-Humid,	3,	A
+AR,	Sevier,	Mixed-Humid,	3,	A
+AR,	Sharp,	Mixed-Humid,	3,	A
+AR,	St. Francis,	Mixed-Humid,	3,	A
+AR,	Stone,	Mixed-Humid,	4,	A
+AR,	Union,	Hot-Humid,	3,	A
+AR,	Van Buren,	Mixed-Humid,	3,	A
+AR,	Washington,	Mixed-Humid,	4,	A
+AR,	White,	Mixed-Humid,	3,	A
+AR,	Woodruff,	Mixed-Humid,	3,	A
+AR,	Yell,	Mixed-Humid,	3,	A
+CA,	Alameda,	Marine,	3,	C
+CA,	Alpine,	Cold,	6,	B
+CA,	Amador,	Mixed-Dry,	4,	B
+CA,	Butte,	Hot-Dry,	3,	B
+CA,	Calaveras,	Mixed-Dry,	4,	B
+CA,	Colusa,	Hot-Dry,	3,	B
+CA,	Contra Costa,	Hot-Dry,	3,	B
+CA,	Del Norte,	Marine,	4,	C
+CA,	El Dorado,	Mixed-Dry,	4,	B
+CA,	Fresno,	Hot-Dry,	3,	B
+CA,	Glenn,	Hot-Dry,	3,	B
+CA,	Humboldt,	Marine,	4,	C
+CA,	Imperial,	Hot-Dry,	2,	B
+CA,	Inyo,	Mixed-Dry,	4,	B
+CA,	Kern,	Hot-Dry,	3,	B
+CA,	Kings,	Hot-Dry,	3,	B
+CA,	Lake,	Mixed-Dry,	4,	B
+CA,	Lassen,	Cold,	5,	B
+CA,	Los Angeles,	Hot-Dry,	3,	B
+CA,	Madera,	Hot-Dry,	3,	B
+CA,	Marin,	Marine,	3,	C
+CA,	Mariposa,	Mixed-Dry,	4,	B
+CA,	Mendocino,	Marine,	3,	C
+CA,	Merced,	Hot-Dry,	3,	B
+CA,	Modoc,	Cold,	5,	B
+CA,	Mono,	Cold,	6,	B
+CA,	Monterey,	Marine,	3,	C
+CA,	Napa,	Marine,	3,	C
+CA,	Nevada,	Cold,	5,	B
+CA,	Orange,	Hot-Dry,	3,	B
+CA,	Placer,	Hot-Dry,	3,	B
+CA,	Plumas,	Cold,	5,	B
+CA,	Riverside,	Hot-Dry,	3,	B
+CA,	Sacramento,	Hot-Dry,	3,	B
+CA,	San Benito,	Marine,	3,	C
+CA,	San Bernardino,	Hot-Dry,	3,	B
+CA,	San Diego,	Hot-Dry,	3,	B
+CA,	San Francisco,	Marine,	3,	C
+CA,	San Joaquin,	Hot-Dry,	3,	B
+CA,	San Luis Obispo,	Marine,	3,	C
+CA,	San Mateo,	Marine,	3,	C
+CA,	Santa Barbara,	Marine,	3,	C
+CA,	Santa Clara,	Marine,	3,	C
+CA,	Santa Cruz,	Marine,	3,	C
+CA,	Shasta,	Hot-Dry,	3,	B
+CA,	Sierra,	Cold,	5,	B
+CA,	Siskiyou,	Cold,	5,	B
+CA,	Solano,	Hot-Dry,	3,	B
+CA,	Sonoma,	Marine,	3,	C
+CA,	Stanislaus,	Hot-Dry,	3,	B
+CA,	Sutter,	Hot-Dry,	3,	B
+CA,	Tehama,	Hot-Dry,	3,	B
+CA,	Trinity,	Mixed-Dry,	4,	B
+CA,	Tulare,	Hot-Dry,	3,	B
+CA,	Tuolumne,	Mixed-Dry,	4,	B
+CA,	Ventura,	Marine,	3,	C
+CA,	Yolo,	Hot-Dry,	3,	B
+CA,	Yuba,	Hot-Dry,	3,	B
+CO,	Adams,	Cold,	5,	B
+CO,	Alamosa,	Cold,	6,	B
+CO,	Arapahoe,	Cold,	5,	B
+CO,	Archuleta,	Cold,	6,	B
+CO,	Baca,	Mixed-Dry,	4,	B
+CO,	Bent,	Cold,	5,	B
+CO,	Boulder,	Cold,	5,	B
+CO,	Broomfield,	Cold,	5,	B
+CO,	Chaffee,	Cold,	6,	B
+CO,	Cheyenne,	Cold,	5,	B
+CO,	Clear Creek,	Very Cold,	7,	B
+CO,	Conejos,	Cold,	6,	B
+CO,	Costilla,	Cold,	6,	B
+CO,	Crowley,	Cold,	5,	B
+CO,	Custer,	Cold,	6,	B
+CO,	Delta,	Cold,	5,	B
+CO,	Denver,	Cold,	5,	B
+CO,	Dolores,	Cold,	6,	B
+CO,	Douglas,	Cold,	5,	B
+CO,	Eagle,	Cold,	6,	B
+CO,	El Paso,	Cold,	5,	B
+CO,	Elbert,	Cold,	5,	B
+CO,	Fremont,	Cold,	5,	B
+CO,	Garfield,	Cold,	5,	B
+CO,	Gilpin,	Cold,	5,	B
+CO,	Grand,	Very Cold,	7,	B
+CO,	Gunnison,	Very Cold,	7,	B
+CO,	Hinsdale,	Very Cold,	7,	B
+CO,	Huerfano,	Cold,	5,	B
+CO,	Jackson,	Very Cold,	7,	B
+CO,	Jefferson,	Cold,	5,	B
+CO,	Kiowa,	Cold,	5,	B
+CO,	Kit Carson,	Cold,	5,	B
+CO,	La Plata,	Cold,	5,	B
+CO,	Lake,	Very Cold,	7,	B
+CO,	Larimer,	Cold,	5,	B
+CO,	Las Animas,	Mixed-Dry,	4,	B
+CO,	Lincoln,	Cold,	5,	B
+CO,	Logan,	Cold,	5,	B
+CO,	Mesa,	Cold,	5,	B
+CO,	Mineral,	Very Cold,	7,	B
+CO,	Moffat,	Cold,	6,	B
+CO,	Montezuma,	Cold,	5,	B
+CO,	Montrose,	Cold,	5,	B
+CO,	Morgan,	Cold,	5,	B
+CO,	Otero,	Mixed-Dry,	4,	B
+CO,	Ouray,	Cold,	6,	B
+CO,	Park,	Very Cold,	7,	B
+CO,	Phillips,	Cold,	5,	B
+CO,	Pitkin,	Very Cold,	7,	B
+CO,	Prowers,	Cold,	5,	B
+CO,	Pueblo,	Cold,	5,	B
+CO,	Rio Blanco,	Cold,	6,	B
+CO,	Rio Grande,	Very Cold,	7,	B
+CO,	Routt,	Very Cold,	7,	B
+CO,	Saguache,	Cold,	6,	B
+CO,	San Juan,	Very Cold,	7,	B
+CO,	San Miguel,	Cold,	6,	B
+CO,	Sedgwick,	Cold,	5,	B
+CO,	Summit,	Very Cold,	7,	B
+CO,	Teller,	Cold,	5,	B
+CO,	Washington,	Cold,	5,	B
+CO,	Weld,	Cold,	5,	B
+CO,	Yuma,	Cold,	5,	B
+CT,	Fairfield,	Cold,	5,	A
+CT,	Hartford,	Cold,	5,	A
+CT,	Litchfield,	Cold,	5,	A
+CT,	Middlesex,	Cold,	5,	A
+CT,	New Haven,	Cold,	5,	A
+CT,	New London,	Cold,	5,	A
+CT,	Tolland,	Cold,	5,	A
+CT,	Windham,	Cold,	5,	A
+DE,	Kent,	Mixed-Humid,	4,	A
+DE,	New Castle,	Mixed-Humid,	4,	A
+DE,	Sussex,	Mixed-Humid,	4,	A
+DC,	District of Columbia,	Mixed-Humid,	4,	A
+FL,	Alachua,	Hot-Humid,	2,	A
+FL,	Baker,	Hot-Humid,	2,	A
+FL,	Bay,	Hot-Humid,	2,	A
+FL,	Bradford,	Hot-Humid,	2,	A
+FL,	Brevard,	Hot-Humid,	2,	A
+FL,	Broward,	Hot-Humid,	1,	A
+FL,	Calhoun,	Hot-Humid,	2,	A
+FL,	Charlotte,	Hot-Humid,	2,	A
+FL,	Citrus,	Hot-Humid,	2,	A
+FL,	Clay,	Hot-Humid,	2,	A
+FL,	Collier,	Hot-Humid,	2,	A
+FL,	Columbia,	Hot-Humid,	2,	A
+FL,	DeSoto,	Hot-Humid,	2,	A
+FL,	Dixie,	Hot-Humid,	2,	A
+FL,	Duval,	Hot-Humid,	2,	A
+FL,	Escambia,	Hot-Humid,	2,	A
+FL,	Flagler,	Hot-Humid,	2,	A
+FL,	Franklin,	Hot-Humid,	2,	A
+FL,	Gadsden,	Hot-Humid,	2,	A
+FL,	Gilchrist,	Hot-Humid,	2,	A
+FL,	Glades,	Hot-Humid,	2,	A
+FL,	Gulf,	Hot-Humid,	2,	A
+FL,	Hamilton,	Hot-Humid,	2,	A
+FL,	Hardee,	Hot-Humid,	2,	A
+FL,	Hendry,	Hot-Humid,	2,	A
+FL,	Hernando,	Hot-Humid,	2,	A
+FL,	Highlands,	Hot-Humid,	2,	A
+FL,	Hillsborough,	Hot-Humid,	2,	A
+FL,	Holmes,	Hot-Humid,	2,	A
+FL,	Indian River,	Hot-Humid,	2,	A
+FL,	Jackson,	Hot-Humid,	2,	A
+FL,	Jefferson,	Hot-Humid,	2,	A
+FL,	Lafayette,	Hot-Humid,	2,	A
+FL,	Lake,	Hot-Humid,	2,	A
+FL,	Lee,	Hot-Humid,	2,	A
+FL,	Leon,	Hot-Humid,	2,	A
+FL,	Levy,	Hot-Humid,	2,	A
+FL,	Liberty,	Hot-Humid,	2,	A
+FL,	Madison,	Hot-Humid,	2,	A
+FL,	Manatee,	Hot-Humid,	2,	A
+FL,	Marion,	Hot-Humid,	2,	A
+FL,	Martin,	Hot-Humid,	2,	A
+FL,	Miami-Dade,	Hot-Humid,	1,	A
+FL,	Monroe,	Hot-Humid,	1,	A
+FL,	Nassau,	Hot-Humid,	2,	A
+FL,	Okaloosa,	Hot-Humid,	2,	A
+FL,	Okeechobee,	Hot-Humid,	2,	A
+FL,	Orange,	Hot-Humid,	2,	A
+FL,	Osceola,	Hot-Humid,	2,	A
+FL,	Palm Beach,	Hot-Humid,	2,	A
+FL,	Pasco,	Hot-Humid,	2,	A
+FL,	Pinellas,	Hot-Humid,	2,	A
+FL,	Polk,	Hot-Humid,	2,	A
+FL,	Putnam,	Hot-Humid,	2,	A
+FL,	Santa Rosa,	Hot-Humid,	2,	A
+FL,	Sarasota,	Hot-Humid,	2,	A
+FL,	Seminole,	Hot-Humid,	2,	A
+FL,	St. Johns,	Hot-Humid,	2,	A
+FL,	St. Lucie,	Hot-Humid,	2,	A
+FL,	Sumter,	Hot-Humid,	2,	A
+FL,	Suwannee,	Hot-Humid,	2,	A
+FL,	Taylor,	Hot-Humid,	2,	A
+FL,	Union,	Hot-Humid,	2,	A
+FL,	Volusia,	Hot-Humid,	2,	A
+FL,	Wakulla,	Hot-Humid,	2,	A
+FL,	Walton,	Hot-Humid,	2,	A
+FL,	Washington,	Hot-Humid,	2,	A
+GA,	Appling,	Hot-Humid,	2,	A
+GA,	Atkinson,	Hot-Humid,	2,	A
+GA,	Bacon,	Hot-Humid,	2,	A
+GA,	Baker,	Hot-Humid,	2,	A
+GA,	Baldwin,	Mixed-Humid,	3,	A
+GA,	Banks,	Mixed-Humid,	4,	A
+GA,	Barrow,	Mixed-Humid,	3,	A
+GA,	Bartow,	Mixed-Humid,	3,	A
+GA,	Ben Hill,	Hot-Humid,	3,	A
+GA,	Berrien,	Hot-Humid,	2,	A
+GA,	Bibb,	Mixed-Humid,	3,	A
+GA,	Bleckley,	Hot-Humid,	3,	A
+GA,	Brantley,	Hot-Humid,	2,	A
+GA,	Brooks,	Hot-Humid,	2,	A
+GA,	Bryan,	Hot-Humid,	2,	A
+GA,	Bulloch,	Hot-Humid,	3,	A
+GA,	Burke,	Mixed-Humid,	3,	A
+GA,	Butts,	Mixed-Humid,	3,	A
+GA,	Calhoun,	Hot-Humid,	3,	A
+GA,	Camden,	Hot-Humid,	2,	A
+GA,	Candler,	Hot-Humid,	3,	A
+GA,	Carroll,	Mixed-Humid,	3,	A
+GA,	Catoosa,	Mixed-Humid,	4,	A
+GA,	Charlton,	Hot-Humid,	2,	A
+GA,	Chatham,	Hot-Humid,	2,	A
+GA,	Chattahoochee,	Hot-Humid,	3,	A
+GA,	Chattooga,	Mixed-Humid,	4,	A
+GA,	Cherokee,	Mixed-Humid,	3,	A
+GA,	Clarke,	Mixed-Humid,	3,	A
+GA,	Clay,	Hot-Humid,	3,	A
+GA,	Clayton,	Mixed-Humid,	3,	A
+GA,	Clinch,	Hot-Humid,	2,	A
+GA,	Cobb,	Mixed-Humid,	3,	A
+GA,	Coffee,	Hot-Humid,	3,	A
+GA,	Colquitt,	Hot-Humid,	2,	A
+GA,	Columbia,	Mixed-Humid,	3,	A
+GA,	Cook,	Hot-Humid,	2,	A
+GA,	Coweta,	Mixed-Humid,	3,	A
+GA,	Crawford,	Mixed-Humid,	3,	A
+GA,	Crisp,	Hot-Humid,	3,	A
+GA,	Dade,	Mixed-Humid,	4,	A
+GA,	Dawson,	Mixed-Humid,	4,	A
+GA,	Decatur,	Hot-Humid,	2,	A
+GA,	DeKalb,	Mixed-Humid,	3,	A
+GA,	Dodge,	Hot-Humid,	3,	A
+GA,	Dooly,	Hot-Humid,	3,	A
+GA,	Dougherty,	Hot-Humid,	3,	A
+GA,	Douglas,	Mixed-Humid,	3,	A
+GA,	Early,	Hot-Humid,	3,	A
+GA,	Echols,	Hot-Humid,	2,	A
+GA,	Effingham,	Hot-Humid,	2,	A
+GA,	Elbert,	Mixed-Humid,	3,	A
+GA,	Emanuel,	Hot-Humid,	3,	A
+GA,	Evans,	Hot-Humid,	2,	A
+GA,	Fannin,	Mixed-Humid,	4,	A
+GA,	Fayette,	Mixed-Humid,	3,	A
+GA,	Floyd,	Mixed-Humid,	4,	A
+GA,	Forsyth,	Mixed-Humid,	3,	A
+GA,	Franklin,	Mixed-Humid,	4,	A
+GA,	Fulton,	Mixed-Humid,	3,	A
+GA,	Gilmer,	Mixed-Humid,	4,	A
+GA,	Glascock,	Mixed-Humid,	3,	A
+GA,	Glynn,	Hot-Humid,	2,	A
+GA,	Gordon,	Mixed-Humid,	4,	A
+GA,	Grady,	Hot-Humid,	2,	A
+GA,	Greene,	Mixed-Humid,	3,	A
+GA,	Gwinnett,	Mixed-Humid,	3,	A
+GA,	Habersham,	Mixed-Humid,	4,	A
+GA,	Hall,	Mixed-Humid,	4,	A
+GA,	Hancock,	Mixed-Humid,	3,	A
+GA,	Haralson,	Mixed-Humid,	3,	A
+GA,	Harris,	Mixed-Humid,	3,	A
+GA,	Hart,	Mixed-Humid,	3,	A
+GA,	Heard,	Mixed-Humid,	3,	A
+GA,	Henry,	Mixed-Humid,	3,	A
+GA,	Houston,	Hot-Humid,	3,	A
+GA,	Irwin,	Hot-Humid,	3,	A
+GA,	Jackson,	Mixed-Humid,	3,	A
+GA,	Jasper,	Mixed-Humid,	3,	A
+GA,	Jeff Davis,	Hot-Humid,	2,	A
+GA,	Jefferson,	Mixed-Humid,	3,	A
+GA,	Jenkins,	Hot-Humid,	3,	A
+GA,	Johnson,	Hot-Humid,	3,	A
+GA,	Jones,	Mixed-Humid,	3,	A
+GA,	Lamar,	Mixed-Humid,	3,	A
+GA,	Lanier,	Hot-Humid,	2,	A
+GA,	Laurens,	Hot-Humid,	3,	A
+GA,	Lee,	Hot-Humid,	3,	A
+GA,	Liberty,	Hot-Humid,	2,	A
+GA,	Lincoln,	Mixed-Humid,	3,	A
+GA,	Long,	Hot-Humid,	2,	A
+GA,	Lowndes,	Hot-Humid,	2,	A
+GA,	Lumpkin,	Mixed-Humid,	4,	A
+GA,	Macon,	Hot-Humid,	3,	A
+GA,	Madison,	Mixed-Humid,	3,	A
+GA,	Marion,	Hot-Humid,	3,	A
+GA,	McDuffie,	Mixed-Humid,	3,	A
+GA,	McIntosh,	Hot-Humid,	2,	A
+GA,	Meriwether,	Mixed-Humid,	3,	A
+GA,	Miller,	Hot-Humid,	2,	A
+GA,	Mitchell,	Hot-Humid,	2,	A
+GA,	Monroe,	Mixed-Humid,	3,	A
+GA,	Montgomery,	Hot-Humid,	3,	A
+GA,	Morgan,	Mixed-Humid,	3,	A
+GA,	Murray,	Mixed-Humid,	4,	A
+GA,	Muscogee,	Mixed-Humid,	3,	A
+GA,	Newton,	Mixed-Humid,	3,	A
+GA,	Oconee,	Mixed-Humid,	3,	A
+GA,	Oglethorpe,	Mixed-Humid,	3,	A
+GA,	Paulding,	Mixed-Humid,	3,	A
+GA,	Peach,	Hot-Humid,	3,	A
+GA,	Pickens,	Mixed-Humid,	4,	A
+GA,	Pierce,	Hot-Humid,	2,	A
+GA,	Pike,	Mixed-Humid,	3,	A
+GA,	Polk,	Mixed-Humid,	3,	A
+GA,	Pulaski,	Hot-Humid,	3,	A
+GA,	Putnam,	Mixed-Humid,	3,	A
+GA,	Quitman,	Hot-Humid,	3,	A
+GA,	Rabun,	Mixed-Humid,	4,	A
+GA,	Randolph,	Hot-Humid,	3,	A
+GA,	Richmond,	Mixed-Humid,	3,	A
+GA,	Rockdale,	Mixed-Humid,	3,	A
+GA,	Schley,	Hot-Humid,	3,	A
+GA,	Screven,	Hot-Humid,	3,	A
+GA,	Seminole,	Hot-Humid,	2,	A
+GA,	Spalding,	Mixed-Humid,	3,	A
+GA,	Stephens,	Mixed-Humid,	4,	A
+GA,	Stewart,	Hot-Humid,	3,	A
+GA,	Sumter,	Hot-Humid,	3,	A
+GA,	Talbot,	Mixed-Humid,	3,	A
+GA,	Taliaferro,	Mixed-Humid,	3,	A
+GA,	Tattnall,	Hot-Humid,	2,	A
+GA,	Taylor,	Hot-Humid,	3,	A
+GA,	Telfair,	Hot-Humid,	3,	A
+GA,	Terrell,	Hot-Humid,	3,	A
+GA,	Thomas,	Hot-Humid,	2,	A
+GA,	Tift,	Hot-Humid,	3,	A
+GA,	Toombs,	Hot-Humid,	2,	A
+GA,	Towns,	Mixed-Humid,	4,	A
+GA,	Treutlen,	Hot-Humid,	3,	A
+GA,	Troup,	Mixed-Humid,	3,	A
+GA,	Turner,	Hot-Humid,	3,	A
+GA,	Twiggs,	Hot-Humid,	3,	A
+GA,	Union,	Mixed-Humid,	4,	A
+GA,	Upson,	Mixed-Humid,	3,	A
+GA,	Walker,	Mixed-Humid,	4,	A
+GA,	Walton,	Mixed-Humid,	3,	A
+GA,	Ware,	Hot-Humid,	2,	A
+GA,	Warren,	Mixed-Humid,	3,	A
+GA,	Washington,	Mixed-Humid,	3,	A
+GA,	Wayne,	Hot-Humid,	2,	A
+GA,	Webster,	Hot-Humid,	3,	A
+GA,	Wheeler,	Hot-Humid,	3,	A
+GA,	White,	Mixed-Humid,	4,	A
+GA,	Whitfield,	Mixed-Humid,	4,	A
+GA,	Wilcox,	Hot-Humid,	3,	A
+GA,	Wilkes,	Mixed-Humid,	3,	A
+GA,	Wilkinson,	Mixed-Humid,	3,	A
+GA,	Worth,	Hot-Humid,	3,	A
+HI,	Hawaii,	Hot-Humid,	1,	A
+HI,	Honolulu,	Hot-Humid,	1,	A
+HI,	Kalawao,	Hot-Humid,	1,	A
+HI,	Kauai,	Hot-Humid,	1,	A
+HI,	Maui,	Hot-Humid,	1,	A
+ID,	Ada,	Cold,	5,	B
+ID,	Adams,	Cold,	6,	B
+ID,	Bannock,	Cold,	6,	B
+ID,	Bear Lake,	Cold,	6,	B
+ID,	Benewah,	Cold,	5,	B
+ID,	Bingham,	Cold,	6,	B
+ID,	Blaine,	Cold,	6,	B
+ID,	Boise,	Cold,	6,	B
+ID,	Bonner,	Cold,	6,	B
+ID,	Bonneville,	Cold,	6,	B
+ID,	Boundary,	Cold,	6,	B
+ID,	Butte,	Cold,	6,	B
+ID,	Camas,	Cold,	6,	B
+ID,	Canyon,	Cold,	5,	B
+ID,	Caribou,	Cold,	6,	B
+ID,	Cassia,	Cold,	5,	B
+ID,	Clark,	Cold,	6,	B
+ID,	Clearwater,	Cold,	5,	B
+ID,	Custer,	Cold,	6,	B
+ID,	Elmore,	Cold,	5,	B
+ID,	Franklin,	Cold,	6,	B
+ID,	Fremont,	Cold,	6,	B
+ID,	Gem,	Cold,	5,	B
+ID,	Gooding,	Cold,	5,	B
+ID,	Idaho,	Cold,	5,	B
+ID,	Jefferson,	Cold,	6,	B
+ID,	Jerome,	Cold,	5,	B
+ID,	Kootenai,	Cold,	5,	B
+ID,	Latah,	Cold,	5,	B
+ID,	Lemhi,	Cold,	6,	B
+ID,	Lewis,	Cold,	5,	B
+ID,	Lincoln,	Cold,	5,	B
+ID,	Madison,	Cold,	6,	B
+ID,	Minidoka,	Cold,	5,	B
+ID,	Nez Perce,	Cold,	5,	B
+ID,	Oneida,	Cold,	6,	B
+ID,	Owyhee,	Cold,	5,	B
+ID,	Payette,	Cold,	5,	B
+ID,	Power,	Cold,	5,	B
+ID,	Shoshone,	Cold,	5,	B
+ID,	Teton,	Cold,	6,	B
+ID,	Twin Falls,	Cold,	5,	B
+ID,	Valley,	Cold,	6,	B
+ID,	Washington,	Cold,	5,	B
+IL,	Adams,	Cold,	5,	A
+IL,	Alexander,	Mixed-Humid,	4,	A
+IL,	Bond,	Mixed-Humid,	4,	A
+IL,	Boone,	Cold,	5,	A
+IL,	Brown,	Cold,	5,	A
+IL,	Bureau,	Cold,	5,	A
+IL,	Calhoun,	Cold,	5,	A
+IL,	Carroll,	Cold,	5,	A
+IL,	Cass,	Cold,	5,	A
+IL,	Champaign,	Cold,	5,	A
+IL,	Christian,	Mixed-Humid,	4,	A
+IL,	Clark,	Cold,	5,	A
+IL,	Clay,	Mixed-Humid,	4,	A
+IL,	Clinton,	Mixed-Humid,	4,	A
+IL,	Coles,	Cold,	5,	A
+IL,	Cook,	Cold,	5,	A
+IL,	Crawford,	Mixed-Humid,	4,	A
+IL,	Cumberland,	Cold,	5,	A
+IL,	DeKalb,	Cold,	5,	A
+IL,	DeWitt,	Cold,	5,	A
+IL,	Douglas,	Cold,	5,	A
+IL,	DuPage,	Cold,	5,	A
+IL,	Edgar,	Cold,	5,	A
+IL,	Edwards,	Mixed-Humid,	4,	A
+IL,	Effingham,	Mixed-Humid,	4,	A
+IL,	Fayette,	Mixed-Humid,	4,	A
+IL,	Ford,	Cold,	5,	A
+IL,	Franklin,	Mixed-Humid,	4,	A
+IL,	Fulton,	Cold,	5,	A
+IL,	Gallatin,	Mixed-Humid,	4,	A
+IL,	Greene,	Cold,	5,	A
+IL,	Grundy,	Cold,	5,	A
+IL,	Hamilton,	Mixed-Humid,	4,	A
+IL,	Hancock,	Cold,	5,	A
+IL,	Hardin,	Mixed-Humid,	4,	A
+IL,	Henderson,	Cold,	5,	A
+IL,	Henry,	Cold,	5,	A
+IL,	Iroquois,	Cold,	5,	A
+IL,	Jackson,	Mixed-Humid,	4,	A
+IL,	Jasper,	Mixed-Humid,	4,	A
+IL,	Jefferson,	Mixed-Humid,	4,	A
+IL,	Jersey,	Cold,	5,	A
+IL,	Jo Daviess,	Cold,	5,	A
+IL,	Johnson,	Mixed-Humid,	4,	A
+IL,	Kane,	Cold,	5,	A
+IL,	Kankakee,	Cold,	5,	A
+IL,	Kendall,	Cold,	5,	A
+IL,	Knox,	Cold,	5,	A
+IL,	Lake,	Cold,	5,	A
+IL,	LaSalle,	Cold,	5,	A
+IL,	Lawrence,	Mixed-Humid,	4,	A
+IL,	Lee,	Cold,	5,	A
+IL,	Livingston,	Cold,	5,	A
+IL,	Logan,	Cold,	5,	A
+IL,	Macon,	Cold,	5,	A
+IL,	Macoupin,	Mixed-Humid,	4,	A
+IL,	Madison,	Mixed-Humid,	4,	A
+IL,	Marion,	Mixed-Humid,	4,	A
+IL,	Marshall,	Cold,	5,	A
+IL,	Mason,	Cold,	5,	A
+IL,	Massac,	Mixed-Humid,	4,	A
+IL,	McDonough,	Cold,	5,	A
+IL,	McHenry,	Cold,	5,	A
+IL,	McLean,	Cold,	5,	A
+IL,	Menard,	Cold,	5,	A
+IL,	Mercer,	Cold,	5,	A
+IL,	Monroe,	Mixed-Humid,	4,	A
+IL,	Montgomery,	Mixed-Humid,	4,	A
+IL,	Morgan,	Cold,	5,	A
+IL,	Moultrie,	Cold,	5,	A
+IL,	Ogle,	Cold,	5,	A
+IL,	Peoria,	Cold,	5,	A
+IL,	Perry,	Mixed-Humid,	4,	A
+IL,	Piatt,	Cold,	5,	A
+IL,	Pike,	Cold,	5,	A
+IL,	Pope,	Mixed-Humid,	4,	A
+IL,	Pulaski,	Mixed-Humid,	4,	A
+IL,	Putnam,	Cold,	5,	A
+IL,	Randolph,	Mixed-Humid,	4,	A
+IL,	Richland,	Mixed-Humid,	4,	A
+IL,	Rock Island,	Cold,	5,	A
+IL,	Saline,	Mixed-Humid,	4,	A
+IL,	Sangamon,	Cold,	5,	A
+IL,	Schuyler,	Cold,	5,	A
+IL,	Scott,	Cold,	5,	A
+IL,	Shelby,	Mixed-Humid,	4,	A
+IL,	St. Clair,	Mixed-Humid,	4,	A
+IL,	Stark,	Cold,	5,	A
+IL,	Stephenson,	Cold,	5,	A
+IL,	Tazewell,	Cold,	5,	A
+IL,	Union,	Mixed-Humid,	4,	A
+IL,	Vermilion,	Cold,	5,	A
+IL,	Wabash,	Mixed-Humid,	4,	A
+IL,	Warren,	Cold,	5,	A
+IL,	Washington,	Mixed-Humid,	4,	A
+IL,	Wayne,	Mixed-Humid,	4,	A
+IL,	White,	Mixed-Humid,	4,	A
+IL,	Whiteside,	Cold,	5,	A
+IL,	Will,	Cold,	5,	A
+IL,	Williamson,	Mixed-Humid,	4,	A
+IL,	Winnebago,	Cold,	5,	A
+IL,	Woodford,	Cold,	5,	A
+IN,	Adams,	Cold,	5,	A
+IN,	Allen,	Cold,	5,	A
+IN,	Bartholomew,	Cold,	5,	A
+IN,	Benton,	Cold,	5,	A
+IN,	Blackford,	Cold,	5,	A
+IN,	Boone,	Cold,	5,	A
+IN,	Brown,	Mixed-Humid,	4,	A
+IN,	Carroll,	Cold,	5,	A
+IN,	Cass,	Cold,	5,	A
+IN,	Clark,	Mixed-Humid,	4,	A
+IN,	Clay,	Cold,	5,	A
+IN,	Clinton,	Cold,	5,	A
+IN,	Crawford,	Mixed-Humid,	4,	A
+IN,	Daviess,	Mixed-Humid,	4,	A
+IN,	Dearborn,	Mixed-Humid,	4,	A
+IN,	Decatur,	Cold,	5,	A
+IN,	DeKalb,	Cold,	5,	A
+IN,	Delaware,	Cold,	5,	A
+IN,	Dubois,	Mixed-Humid,	4,	A
+IN,	Elkhart,	Cold,	5,	A
+IN,	Fayette,	Cold,	5,	A
+IN,	Floyd,	Mixed-Humid,	4,	A
+IN,	Fountain,	Cold,	5,	A
+IN,	Franklin,	Cold,	5,	A
+IN,	Fulton,	Cold,	5,	A
+IN,	Gibson,	Mixed-Humid,	4,	A
+IN,	Grant,	Cold,	5,	A
+IN,	Greene,	Mixed-Humid,	4,	A
+IN,	Hamilton,	Cold,	5,	A
+IN,	Hancock,	Cold,	5,	A
+IN,	Harrison,	Mixed-Humid,	4,	A
+IN,	Hendricks,	Cold,	5,	A
+IN,	Henry,	Cold,	5,	A
+IN,	Howard,	Cold,	5,	A
+IN,	Huntington,	Cold,	5,	A
+IN,	Jackson,	Mixed-Humid,	4,	A
+IN,	Jasper,	Cold,	5,	A
+IN,	Jay,	Cold,	5,	A
+IN,	Jefferson,	Mixed-Humid,	4,	A
+IN,	Jennings,	Mixed-Humid,	4,	A
+IN,	Johnson,	Cold,	5,	A
+IN,	Knox,	Mixed-Humid,	4,	A
+IN,	Kosciusko,	Cold,	5,	A
+IN,	LaGrange,	Cold,	5,	A
+IN,	Lake,	Cold,	5,	A
+IN,	LaPorte,	Cold,	5,	A
+IN,	Lawrence,	Mixed-Humid,	4,	A
+IN,	Madison,	Cold,	5,	A
+IN,	Marion,	Cold,	5,	A
+IN,	Marshall,	Cold,	5,	A
+IN,	Martin,	Mixed-Humid,	4,	A
+IN,	Miami,	Cold,	5,	A
+IN,	Monroe,	Mixed-Humid,	4,	A
+IN,	Montgomery,	Cold,	5,	A
+IN,	Morgan,	Cold,	5,	A
+IN,	Newton,	Cold,	5,	A
+IN,	Noble,	Cold,	5,	A
+IN,	Ohio,	Mixed-Humid,	4,	A
+IN,	Orange,	Mixed-Humid,	4,	A
+IN,	Owen,	Cold,	5,	A
+IN,	Parke,	Cold,	5,	A
+IN,	Perry,	Mixed-Humid,	4,	A
+IN,	Pike,	Mixed-Humid,	4,	A
+IN,	Porter,	Cold,	5,	A
+IN,	Posey,	Mixed-Humid,	4,	A
+IN,	Pulaski,	Cold,	5,	A
+IN,	Putnam,	Cold,	5,	A
+IN,	Randolph,	Cold,	5,	A
+IN,	Ripley,	Mixed-Humid,	4,	A
+IN,	Rush,	Cold,	5,	A
+IN,	Scott,	Mixed-Humid,	4,	A
+IN,	Shelby,	Cold,	5,	A
+IN,	Spencer,	Mixed-Humid,	4,	A
+IN,	St. Joseph,	Cold,	5,	A
+IN,	Starke,	Cold,	5,	A
+IN,	Steuben,	Cold,	5,	A
+IN,	Sullivan,	Mixed-Humid,	4,	A
+IN,	Switzerland,	Mixed-Humid,	4,	A
+IN,	Tippecanoe,	Cold,	5,	A
+IN,	Tipton,	Cold,	5,	A
+IN,	Union,	Cold,	5,	A
+IN,	Vanderburgh,	Mixed-Humid,	4,	A
+IN,	Vermillion,	Cold,	5,	A
+IN,	Vigo,	Cold,	5,	A
+IN,	Wabash,	Cold,	5,	A
+IN,	Warren,	Cold,	5,	A
+IN,	Warrick,	Mixed-Humid,	4,	A
+IN,	Washington,	Mixed-Humid,	4,	A
+IN,	Wayne,	Cold,	5,	A
+IN,	Wells,	Cold,	5,	A
+IN,	White,	Cold,	5,	A
+IN,	Whitley,	Cold,	5,	A
+IA,	Adair,	Cold,	5,	A
+IA,	Adams,	Cold,	5,	A
+IA,	Allamakee,	Cold,	6,	A
+IA,	Appanoose,	Cold,	5,	A
+IA,	Audubon,	Cold,	5,	A
+IA,	Benton,	Cold,	5,	A
+IA,	Black Hawk,	Cold,	6,	A
+IA,	Boone,	Cold,	5,	A
+IA,	Bremer,	Cold,	6,	A
+IA,	Buchanan,	Cold,	6,	A
+IA,	Buena Vista,	Cold,	6,	A
+IA,	Butler,	Cold,	6,	A
+IA,	Calhoun,	Cold,	6,	A
+IA,	Carroll,	Cold,	5,	A
+IA,	Cass,	Cold,	5,	A
+IA,	Cedar,	Cold,	5,	A
+IA,	Cerro Gordo,	Cold,	6,	A
+IA,	Cherokee,	Cold,	6,	A
+IA,	Chickasaw,	Cold,	6,	A
+IA,	Clarke,	Cold,	5,	A
+IA,	Clay,	Cold,	6,	A
+IA,	Clayton,	Cold,	6,	A
+IA,	Clinton,	Cold,	5,	A
+IA,	Crawford,	Cold,	5,	A
+IA,	Dallas,	Cold,	5,	A
+IA,	Davis,	Cold,	5,	A
+IA,	Decatur,	Cold,	5,	A
+IA,	Delaware,	Cold,	6,	A
+IA,	Des Moines,	Cold,	5,	A
+IA,	Dickinson,	Cold,	6,	A
+IA,	Dubuque,	Cold,	5,	A
+IA,	Emmet,	Cold,	6,	A
+IA,	Fayette,	Cold,	6,	A
+IA,	Floyd,	Cold,	6,	A
+IA,	Franklin,	Cold,	6,	A
+IA,	Fremont,	Cold,	5,	A
+IA,	Greene,	Cold,	5,	A
+IA,	Grundy,	Cold,	6,	A
+IA,	Guthrie,	Cold,	5,	A
+IA,	Hamilton,	Cold,	6,	A
+IA,	Hancock,	Cold,	6,	A
+IA,	Hardin,	Cold,	6,	A
+IA,	Harrison,	Cold,	5,	A
+IA,	Henry,	Cold,	5,	A
+IA,	Howard,	Cold,	6,	A
+IA,	Humboldt,	Cold,	6,	A
+IA,	Ida,	Cold,	6,	A
+IA,	Iowa,	Cold,	5,	A
+IA,	Jackson,	Cold,	5,	A
+IA,	Jasper,	Cold,	5,	A
+IA,	Jefferson,	Cold,	5,	A
+IA,	Johnson,	Cold,	5,	A
+IA,	Jones,	Cold,	5,	A
+IA,	Keokuk,	Cold,	5,	A
+IA,	Kossuth,	Cold,	6,	A
+IA,	Lee,	Cold,	5,	A
+IA,	Linn,	Cold,	5,	A
+IA,	Louisa,	Cold,	5,	A
+IA,	Lucas,	Cold,	5,	A
+IA,	Lyon,	Cold,	6,	A
+IA,	Madison,	Cold,	5,	A
+IA,	Mahaska,	Cold,	5,	A
+IA,	Marion,	Cold,	5,	A
+IA,	Marshall,	Cold,	5,	A
+IA,	Mills,	Cold,	5,	A
+IA,	Mitchell,	Cold,	6,	A
+IA,	Monona,	Cold,	5,	A
+IA,	Monroe,	Cold,	5,	A
+IA,	Montgomery,	Cold,	5,	A
+IA,	Muscatine,	Cold,	5,	A
+IA,	O'Brien,	Cold,	6,	A
+IA,	Osceola,	Cold,	6,	A
+IA,	Page,	Cold,	5,	A
+IA,	Palo Alto,	Cold,	6,	A
+IA,	Plymouth,	Cold,	6,	A
+IA,	Pocahontas,	Cold,	6,	A
+IA,	Polk,	Cold,	5,	A
+IA,	Pottawattamie,	Cold,	5,	A
+IA,	Poweshiek,	Cold,	5,	A
+IA,	Ringgold,	Cold,	5,	A
+IA,	Sac,	Cold,	6,	A
+IA,	Scott,	Cold,	5,	A
+IA,	Shelby,	Cold,	5,	A
+IA,	Sioux,	Cold,	6,	A
+IA,	Story,	Cold,	5,	A
+IA,	Tama,	Cold,	5,	A
+IA,	Taylor,	Cold,	5,	A
+IA,	Union,	Cold,	5,	A
+IA,	Van Buren,	Cold,	5,	A
+IA,	Wapello,	Cold,	5,	A
+IA,	Warren,	Cold,	5,	A
+IA,	Washington,	Cold,	5,	A
+IA,	Wayne,	Cold,	5,	A
+IA,	Webster,	Cold,	6,	A
+IA,	Winnebago,	Cold,	6,	A
+IA,	Winneshiek,	Cold,	6,	A
+IA,	Woodbury,	Cold,	5,	A
+IA,	Worth,	Cold,	6,	A
+IA,	Wright,	Cold,	6,	A
+KS,	Allen,	Mixed-Humid,	4,	A
+KS,	Anderson,	Mixed-Humid,	4,	A
+KS,	Atchison,	Mixed-Humid,	4,	A
+KS,	Barber,	Mixed-Humid,	4,	A
+KS,	Barton,	Mixed-Humid,	4,	A
+KS,	Bourbon,	Mixed-Humid,	4,	A
+KS,	Brown,	Mixed-Humid,	4,	A
+KS,	Butler,	Mixed-Humid,	4,	A
+KS,	Chase,	Mixed-Humid,	4,	A
+KS,	Chautauqua,	Mixed-Humid,	4,	A
+KS,	Cherokee,	Mixed-Humid,	4,	A
+KS,	Cheyenne,	Cold,	5,	A
+KS,	Clark,	Mixed-Humid,	4,	A
+KS,	Clay,	Mixed-Humid,	4,	A
+KS,	Cloud,	Cold,	5,	A
+KS,	Coffey,	Mixed-Humid,	4,	A
+KS,	Comanche,	Mixed-Humid,	4,	A
+KS,	Cowley,	Mixed-Humid,	4,	A
+KS,	Crawford,	Mixed-Humid,	4,	A
+KS,	Decatur,	Cold,	5,	A
+KS,	Dickinson,	Mixed-Humid,	4,	A
+KS,	Doniphan,	Mixed-Humid,	4,	A
+KS,	Douglas,	Mixed-Humid,	4,	A
+KS,	Edwards,	Mixed-Humid,	4,	A
+KS,	Elk,	Mixed-Humid,	4,	A
+KS,	Ellis,	Cold,	5,	A
+KS,	Ellsworth,	Mixed-Humid,	4,	A
+KS,	Finney,	Mixed-Humid,	4,	A
+KS,	Ford,	Mixed-Humid,	4,	A
+KS,	Franklin,	Mixed-Humid,	4,	A
+KS,	Geary,	Mixed-Humid,	4,	A
+KS,	Gove,	Cold,	5,	A
+KS,	Graham,	Cold,	5,	A
+KS,	Grant,	Mixed-Humid,	4,	A
+KS,	Gray,	Mixed-Humid,	4,	A
+KS,	Greeley,	Cold,	5,	A
+KS,	Greenwood,	Mixed-Humid,	4,	A
+KS,	Hamilton,	Cold,	5,	A
+KS,	Harper,	Mixed-Humid,	4,	A
+KS,	Harvey,	Mixed-Humid,	4,	A
+KS,	Haskell,	Mixed-Humid,	4,	A
+KS,	Hodgeman,	Mixed-Humid,	4,	A
+KS,	Jackson,	Mixed-Humid,	4,	A
+KS,	Jefferson,	Mixed-Humid,	4,	A
+KS,	Jewell,	Cold,	5,	A
+KS,	Johnson,	Mixed-Humid,	4,	A
+KS,	Kearny,	Mixed-Humid,	4,	A
+KS,	Kingman,	Mixed-Humid,	4,	A
+KS,	Kiowa,	Mixed-Humid,	4,	A
+KS,	Labette,	Mixed-Humid,	4,	A
+KS,	Lane,	Cold,	5,	A
+KS,	Leavenworth,	Mixed-Humid,	4,	A
+KS,	Lincoln,	Mixed-Humid,	4,	A
+KS,	Linn,	Mixed-Humid,	4,	A
+KS,	Logan,	Cold,	5,	A
+KS,	Lyon,	Mixed-Humid,	4,	A
+KS,	Marion,	Mixed-Humid,	4,	A
+KS,	Marshall,	Mixed-Humid,	4,	A
+KS,	McPherson,	Mixed-Humid,	4,	A
+KS,	Meade,	Mixed-Humid,	4,	A
+KS,	Miami,	Mixed-Humid,	4,	A
+KS,	Mitchell,	Cold,	5,	A
+KS,	Montgomery,	Mixed-Humid,	4,	A
+KS,	Morris,	Mixed-Humid,	4,	A
+KS,	Morton,	Mixed-Humid,	4,	A
+KS,	Nemaha,	Mixed-Humid,	4,	A
+KS,	Neosho,	Mixed-Humid,	4,	A
+KS,	Ness,	Cold,	5,	A
+KS,	Norton,	Cold,	5,	A
+KS,	Osage,	Mixed-Humid,	4,	A
+KS,	Osborne,	Cold,	5,	A
+KS,	Ottawa,	Mixed-Humid,	4,	A
+KS,	Pawnee,	Mixed-Humid,	4,	A
+KS,	Phillips,	Cold,	5,	A
+KS,	Pottawatomie,	Mixed-Humid,	4,	A
+KS,	Pratt,	Mixed-Humid,	4,	A
+KS,	Rawlins,	Cold,	5,	A
+KS,	Reno,	Mixed-Humid,	4,	A
+KS,	Republic,	Cold,	5,	A
+KS,	Rice,	Mixed-Humid,	4,	A
+KS,	Riley,	Mixed-Humid,	4,	A
+KS,	Rooks,	Cold,	5,	A
+KS,	Rush,	Mixed-Humid,	4,	A
+KS,	Russell,	Mixed-Humid,	4,	A
+KS,	Saline,	Mixed-Humid,	4,	A
+KS,	Scott,	Cold,	5,	A
+KS,	Sedgwick,	Mixed-Humid,	4,	A
+KS,	Seward,	Mixed-Humid,	4,	A
+KS,	Shawnee,	Mixed-Humid,	4,	A
+KS,	Sheridan,	Cold,	5,	A
+KS,	Sherman,	Cold,	5,	A
+KS,	Smith,	Cold,	5,	A
+KS,	Stafford,	Mixed-Humid,	4,	A
+KS,	Stanton,	Mixed-Humid,	4,	A
+KS,	Stevens,	Mixed-Humid,	4,	A
+KS,	Sumner,	Mixed-Humid,	4,	A
+KS,	Thomas,	Cold,	5,	A
+KS,	Trego,	Cold,	5,	A
+KS,	Wabaunsee,	Mixed-Humid,	4,	A
+KS,	Wallace,	Cold,	5,	A
+KS,	Washington,	Mixed-Humid,	4,	A
+KS,	Wichita,	Cold,	5,	A
+KS,	Wilson,	Mixed-Humid,	4,	A
+KS,	Woodson,	Mixed-Humid,	4,	A
+KS,	Wyandotte,	Mixed-Humid,	4,	A
+KY,	Adair,	Mixed-Humid,	4,	A
+KY,	Allen,	Mixed-Humid,	4,	A
+KY,	Anderson,	Mixed-Humid,	4,	A
+KY,	Ballard,	Mixed-Humid,	4,	A
+KY,	Barren,	Mixed-Humid,	4,	A
+KY,	Bath,	Mixed-Humid,	4,	A
+KY,	Bell,	Mixed-Humid,	4,	A
+KY,	Boone,	Mixed-Humid,	4,	A
+KY,	Bourbon,	Mixed-Humid,	4,	A
+KY,	Boyd,	Mixed-Humid,	4,	A
+KY,	Boyle,	Mixed-Humid,	4,	A
+KY,	Bracken,	Mixed-Humid,	4,	A
+KY,	Breathitt,	Mixed-Humid,	4,	A
+KY,	Breckinridge,	Mixed-Humid,	4,	A
+KY,	Bullitt,	Mixed-Humid,	4,	A
+KY,	Butler,	Mixed-Humid,	4,	A
+KY,	Caldwell,	Mixed-Humid,	4,	A
+KY,	Calloway,	Mixed-Humid,	4,	A
+KY,	Campbell,	Mixed-Humid,	4,	A
+KY,	Carlisle,	Mixed-Humid,	4,	A
+KY,	Carroll,	Mixed-Humid,	4,	A
+KY,	Carter,	Mixed-Humid,	4,	A
+KY,	Casey,	Mixed-Humid,	4,	A
+KY,	Christian,	Mixed-Humid,	4,	A
+KY,	Clark,	Mixed-Humid,	4,	A
+KY,	Clay,	Mixed-Humid,	4,	A
+KY,	Clinton,	Mixed-Humid,	4,	A
+KY,	Crittenden,	Mixed-Humid,	4,	A
+KY,	Cumberland,	Mixed-Humid,	4,	A
+KY,	Daviess,	Mixed-Humid,	4,	A
+KY,	Edmonson,	Mixed-Humid,	4,	A
+KY,	Elliott,	Mixed-Humid,	4,	A
+KY,	Estill,	Mixed-Humid,	4,	A
+KY,	Fayette,	Mixed-Humid,	4,	A
+KY,	Fleming,	Mixed-Humid,	4,	A
+KY,	Floyd,	Mixed-Humid,	4,	A
+KY,	Franklin,	Mixed-Humid,	4,	A
+KY,	Fulton,	Mixed-Humid,	4,	A
+KY,	Gallatin,	Mixed-Humid,	4,	A
+KY,	Garrard,	Mixed-Humid,	4,	A
+KY,	Grant,	Mixed-Humid,	4,	A
+KY,	Graves,	Mixed-Humid,	4,	A
+KY,	Grayson,	Mixed-Humid,	4,	A
+KY,	Green,	Mixed-Humid,	4,	A
+KY,	Greenup,	Mixed-Humid,	4,	A
+KY,	Hancock,	Mixed-Humid,	4,	A
+KY,	Hardin,	Mixed-Humid,	4,	A
+KY,	Harlan,	Mixed-Humid,	4,	A
+KY,	Harrison,	Mixed-Humid,	4,	A
+KY,	Hart,	Mixed-Humid,	4,	A
+KY,	Henderson,	Mixed-Humid,	4,	A
+KY,	Henry,	Mixed-Humid,	4,	A
+KY,	Hickman,	Mixed-Humid,	4,	A
+KY,	Hopkins,	Mixed-Humid,	4,	A
+KY,	Jackson,	Mixed-Humid,	4,	A
+KY,	Jefferson,	Mixed-Humid,	4,	A
+KY,	Jessamine,	Mixed-Humid,	4,	A
+KY,	Johnson,	Mixed-Humid,	4,	A
+KY,	Kenton,	Mixed-Humid,	4,	A
+KY,	Knott,	Mixed-Humid,	4,	A
+KY,	Knox,	Mixed-Humid,	4,	A
+KY,	Larue,	Mixed-Humid,	4,	A
+KY,	Laurel,	Mixed-Humid,	4,	A
+KY,	Lawrence,	Mixed-Humid,	4,	A
+KY,	Lee,	Mixed-Humid,	4,	A
+KY,	Leslie,	Mixed-Humid,	4,	A
+KY,	Letcher,	Mixed-Humid,	4,	A
+KY,	Lewis,	Mixed-Humid,	4,	A
+KY,	Lincoln,	Mixed-Humid,	4,	A
+KY,	Livingston,	Mixed-Humid,	4,	A
+KY,	Logan,	Mixed-Humid,	4,	A
+KY,	Lyon,	Mixed-Humid,	4,	A
+KY,	Madison,	Mixed-Humid,	4,	A
+KY,	Magoffin,	Mixed-Humid,	4,	A
+KY,	Marion,	Mixed-Humid,	4,	A
+KY,	Marshall,	Mixed-Humid,	4,	A
+KY,	Martin,	Mixed-Humid,	4,	A
+KY,	Mason,	Mixed-Humid,	4,	A
+KY,	McCracken,	Mixed-Humid,	4,	A
+KY,	McCreary,	Mixed-Humid,	4,	A
+KY,	McLean,	Mixed-Humid,	4,	A
+KY,	Meade,	Mixed-Humid,	4,	A
+KY,	Menifee,	Mixed-Humid,	4,	A
+KY,	Mercer,	Mixed-Humid,	4,	A
+KY,	Metcalfe,	Mixed-Humid,	4,	A
+KY,	Monroe,	Mixed-Humid,	4,	A
+KY,	Montgomery,	Mixed-Humid,	4,	A
+KY,	Morgan,	Mixed-Humid,	4,	A
+KY,	Muhlenberg,	Mixed-Humid,	4,	A
+KY,	Nelson,	Mixed-Humid,	4,	A
+KY,	Nicholas,	Mixed-Humid,	4,	A
+KY,	Ohio,	Mixed-Humid,	4,	A
+KY,	Oldham,	Mixed-Humid,	4,	A
+KY,	Owen,	Mixed-Humid,	4,	A
+KY,	Owsley,	Mixed-Humid,	4,	A
+KY,	Pendleton,	Mixed-Humid,	4,	A
+KY,	Perry,	Mixed-Humid,	4,	A
+KY,	Pike,	Mixed-Humid,	4,	A
+KY,	Powell,	Mixed-Humid,	4,	A
+KY,	Pulaski,	Mixed-Humid,	4,	A
+KY,	Robertson,	Mixed-Humid,	4,	A
+KY,	Rockcastle,	Mixed-Humid,	4,	A
+KY,	Rowan,	Mixed-Humid,	4,	A
+KY,	Russell,	Mixed-Humid,	4,	A
+KY,	Scott,	Mixed-Humid,	4,	A
+KY,	Shelby,	Mixed-Humid,	4,	A
+KY,	Simpson,	Mixed-Humid,	4,	A
+KY,	Spencer,	Mixed-Humid,	4,	A
+KY,	Taylor,	Mixed-Humid,	4,	A
+KY,	Todd,	Mixed-Humid,	4,	A
+KY,	Trigg,	Mixed-Humid,	4,	A
+KY,	Trimble,	Mixed-Humid,	4,	A
+KY,	Union,	Mixed-Humid,	4,	A
+KY,	Warren,	Mixed-Humid,	4,	A
+KY,	Washington,	Mixed-Humid,	4,	A
+KY,	Wayne,	Mixed-Humid,	4,	A
+KY,	Webster,	Mixed-Humid,	4,	A
+KY,	Whitley,	Mixed-Humid,	4,	A
+KY,	Wolfe,	Mixed-Humid,	4,	A
+KY,	Woodford,	Mixed-Humid,	4,	A
+LA,	Acadia,	Hot-Humid,	2,	A
+LA,	Allen,	Hot-Humid,	2,	A
+LA,	Ascension,	Hot-Humid,	2,	A
+LA,	Assumption,	Hot-Humid,	2,	A
+LA,	Avoyelles,	Hot-Humid,	2,	A
+LA,	Beauregard,	Hot-Humid,	2,	A
+LA,	Bienville,	Hot-Humid,	3,	A
+LA,	Bossier,	Hot-Humid,	3,	A
+LA,	Caddo,	Hot-Humid,	3,	A
+LA,	Calcasieu,	Hot-Humid,	2,	A
+LA,	Caldwell,	Hot-Humid,	3,	A
+LA,	Cameron,	Hot-Humid,	2,	A
+LA,	Catahoula,	Hot-Humid,	3,	A
+LA,	Claiborne,	Hot-Humid,	3,	A
+LA,	Concordia,	Hot-Humid,	3,	A
+LA,	De Soto,	Hot-Humid,	3,	A
+LA,	East Baton Rouge,	Hot-Humid,	2,	A
+LA,	East Carroll,	Mixed-Humid,	3,	A
+LA,	East Feliciana,	Hot-Humid,	2,	A
+LA,	Evangeline,	Hot-Humid,	2,	A
+LA,	Franklin,	Hot-Humid,	3,	A
+LA,	Grant,	Hot-Humid,	3,	A
+LA,	Iberia,	Hot-Humid,	2,	A
+LA,	Iberville,	Hot-Humid,	2,	A
+LA,	Jackson,	Hot-Humid,	3,	A
+LA,	Jefferson,	Hot-Humid,	2,	A
+LA,	Jefferson Davis,	Hot-Humid,	2,	A
+LA,	La Salle,	Hot-Humid,	3,	A
+LA,	Lafayette,	Hot-Humid,	2,	A
+LA,	Lafourche,	Hot-Humid,	2,	A
+LA,	Lincoln,	Hot-Humid,	3,	A
+LA,	Livingston,	Hot-Humid,	2,	A
+LA,	Madison,	Hot-Humid,	3,	A
+LA,	Morehouse,	Mixed-Humid,	3,	A
+LA,	Natchitoches,	Hot-Humid,	3,	A
+LA,	Orleans,	Hot-Humid,	2,	A
+LA,	Ouachita,	Hot-Humid,	3,	A
+LA,	Plaquemines,	Hot-Humid,	2,	A
+LA,	Pointe Coupee,	Hot-Humid,	2,	A
+LA,	Rapides,	Hot-Humid,	2,	A
+LA,	Red River,	Hot-Humid,	3,	A
+LA,	Richland,	Hot-Humid,	3,	A
+LA,	Sabine,	Hot-Humid,	3,	A
+LA,	St. Bernard,	Hot-Humid,	2,	A
+LA,	St. Charles,	Hot-Humid,	2,	A
+LA,	St. Helena,	Hot-Humid,	2,	A
+LA,	St. James,	Hot-Humid,	2,	A
+LA,	St. John the Baptist,	Hot-Humid,	2,	A
+LA,	St. LanB,	Hot-Humid,	2,	A
+LA,	St. Martin,	Hot-Humid,	2,	A
+LA,	St. Mary,	Hot-Humid,	2,	A
+LA,	St. Tammany,	Hot-Humid,	2,	A
+LA,	Tangipahoa,	Hot-Humid,	2,	A
+LA,	Tensas,	Hot-Humid,	3,	A
+LA,	Terrebonne,	Hot-Humid,	2,	A
+LA,	Union,	Hot-Humid,	3,	A
+LA,	Vermilion,	Hot-Humid,	2,	A
+LA,	Vernon,	Hot-Humid,	3,	A
+LA,	Washington,	Hot-Humid,	2,	A
+LA,	Webster,	Hot-Humid,	3,	A
+LA,	West Baton Rouge,	Hot-Humid,	2,	A
+LA,	West Carroll,	Mixed-Humid,	3,	A
+LA,	West Feliciana,	Hot-Humid,	2,	A
+LA,	Winn,	Hot-Humid,	3,	A
+ME,	Androscoggin,	Cold,	6,	A
+ME,	Aroostook,	Very Cold,	7,	0
+ME,	Cumberland,	Cold,	6,	A
+ME,	Franklin,	Cold,	6,	A
+ME,	Hancock,	Cold,	6,	A
+ME,	Kennebec,	Cold,	6,	A
+ME,	Knox,	Cold,	6,	A
+ME,	Lincoln,	Cold,	6,	A
+ME,	Oxford,	Cold,	6,	A
+ME,	Penobscot,	Cold,	6,	A
+ME,	Piscataquis,	Cold,	6,	A
+ME,	Sagadahoc,	Cold,	6,	A
+ME,	Somerset,	Cold,	6,	A
+ME,	Waldo,	Cold,	6,	A
+ME,	Washington,	Cold,	6,	A
+ME,	York,	Cold,	6,	A
+MD,	Allegany,	Mixed-Humid,	4,	A
+MD,	Anne Arundel,	Mixed-Humid,	4,	A
+MD,	Baltimore,	Mixed-Humid,	4,	A
+MD,	Baltimore (city),	Mixed-Humid,	4,	A
+MD,	Calvert,	Mixed-Humid,	4,	A
+MD,	Caroline,	Mixed-Humid,	4,	A
+MD,	Carroll,	Mixed-Humid,	4,	A
+MD,	Cecil,	Mixed-Humid,	4,	A
+MD,	Charles,	Mixed-Humid,	4,	A
+MD,	Dorchester,	Mixed-Humid,	4,	A
+MD,	Frederick,	Mixed-Humid,	4,	A
+MD,	Garrett,	Cold,	5,	A
+MD,	Harford,	Mixed-Humid,	4,	A
+MD,	Howard,	Mixed-Humid,	4,	A
+MD,	Kent,	Mixed-Humid,	4,	A
+MD,	Montgomery,	Mixed-Humid,	4,	A
+MD,	Prince George's,	Mixed-Humid,	4,	A
+MD,	Queen Anne's,	Mixed-Humid,	4,	A
+MD,	Somerset,	Mixed-Humid,	4,	A
+MD,	St. Mary's,	Mixed-Humid,	4,	A
+MD,	Talbot,	Mixed-Humid,	4,	A
+MD,	Washington,	Mixed-Humid,	4,	A
+MD,	Wicomico,	Mixed-Humid,	4,	A
+MD,	Worcester,	Mixed-Humid,	4,	A
+MA,	Barnstable,	Cold,	5,	A
+MA,	Berkshire,	Cold,	5,	A
+MA,	Bristol,	Cold,	5,	A
+MA,	Dukes,	Cold,	5,	A
+MA,	Essex,	Cold,	5,	A
+MA,	Franklin,	Cold,	5,	A
+MA,	Hampden,	Cold,	5,	A
+MA,	Hampshire,	Cold,	5,	A
+MA,	Middlesex,	Cold,	5,	A
+MA,	Nantucket,	Cold,	5,	A
+MA,	Norfolk,	Cold,	5,	A
+MA,	Plymouth,	Cold,	5,	A
+MA,	Suffolk,	Cold,	5,	A
+MA,	Worcester,	Cold,	5,	A
+MI,	Alcona,	Cold,	6,	A
+MI,	Alger,	Cold,	6,	A
+MI,	Allegan,	Cold,	5,	A
+MI,	Alpena,	Cold,	6,	A
+MI,	Antrim,	Cold,	6,	A
+MI,	Arenac,	Cold,	6,	A
+MI,	Baraga,	Very Cold,	7,	A
+MI,	Barry,	Cold,	5,	A
+MI,	Bay,	Cold,	5,	A
+MI,	Benzie,	Cold,	6,	A
+MI,	Berrien,	Cold,	5,	A
+MI,	Branch,	Cold,	5,	A
+MI,	Calhoun,	Cold,	5,	A
+MI,	Cass,	Cold,	5,	A
+MI,	Charlevoix,	Cold,	6,	A
+MI,	Cheboygan,	Cold,	6,	A
+MI,	Chippewa,	Very Cold,	7,	A
+MI,	Clare,	Cold,	6,	A
+MI,	Clinton,	Cold,	5,	A
+MI,	Crawford,	Cold,	6,	A
+MI,	Delta,	Cold,	6,	A
+MI,	Dickinson,	Cold,	6,	A
+MI,	Eaton,	Cold,	5,	A
+MI,	Emmet,	Cold,	6,	A
+MI,	Genesee,	Cold,	5,	A
+MI,	Gladwin,	Cold,	6,	A
+MI,	Gogebic,	Very Cold,	7,	A
+MI,	Grand Traverse,	Cold,	6,	A
+MI,	Gratiot,	Cold,	5,	A
+MI,	Hillsdale,	Cold,	5,	A
+MI,	Houghton,	Very Cold,	7,	A
+MI,	Huron,	Cold,	6,	A
+MI,	Ingham,	Cold,	5,	A
+MI,	Ionia,	Cold,	5,	A
+MI,	Iosco,	Cold,	6,	A
+MI,	Iron,	Very Cold,	7,	A
+MI,	Isabella,	Cold,	6,	A
+MI,	Jackson,	Cold,	5,	A
+MI,	Kalamazoo,	Cold,	5,	A
+MI,	Kalkaska,	Cold,	6,	A
+MI,	Kent,	Cold,	5,	A
+MI,	Keweenaw,	Very Cold,	7,	A
+MI,	Lake,	Cold,	6,	A
+MI,	Lapeer,	Cold,	5,	A
+MI,	Leelanau,	Cold,	6,	A
+MI,	Lenawee,	Cold,	5,	A
+MI,	Livingston,	Cold,	5,	A
+MI,	Luce,	Very Cold,	7,	A
+MI,	Mackinac,	Very Cold,	7,	A
+MI,	Macomb,	Cold,	5,	A
+MI,	Manistee,	Cold,	6,	A
+MI,	Marquette,	Cold,	6,	A
+MI,	Mason,	Cold,	6,	A
+MI,	Mecosta,	Cold,	6,	A
+MI,	Menominee,	Cold,	6,	A
+MI,	Midland,	Cold,	5,	A
+MI,	Missaukee,	Cold,	6,	A
+MI,	Monroe,	Cold,	5,	A
+MI,	Montcalm,	Cold,	5,	A
+MI,	Montmorency,	Cold,	6,	A
+MI,	Muskegon,	Cold,	5,	A
+MI,	Newaygo,	Cold,	6,	A
+MI,	Oakland,	Cold,	5,	A
+MI,	Oceana,	Cold,	6,	A
+MI,	Ogemaw,	Cold,	6,	A
+MI,	Ontonagon,	Very Cold,	7,	A
+MI,	Osceola,	Cold,	6,	A
+MI,	Oscoda,	Cold,	6,	A
+MI,	Otsego,	Cold,	6,	A
+MI,	Ottawa,	Cold,	5,	A
+MI,	Presque Isle,	Cold,	6,	A
+MI,	Roscommon,	Cold,	6,	A
+MI,	Saginaw,	Cold,	5,	A
+MI,	Sanilac,	Cold,	6,	A
+MI,	Schoolcraft,	Very Cold,	7,	A
+MI,	Shiawassee,	Cold,	5,	A
+MI,	St. Clair,	Cold,	5,	A
+MI,	St. Joseph,	Cold,	5,	A
+MI,	Tuscola,	Cold,	5,	A
+MI,	Van Buren,	Cold,	5,	A
+MI,	Washtenaw,	Cold,	5,	A
+MI,	Wayne,	Cold,	5,	A
+MI,	Wexford,	Cold,	6,	A
+MN,	Aitkin,	Very Cold,	7,	A
+MN,	Anoka,	Cold,	6,	A
+MN,	Becker,	Very Cold,	7,	A
+MN,	Beltrami,	Very Cold,	7,	A
+MN,	Benton,	Cold,	6,	A
+MN,	Big Stone,	Cold,	6,	A
+MN,	Blue Earth,	Cold,	6,	A
+MN,	Brown,	Cold,	6,	A
+MN,	Carlton,	Very Cold,	7,	A
+MN,	Carver,	Cold,	6,	A
+MN,	Cass,	Very Cold,	7,	A
+MN,	Chippewa,	Cold,	6,	A
+MN,	Chisago,	Cold,	6,	A
+MN,	Clay,	Very Cold,	7,	A
+MN,	Clearwater,	Very Cold,	7,	A
+MN,	Cook,	Very Cold,	7,	A
+MN,	Cottonwood,	Cold,	6,	A
+MN,	Crow Wing,	Very Cold,	7,	A
+MN,	Dakota,	Cold,	6,	A
+MN,	Dodge,	Cold,	6,	A
+MN,	Douglas,	Cold,	6,	A
+MN,	Faribault,	Cold,	6,	A
+MN,	Fillmore,	Cold,	6,	A
+MN,	Freeborn,	Cold,	6,	A
+MN,	Goodhue,	Cold,	6,	A
+MN,	Grant,	Very Cold,	7,	A
+MN,	Hennepin,	Cold,	6,	A
+MN,	Houston,	Cold,	6,	A
+MN,	Hubbard,	Very Cold,	7,	A
+MN,	Isanti,	Cold,	6,	A
+MN,	Itasca,	Very Cold,	7,	A
+MN,	Jackson,	Cold,	6,	A
+MN,	Kanabec,	Very Cold,	7,	A
+MN,	Kandiyohi,	Cold,	6,	A
+MN,	Kittson,	Very Cold,	7,	A
+MN,	Koochiching,	Very Cold,	7,	A
+MN,	Lac qui Parle,	Cold,	6,	A
+MN,	Lake,	Very Cold,	7,	A
+MN,	Lake of the Woods,	Very Cold,	7,	A
+MN,	Le Sueur,	Cold,	6,	A
+MN,	Lincoln,	Cold,	6,	A
+MN,	Lyon,	Cold,	6,	A
+MN,	Mahnomen,	Very Cold,	7,	A
+MN,	Marshall,	Very Cold,	7,	A
+MN,	Martin,	Cold,	6,	A
+MN,	McLeod,	Cold,	6,	A
+MN,	Meeker,	Cold,	6,	A
+MN,	Mille Lacs,	Very Cold,	7,	A
+MN,	Morrison,	Cold,	6,	A
+MN,	Mower,	Cold,	6,	A
+MN,	Murray,	Cold,	6,	A
+MN,	Nicollet,	Cold,	6,	A
+MN,	Nobles,	Cold,	6,	A
+MN,	Norman,	Very Cold,	7,	A
+MN,	Olmsted,	Cold,	6,	A
+MN,	Otter Tail,	Very Cold,	7,	A
+MN,	Pennington,	Very Cold,	7,	A
+MN,	Pine,	Very Cold,	7,	A
+MN,	Pipestone,	Cold,	6,	A
+MN,	Polk,	Very Cold,	7,	A
+MN,	Pope,	Cold,	6,	A
+MN,	Ramsey,	Cold,	6,	A
+MN,	Red Lake,	Very Cold,	7,	A
+MN,	Redwood,	Cold,	6,	A
+MN,	Renville,	Cold,	6,	A
+MN,	Rice,	Cold,	6,	A
+MN,	Rock,	Cold,	6,	A
+MN,	Roseau,	Very Cold,	7,	A
+MN,	Scott,	Cold,	6,	A
+MN,	Sherburne,	Cold,	6,	A
+MN,	Sibley,	Cold,	6,	A
+MN,	St. Louis,	Very Cold,	7,	A
+MN,	Stearns,	Cold,	6,	A
+MN,	Steele,	Cold,	6,	A
+MN,	Stevens,	Cold,	6,	A
+MN,	Swift,	Cold,	6,	A
+MN,	Todd,	Cold,	6,	A
+MN,	Traverse,	Cold,	6,	A
+MN,	Wabasha,	Cold,	6,	A
+MN,	Wadena,	Very Cold,	7,	A
+MN,	Waseca,	Cold,	6,	A
+MN,	Washington,	Cold,	6,	A
+MN,	Watonwan,	Cold,	6,	A
+MN,	Wilkin,	Very Cold,	7,	A
+MN,	Winona,	Cold,	6,	A
+MN,	Wright,	Cold,	6,	A
+MN,	Yellow Medicine,	Cold,	6,	A
+MS,	Adams,	Hot-Humid,	3,	A
+MS,	Alcorn,	Mixed-Humid,	3,	A
+MS,	Amite,	Hot-Humid,	3,	A
+MS,	Attala,	Mixed-Humid,	3,	A
+MS,	Benton,	Mixed-Humid,	3,	A
+MS,	Bolivar,	Mixed-Humid,	3,	A
+MS,	Calhoun,	Mixed-Humid,	3,	A
+MS,	Carroll,	Mixed-Humid,	3,	A
+MS,	Chickasaw,	Mixed-Humid,	3,	A
+MS,	Choctaw,	Mixed-Humid,	3,	A
+MS,	Claiborne,	Hot-Humid,	3,	A
+MS,	Clarke,	Mixed-Humid,	3,	A
+MS,	Clay,	Mixed-Humid,	3,	A
+MS,	Coahoma,	Mixed-Humid,	3,	A
+MS,	Copiah,	Hot-Humid,	3,	A
+MS,	Covington,	Hot-Humid,	3,	A
+MS,	DeSoto,	Mixed-Humid,	3,	A
+MS,	Forrest,	Hot-Humid,	3,	A
+MS,	Franklin,	Hot-Humid,	3,	A
+MS,	George,	Hot-Humid,	3,	A
+MS,	Greene,	Hot-Humid,	3,	A
+MS,	Grenada,	Mixed-Humid,	3,	A
+MS,	Hancock,	Hot-Humid,	2,	A
+MS,	Harrison,	Hot-Humid,	2,	A
+MS,	Hinds,	Hot-Humid,	3,	A
+MS,	Holmes,	Mixed-Humid,	3,	A
+MS,	Humphreys,	Mixed-Humid,	3,	A
+MS,	Issaquena,	Mixed-Humid,	3,	A
+MS,	Itawamba,	Mixed-Humid,	3,	A
+MS,	Jackson,	Hot-Humid,	2,	A
+MS,	Jasper,	Mixed-Humid,	3,	A
+MS,	Jefferson,	Hot-Humid,	3,	A
+MS,	Jefferson Davis,	Hot-Humid,	3,	A
+MS,	Jones,	Hot-Humid,	3,	A
+MS,	Kemper,	Mixed-Humid,	3,	A
+MS,	Lafayette,	Mixed-Humid,	3,	A
+MS,	Lamar,	Hot-Humid,	3,	A
+MS,	Lauderdale,	Mixed-Humid,	3,	A
+MS,	Lawrence,	Hot-Humid,	3,	A
+MS,	Leake,	Mixed-Humid,	3,	A
+MS,	Lee,	Mixed-Humid,	3,	A
+MS,	Leflore,	Mixed-Humid,	3,	A
+MS,	Lincoln,	Hot-Humid,	3,	A
+MS,	Lowndes,	Mixed-Humid,	3,	A
+MS,	Madison,	Mixed-Humid,	3,	A
+MS,	Marion,	Hot-Humid,	3,	A
+MS,	Marshall,	Mixed-Humid,	3,	A
+MS,	Monroe,	Mixed-Humid,	3,	A
+MS,	Montgomery,	Mixed-Humid,	3,	A
+MS,	Neshoba,	Mixed-Humid,	3,	A
+MS,	Newton,	Mixed-Humid,	3,	A
+MS,	Noxubee,	Mixed-Humid,	3,	A
+MS,	Oktibbeha,	Mixed-Humid,	3,	A
+MS,	Panola,	Mixed-Humid,	3,	A
+MS,	Pearl River,	Hot-Humid,	2,	A
+MS,	Perry,	Hot-Humid,	3,	A
+MS,	Pike,	Hot-Humid,	3,	A
+MS,	Pontotoc,	Mixed-Humid,	3,	A
+MS,	Prentiss,	Mixed-Humid,	3,	A
+MS,	Quitman,	Mixed-Humid,	3,	A
+MS,	Rankin,	Hot-Humid,	3,	A
+MS,	Scott,	Mixed-Humid,	3,	A
+MS,	Sharkey,	Mixed-Humid,	3,	A
+MS,	Simpson,	Hot-Humid,	3,	A
+MS,	Smith,	Hot-Humid,	3,	A
+MS,	Stone,	Hot-Humid,	2,	A
+MS,	Sunflower,	Mixed-Humid,	3,	A
+MS,	Tallahatchie,	Mixed-Humid,	3,	A
+MS,	Tate,	Mixed-Humid,	3,	A
+MS,	Tippah,	Mixed-Humid,	3,	A
+MS,	Tishomingo,	Mixed-Humid,	3,	A
+MS,	Tunica,	Mixed-Humid,	3,	A
+MS,	Union,	Mixed-Humid,	3,	A
+MS,	Walthall,	Hot-Humid,	3,	A
+MS,	Warren,	Hot-Humid,	3,	A
+MS,	Washington,	Mixed-Humid,	3,	A
+MS,	Wayne,	Hot-Humid,	3,	A
+MS,	Webster,	Mixed-Humid,	3,	A
+MS,	Wilkinson,	Hot-Humid,	3,	A
+MS,	Winston,	Mixed-Humid,	3,	A
+MS,	Yalobusha,	Mixed-Humid,	3,	A
+MS,	Yazoo,	Mixed-Humid,	3,	A
+MO,	Adair,	Cold,	5,	A
+MO,	Andrew,	Cold,	5,	A
+MO,	Atchison,	Cold,	5,	A
+MO,	Audrain,	Mixed-Humid,	4,	A
+MO,	Barry,	Mixed-Humid,	4,	A
+MO,	Barton,	Mixed-Humid,	4,	A
+MO,	Bates,	Mixed-Humid,	4,	A
+MO,	Benton,	Mixed-Humid,	4,	A
+MO,	Bollinger,	Mixed-Humid,	4,	A
+MO,	Boone,	Mixed-Humid,	4,	A
+MO,	Buchanan,	Cold,	5,	A
+MO,	Butler,	Mixed-Humid,	4,	A
+MO,	Caldwell,	Cold,	5,	A
+MO,	Callaway,	Mixed-Humid,	4,	A
+MO,	Camden,	Mixed-Humid,	4,	A
+MO,	Cape Girardeau,	Mixed-Humid,	4,	A
+MO,	Carroll,	Mixed-Humid,	4,	A
+MO,	Carter,	Mixed-Humid,	4,	A
+MO,	Cass,	Mixed-Humid,	4,	A
+MO,	Cedar,	Mixed-Humid,	4,	A
+MO,	Chariton,	Cold,	5,	A
+MO,	Christian,	Mixed-Humid,	4,	A
+MO,	Clark,	Cold,	5,	A
+MO,	Clay,	Mixed-Humid,	4,	A
+MO,	Clinton,	Cold,	5,	A
+MO,	Cole,	Mixed-Humid,	4,	A
+MO,	Cooper,	Mixed-Humid,	4,	A
+MO,	Crawford,	Mixed-Humid,	4,	A
+MO,	Dade,	Mixed-Humid,	4,	A
+MO,	Dallas,	Mixed-Humid,	4,	A
+MO,	Daviess,	Cold,	5,	A
+MO,	DeKalb,	Cold,	5,	A
+MO,	Dent,	Mixed-Humid,	4,	A
+MO,	Douglas,	Mixed-Humid,	4,	A
+MO,	Dunklin,	Mixed-Humid,	4,	A
+MO,	Franklin,	Mixed-Humid,	4,	A
+MO,	Gasconade,	Mixed-Humid,	4,	A
+MO,	Gentry,	Cold,	5,	A
+MO,	Greene,	Mixed-Humid,	4,	A
+MO,	Grundy,	Cold,	5,	A
+MO,	Harrison,	Cold,	5,	A
+MO,	Henry,	Mixed-Humid,	4,	A
+MO,	Hickory,	Mixed-Humid,	4,	A
+MO,	Holt,	Cold,	5,	A
+MO,	Howard,	Mixed-Humid,	4,	A
+MO,	Howell,	Mixed-Humid,	4,	A
+MO,	Iron,	Mixed-Humid,	4,	A
+MO,	Jackson,	Mixed-Humid,	4,	A
+MO,	Jasper,	Mixed-Humid,	4,	A
+MO,	Jefferson,	Mixed-Humid,	4,	A
+MO,	Johnson,	Mixed-Humid,	4,	A
+MO,	Knox,	Cold,	5,	A
+MO,	Laclede,	Mixed-Humid,	4,	A
+MO,	Lafayette,	Mixed-Humid,	4,	A
+MO,	Lawrence,	Mixed-Humid,	4,	A
+MO,	Lewis,	Cold,	5,	A
+MO,	Lincoln,	Mixed-Humid,	4,	A
+MO,	Linn,	Cold,	5,	A
+MO,	Livingston,	Cold,	5,	A
+MO,	Macon,	Cold,	5,	A
+MO,	Madison,	Mixed-Humid,	4,	A
+MO,	Maries,	Mixed-Humid,	4,	A
+MO,	Marion,	Cold,	5,	A
+MO,	McDonald,	Mixed-Humid,	4,	A
+MO,	Mercer,	Cold,	5,	A
+MO,	Miller,	Mixed-Humid,	4,	A
+MO,	Mississippi,	Mixed-Humid,	4,	A
+MO,	Moniteau,	Mixed-Humid,	4,	A
+MO,	Monroe,	Mixed-Humid,	4,	A
+MO,	Montgomery,	Mixed-Humid,	4,	A
+MO,	Morgan,	Mixed-Humid,	4,	A
+MO,	New Madrid,	Mixed-Humid,	4,	A
+MO,	Newton,	Mixed-Humid,	4,	A
+MO,	Nodaway,	Cold,	5,	A
+MO,	Oregon,	Mixed-Humid,	4,	A
+MO,	Osage,	Mixed-Humid,	4,	A
+MO,	Ozark,	Mixed-Humid,	4,	A
+MO,	Pemiscot,	Mixed-Humid,	4,	A
+MO,	Perry,	Mixed-Humid,	4,	A
+MO,	Pettis,	Mixed-Humid,	4,	A
+MO,	Phelps,	Mixed-Humid,	4,	A
+MO,	Pike,	Cold,	5,	A
+MO,	Platte,	Mixed-Humid,	4,	A
+MO,	Polk,	Mixed-Humid,	4,	A
+MO,	Pulaski,	Mixed-Humid,	4,	A
+MO,	Putnam,	Cold,	5,	A
+MO,	Ralls,	Cold,	5,	A
+MO,	Randolph,	Mixed-Humid,	4,	A
+MO,	Ray,	Mixed-Humid,	4,	A
+MO,	Reynolds,	Mixed-Humid,	4,	A
+MO,	Ripley,	Mixed-Humid,	4,	A
+MO,	Saline,	Mixed-Humid,	4,	A
+MO,	Schuyler,	Cold,	5,	A
+MO,	Scotland,	Cold,	5,	A
+MO,	Scott,	Mixed-Humid,	4,	A
+MO,	Shannon,	Mixed-Humid,	4,	A
+MO,	Shelby,	Cold,	5,	A
+MO,	St. Charles,	Mixed-Humid,	4,	A
+MO,	St. Clair,	Mixed-Humid,	4,	A
+MO,	St. Francois,	Mixed-Humid,	4,	A
+MO,	St. Louis,	Mixed-Humid,	4,	A
+MO,	St. Louis (city),	Mixed-Humid,	4,	A
+MO,	Ste.  Genevieve,	Mixed-Humid,	4,	A
+MO,	Stoddard,	Mixed-Humid,	4,	A
+MO,	Stone,	Mixed-Humid,	4,	A
+MO,	Sullivan,	Cold,	5,	A
+MO,	Taney,	Mixed-Humid,	4,	A
+MO,	Texas,	Mixed-Humid,	4,	A
+MO,	Vernon,	Mixed-Humid,	4,	A
+MO,	Warren,	Mixed-Humid,	4,	A
+MO,	Washington,	Mixed-Humid,	4,	A
+MO,	Wayne,	Mixed-Humid,	4,	A
+MO,	Webster,	Mixed-Humid,	4,	A
+MO,	Worth,	Cold,	5,	A
+MO,	Wright,	Mixed-Humid,	4,	A
+MT,	Beaverhead,	Cold,	6,	B
+MT,	Big Horn,	Cold,	6,	B
+MT,	Blaine,	Cold,	6,	B
+MT,	Broadwater,	Cold,	6,	B
+MT,	Carbon,	Cold,	6,	B
+MT,	Carter,	Cold,	6,	B
+MT,	Cascade,	Cold,	6,	B
+MT,	Chouteau,	Cold,	6,	B
+MT,	Custer,	Cold,	6,	B
+MT,	Daniels,	Cold,	6,	B
+MT,	Dawson,	Cold,	6,	B
+MT,	Deer Lodge,	Cold,	6,	B
+MT,	Fallon,	Cold,	6,	B
+MT,	Fergus,	Cold,	6,	B
+MT,	Flathead,	Cold,	6,	B
+MT,	Gallatin,	Cold,	6,	B
+MT,	Garfield,	Cold,	6,	B
+MT,	Glacier,	Cold,	6,	B
+MT,	Golden Valley,	Cold,	6,	B
+MT,	Granite,	Cold,	6,	B
+MT,	Hill,	Cold,	6,	B
+MT,	Jefferson,	Cold,	6,	B
+MT,	Judith Basin,	Cold,	6,	B
+MT,	Lake,	Cold,	6,	B
+MT,	Lewis and Clark,	Cold,	6,	B
+MT,	Liberty,	Cold,	6,	B
+MT,	Lincoln,	Cold,	6,	B
+MT,	Madison,	Cold,	6,	B
+MT,	McCone,	Cold,	6,	B
+MT,	Meagher,	Cold,	6,	B
+MT,	Mineral,	Cold,	6,	B
+MT,	Missoula,	Cold,	6,	B
+MT,	Musselshell,	Cold,	6,	B
+MT,	Park,	Cold,	6,	B
+MT,	Petroleum,	Cold,	6,	B
+MT,	Phillips,	Cold,	6,	B
+MT,	Pondera,	Cold,	6,	B
+MT,	Powder River,	Cold,	6,	B
+MT,	Powell,	Cold,	6,	B
+MT,	Prairie,	Cold,	6,	B
+MT,	Ravalli,	Cold,	6,	B
+MT,	Richland,	Cold,	6,	B
+MT,	Roosevelt,	Cold,	6,	B
+MT,	Rosebud,	Cold,	6,	B
+MT,	Sanders,	Cold,	6,	B
+MT,	Sheridan,	Cold,	6,	B
+MT,	Silver Bow,	Cold,	6,	B
+MT,	Stillwater,	Cold,	6,	B
+MT,	Sweet Grass,	Cold,	6,	B
+MT,	Teton,	Cold,	6,	B
+MT,	Toole,	Cold,	6,	B
+MT,	Treasure,	Cold,	6,	B
+MT,	Valley,	Cold,	6,	B
+MT,	Wheatland,	Cold,	6,	B
+MT,	Wibaux,	Cold,	6,	B
+MT,	Yellowstone,	Cold,	6,	B
+NE,	Adams,	Cold,	5,	A
+NE,	Antelope,	Cold,	5,	A
+NE,	Arthur,	Cold,	5,	A
+NE,	Banner,	Cold,	5,	A
+NE,	Blaine,	Cold,	5,	A
+NE,	Boone,	Cold,	5,	A
+NE,	Box Butte,	Cold,	5,	A
+NE,	Boyd,	Cold,	5,	A
+NE,	Brown,	Cold,	5,	A
+NE,	Buffalo,	Cold,	5,	A
+NE,	Burt,	Cold,	5,	A
+NE,	Butler,	Cold,	5,	A
+NE,	Cass,	Cold,	5,	A
+NE,	Cedar,	Cold,	5,	A
+NE,	Chase,	Cold,	5,	A
+NE,	Cherry,	Cold,	5,	A
+NE,	Cheyenne,	Cold,	5,	A
+NE,	Clay,	Cold,	5,	A
+NE,	Colfax,	Cold,	5,	A
+NE,	Cuming,	Cold,	5,	A
+NE,	Custer,	Cold,	5,	A
+NE,	Dakota,	Cold,	5,	A
+NE,	Dawes,	Cold,	5,	A
+NE,	Dawson,	Cold,	5,	A
+NE,	Deuel,	Cold,	5,	A
+NE,	Dixon,	Cold,	5,	A
+NE,	Dodge,	Cold,	5,	A
+NE,	Douglas,	Cold,	5,	A
+NE,	Dundy,	Cold,	5,	A
+NE,	Fillmore,	Cold,	5,	A
+NE,	Franklin,	Cold,	5,	A
+NE,	Frontier,	Cold,	5,	A
+NE,	Furnas,	Cold,	5,	A
+NE,	Gage,	Cold,	5,	A
+NE,	Garden,	Cold,	5,	A
+NE,	Garfield,	Cold,	5,	A
+NE,	Gosper,	Cold,	5,	A
+NE,	Grant,	Cold,	5,	A
+NE,	Greeley,	Cold,	5,	A
+NE,	Hall,	Cold,	5,	A
+NE,	Hamilton,	Cold,	5,	A
+NE,	Harlan,	Cold,	5,	A
+NE,	Hayes,	Cold,	5,	A
+NE,	Hitchcock,	Cold,	5,	A
+NE,	Holt,	Cold,	5,	A
+NE,	Hooker,	Cold,	5,	A
+NE,	Howard,	Cold,	5,	A
+NE,	Jefferson,	Cold,	5,	A
+NE,	Johnson,	Cold,	5,	A
+NE,	Kearney,	Cold,	5,	A
+NE,	Keith,	Cold,	5,	A
+NE,	Keya Paha,	Cold,	5,	A
+NE,	Kimball,	Cold,	5,	A
+NE,	Knox,	Cold,	5,	A
+NE,	Lancaster,	Cold,	5,	A
+NE,	Lincoln,	Cold,	5,	A
+NE,	Logan,	Cold,	5,	A
+NE,	Loup,	Cold,	5,	A
+NE,	Madison,	Cold,	5,	A
+NE,	McPherson,	Cold,	5,	A
+NE,	Merrick,	Cold,	5,	A
+NE,	Morrill,	Cold,	5,	A
+NE,	Nance,	Cold,	5,	A
+NE,	Nemaha,	Cold,	5,	A
+NE,	Nuckolls,	Cold,	5,	A
+NE,	Otoe,	Cold,	5,	A
+NE,	Pawnee,	Cold,	5,	A
+NE,	Perkins,	Cold,	5,	A
+NE,	Phelps,	Cold,	5,	A
+NE,	Pierce,	Cold,	5,	A
+NE,	Platte,	Cold,	5,	A
+NE,	Polk,	Cold,	5,	A
+NE,	Red Willow,	Cold,	5,	A
+NE,	Richardson,	Cold,	5,	A
+NE,	Rock,	Cold,	5,	A
+NE,	Saline,	Cold,	5,	A
+NE,	Sarpy,	Cold,	5,	A
+NE,	Saunders,	Cold,	5,	A
+NE,	Scotts Bluff,	Cold,	5,	A
+NE,	Seward,	Cold,	5,	A
+NE,	Sheridan,	Cold,	5,	A
+NE,	Sherman,	Cold,	5,	A
+NE,	Sioux,	Cold,	5,	A
+NE,	Stanton,	Cold,	5,	A
+NE,	Thayer,	Cold,	5,	A
+NE,	Thomas,	Cold,	5,	A
+NE,	Thurston,	Cold,	5,	A
+NE,	Valley,	Cold,	5,	A
+NE,	Washington,	Cold,	5,	A
+NE,	Wayne,	Cold,	5,	A
+NE,	Webster,	Cold,	5,	A
+NE,	Wheeler,	Cold,	5,	A
+NE,	York,	Cold,	5,	A
+NV,	Carson City (city),	Cold,	5,	B
+NV,	Churchill,	Cold,	5,	B
+NV,	Clark,	Hot-Dry,	3,	B
+NV,	Douglas,	Cold,	5,	B
+NV,	Elko,	Cold,	5,	B
+NV,	Esmeralda,	Cold,	5,	B
+NV,	Eureka,	Cold,	5,	B
+NV,	Humboldt,	Cold,	5,	B
+NV,	Lander,	Cold,	5,	B
+NV,	Lincoln,	Cold,	5,	B
+NV,	Lyon,	Cold,	5,	B
+NV,	Mineral,	Cold,	5,	B
+NV,	Nye,	Cold,	5,	B
+NV,	Pershing,	Cold,	5,	B
+NV,	Storey,	Cold,	5,	B
+NV,	Washoe,	Cold,	5,	B
+NV,	White Pine,	Cold,	5,	B
+NH,	Belknap,	Cold,	6,	A
+NH,	Carroll,	Cold,	6,	A
+NH,	Cheshire,	Cold,	5,	A
+NH,	Coos,	Cold,	6,	A
+NH,	Grafton,	Cold,	6,	A
+NH,	Hillsborough,	Cold,	5,	A
+NH,	Merrimack,	Cold,	6,	A
+NH,	Rockingham,	Cold,	5,	A
+NH,	Strafford,	Cold,	5,	A
+NH,	Sullivan,	Cold,	6,	A
+NJ,	Atlantic,	Mixed-Humid,	4,	A
+NJ,	Bergen,	Cold,	5,	A
+NJ,	Burlington,	Mixed-Humid,	4,	A
+NJ,	Camden,	Mixed-Humid,	4,	A
+NJ,	Cape May,	Mixed-Humid,	4,	A
+NJ,	Cumberland,	Mixed-Humid,	4,	A
+NJ,	Essex,	Mixed-Humid,	4,	A
+NJ,	Gloucester,	Mixed-Humid,	4,	A
+NJ,	Hudson,	Mixed-Humid,	4,	A
+NJ,	Hunterdon,	Cold,	5,	A
+NJ,	Mercer,	Cold,	5,	A
+NJ,	Middlesex,	Mixed-Humid,	4,	A
+NJ,	Monmouth,	Mixed-Humid,	4,	A
+NJ,	Morris,	Cold,	5,	A
+NJ,	Ocean,	Mixed-Humid,	4,	A
+NJ,	Passaic,	Cold,	5,	A
+NJ,	Salem,	Mixed-Humid,	4,	A
+NJ,	Somerset,	Cold,	5,	A
+NJ,	Sussex,	Cold,	5,	A
+NJ,	Union,	Mixed-Humid,	4,	A
+NJ,	Warren,	Cold,	5,	A
+NM,	Bernalillo,	Mixed-Dry,	4,	B
+NM,	Catron,	Cold,	5,	B
+NM,	Chaves,	Hot-Dry,	3,	B
+NM,	Cibola,	Cold,	4,	B
+NM,	Colfax,	Cold,	5,	B
+NM,	Curry,	Mixed-Dry,	4,	B
+NM,	De Baca,	Mixed-Dry,	4,	B
+NM,	Doña Ana,	Hot-Dry,	3,	B
+NM,	Eddy,	Hot-Dry,	3,	B
+NM,	Grant,	Mixed-Dry,	4,	B
+NM,	Guadalupe,	Mixed-Dry,	4,	B
+NM,	Harding,	Cold,	5,	B
+NM,	Hidalgo,	Hot-Dry,	3,	B
+NM,	Lea,	Hot-Dry,	3,	B
+NM,	Lincoln,	Mixed-Dry,	4,	B
+NM,	Los Alamos,	Cold,	5,	B
+NM,	Luna,	Hot-Dry,	3,	B
+NM,	McKinley,	Cold,	5,	B
+NM,	Mora,	Cold,	5,	B
+NM,	Otero,	Hot-Dry,	3,	B
+NM,	Quay,	Mixed-Dry,	4,	B
+NM,	Rio Arriba,	Cold,	5,	B
+NM,	Roosevelt,	Mixed-Dry,	4,	B
+NM,	San Juan,	Cold,	5,	B
+NM,	San Miguel,	Cold,	5,	B
+NM,	Sandoval,	Cold,	5,	B
+NM,	Santa Fe,	Cold,	5,	B
+NM,	Sierra,	Mixed-Dry,	4,	B
+NM,	Socorro,	Mixed-Dry,	4,	B
+NM,	Taos,	Cold,	5,	B
+NM,	Torrance,	Cold,	5,	B
+NM,	Union,	Mixed-Dry,	4,	B
+NM,	Valencia,	Mixed-Dry,	4,	B
+NY,	Albany,	Cold,	5,	A
+NY,	Allegany,	Cold,	6,	A
+NY,	Bronx,	Mixed-Humid,	4,	A
+NY,	Broome,	Cold,	6,	A
+NY,	Cattaraugus,	Cold,	6,	A
+NY,	Cayuga,	Cold,	5,	A
+NY,	Chautauqua,	Cold,	5,	A
+NY,	Chemung,	Cold,	5,	A
+NY,	Chenango,	Cold,	6,	A
+NY,	Clinton,	Cold,	6,	A
+NY,	Columbia,	Cold,	5,	A
+NY,	Cortland,	Cold,	5,	A
+NY,	Delaware,	Cold,	6,	A
+NY,	Dutchess,	Cold,	5,	A
+NY,	Erie,	Cold,	5,	A
+NY,	Essex,	Cold,	6,	A
+NY,	Franklin,	Cold,	6,	A
+NY,	Fulton,	Cold,	6,	A
+NY,	Genesee,	Cold,	5,	A
+NY,	Greene,	Cold,	5,	A
+NY,	Hamilton,	Cold,	6,	A
+NY,	Herkimer,	Cold,	6,	A
+NY,	Jefferson,	Cold,	6,	A
+NY,	Kings,	Mixed-Humid,	4,	A
+NY,	Lewis,	Cold,	6,	A
+NY,	Livingston,	Cold,	5,	A
+NY,	Madison,	Cold,	6,	A
+NY,	Monroe,	Cold,	5,	A
+NY,	Montgomery,	Cold,	6,	A
+NY,	Nassau,	Mixed-Humid,	4,	A
+NY,	New York,	Mixed-Humid,	4,	A
+NY,	Niagara,	Cold,	5,	A
+NY,	Oneida,	Cold,	6,	A
+NY,	Onondaga,	Cold,	5,	A
+NY,	Ontario,	Cold,	5,	A
+NY,	Orange,	Cold,	5,	A
+NY,	Orleans,	Cold,	5,	A
+NY,	Oswego,	Cold,	5,	A
+NY,	Otsego,	Cold,	6,	A
+NY,	Putnam,	Cold,	5,	A
+NY,	Queens,	Mixed-Humid,	4,	A
+NY,	Rensselaer,	Cold,	5,	A
+NY,	Richmond,	Mixed-Humid,	4,	A
+NY,	Rockland,	Cold,	5,	A
+NY,	Saratoga,	Cold,	5,	A
+NY,	Schenectady,	Cold,	5,	A
+NY,	Schoharie,	Cold,	6,	A
+NY,	Schuyler,	Cold,	6,	A
+NY,	Seneca,	Cold,	5,	A
+NY,	St. Lawrence,	Cold,	6,	A
+NY,	Steuben,	Cold,	6,	A
+NY,	Suffolk,	Mixed-Humid,	4,	A
+NY,	Sullivan,	Cold,	6,	A
+NY,	Tioga,	Cold,	5,	A
+NY,	Tompkins,	Cold,	6,	A
+NY,	Ulster,	Cold,	6,	A
+NY,	Warren,	Cold,	6,	A
+NY,	Washington,	Cold,	5,	A
+NY,	Wayne,	Cold,	5,	A
+NY,	Westchester,	Mixed-Humid,	4,	A
+NY,	Wyoming,	Cold,	6,	A
+NY,	Yates,	Cold,	5,	A
+NC,	Alamance,	Mixed-Humid,	4,	A
+NC,	Alexander,	Mixed-Humid,	4,	A
+NC,	Alleghany,	Cold,	5,	A
+NC,	Anson,	Mixed-Humid,	3,	A
+NC,	Ashe,	Cold,	5,	A
+NC,	Avery,	Cold,	5,	A
+NC,	Beaufort,	Mixed-Humid,	3,	A
+NC,	Bertie,	Mixed-Humid,	4,	A
+NC,	Bladen,	Mixed-Humid,	3,	A
+NC,	Brunswick,	Hot-Humid,	3,	A
+NC,	Buncombe,	Mixed-Humid,	4,	A
+NC,	Burke,	Mixed-Humid,	4,	A
+NC,	Cabarrus,	Mixed-Humid,	3,	A
+NC,	Caldwell,	Mixed-Humid,	4,	A
+NC,	Camden,	Mixed-Humid,	3,	A
+NC,	Carteret,	Hot-Humid,	3,	A
+NC,	Caswell,	Mixed-Humid,	4,	A
+NC,	Catawba,	Mixed-Humid,	4,	A
+NC,	Chatham,	Mixed-Humid,	4,	A
+NC,	Cherokee,	Mixed-Humid,	4,	A
+NC,	Chowan,	Mixed-Humid,	3,	A
+NC,	Clay,	Mixed-Humid,	4,	A
+NC,	Cleveland,	Mixed-Humid,	4,	A
+NC,	Columbus,	Hot-Humid,	3,	A
+NC,	Craven,	Mixed-Humid,	3,	A
+NC,	Cumberland,	Mixed-Humid,	3,	A
+NC,	Currituck,	Mixed-Humid,	3,	A
+NC,	Dare,	Mixed-Humid,	3,	A
+NC,	Davidson,	Mixed-Humid,	3,	A
+NC,	Davie,	Mixed-Humid,	4,	A
+NC,	Duplin,	Mixed-Humid,	3,	A
+NC,	Durham,	Mixed-Humid,	4,	A
+NC,	Edgecombe,	Mixed-Humid,	3,	A
+NC,	Forsyth,	Mixed-Humid,	4,	A
+NC,	Franklin,	Mixed-Humid,	4,	A
+NC,	Gaston,	Mixed-Humid,	3,	A
+NC,	Gates,	Mixed-Humid,	4,	A
+NC,	Graham,	Mixed-Humid,	4,	A
+NC,	Granville,	Mixed-Humid,	4,	A
+NC,	Greene,	Mixed-Humid,	3,	A
+NC,	Guilford,	Mixed-Humid,	4,	A
+NC,	Halifax,	Mixed-Humid,	4,	A
+NC,	Harnett,	Mixed-Humid,	4,	A
+NC,	Haywood,	Mixed-Humid,	4,	A
+NC,	Henderson,	Mixed-Humid,	4,	A
+NC,	Hertford,	Mixed-Humid,	4,	A
+NC,	Hoke,	Mixed-Humid,	3,	A
+NC,	Hyde,	Mixed-Humid,	3,	A
+NC,	Iredell,	Mixed-Humid,	4,	A
+NC,	Jackson,	Mixed-Humid,	4,	A
+NC,	Johnston,	Mixed-Humid,	3,	A
+NC,	Jones,	Mixed-Humid,	3,	A
+NC,	Lee,	Mixed-Humid,	4,	A
+NC,	Lenoir,	Mixed-Humid,	3,	A
+NC,	Lincoln,	Mixed-Humid,	4,	A
+NC,	Macon,	Mixed-Humid,	4,	A
+NC,	Madison,	Mixed-Humid,	4,	A
+NC,	Martin,	Mixed-Humid,	3,	A
+NC,	McDowell,	Mixed-Humid,	4,	A
+NC,	Mecklenburg,	Mixed-Humid,	3,	A
+NC,	Mitchell,	Cold,	5,	A
+NC,	Montgomery,	Mixed-Humid,	3,	A
+NC,	Moore,	Mixed-Humid,	3,	A
+NC,	Nash,	Mixed-Humid,	4,	A
+NC,	New Hanover,	Hot-Humid,	3,	A
+NC,	Northampton,	Mixed-Humid,	4,	A
+NC,	Onslow,	Hot-Humid,	3,	A
+NC,	Orange,	Mixed-Humid,	4,	A
+NC,	Pamlico,	Mixed-Humid,	3,	A
+NC,	Pasquotank,	Mixed-Humid,	3,	A
+NC,	Pender,	Hot-Humid,	3,	A
+NC,	Perquimans,	Mixed-Humid,	3,	A
+NC,	Person,	Mixed-Humid,	4,	A
+NC,	Pitt,	Mixed-Humid,	3,	A
+NC,	Polk,	Mixed-Humid,	4,	A
+NC,	Randolph,	Mixed-Humid,	3,	A
+NC,	Richmond,	Mixed-Humid,	3,	A
+NC,	Robeson,	Mixed-Humid,	3,	A
+NC,	Rockingham,	Mixed-Humid,	4,	A
+NC,	Rowan,	Mixed-Humid,	3,	A
+NC,	Rutherford,	Mixed-Humid,	4,	A
+NC,	Sampson,	Mixed-Humid,	3,	A
+NC,	Scotland,	Mixed-Humid,	3,	A
+NC,	Stanly,	Mixed-Humid,	3,	A
+NC,	Stokes,	Mixed-Humid,	4,	A
+NC,	Surry,	Mixed-Humid,	4,	A
+NC,	Swain,	Mixed-Humid,	4,	A
+NC,	Transylvania,	Mixed-Humid,	4,	A
+NC,	Tyrrell,	Mixed-Humid,	3,	A
+NC,	Union,	Mixed-Humid,	3,	A
+NC,	Vance,	Mixed-Humid,	4,	A
+NC,	Wake,	Mixed-Humid,	4,	A
+NC,	Warren,	Mixed-Humid,	4,	A
+NC,	Washington,	Mixed-Humid,	3,	A
+NC,	Watauga,	Cold,	5,	A
+NC,	Wayne,	Mixed-Humid,	3,	A
+NC,	Wilkes,	Mixed-Humid,	4,	A
+NC,	Wilson,	Mixed-Humid,	3,	A
+NC,	Yadkin,	Mixed-Humid,	4,	A
+NC,	Yancey,	Cold,	5,	A
+ND,	Adams,	Cold,	6,	A
+ND,	Barnes,	Very Cold,	7,	A
+ND,	Benson,	Very Cold,	7,	A
+ND,	Billings,	Cold,	6,	A
+ND,	Bottineau,	Very Cold,	7,	A
+ND,	Bowman,	Cold,	6,	A
+ND,	Burke,	Very Cold,	7,	A
+ND,	Burleigh,	Cold,	6,	A
+ND,	Cass,	Very Cold,	7,	A
+ND,	Cavalier,	Very Cold,	7,	A
+ND,	Dickey,	Cold,	6,	A
+ND,	Divide,	Very Cold,	7,	A
+ND,	Dunn,	Cold,	6,	A
+ND,	Eddy,	Very Cold,	7,	A
+ND,	Emmons,	Cold,	6,	A
+ND,	Foster,	Very Cold,	7,	A
+ND,	Golden Valley,	Cold,	6,	A
+ND,	Grand Forks,	Very Cold,	7,	A
+ND,	Grant,	Cold,	6,	A
+ND,	Griggs,	Very Cold,	7,	A
+ND,	Hettinger,	Cold,	6,	A
+ND,	Kidder,	Very Cold,	7,	A
+ND,	LaMoure,	Cold,	6,	A
+ND,	Logan,	Cold,	6,	A
+ND,	McHenry,	Very Cold,	7,	A
+ND,	McIntosh,	Cold,	6,	A
+ND,	McKenzie,	Cold,	6,	A
+ND,	McLean,	Very Cold,	7,	A
+ND,	Mercer,	Cold,	6,	A
+ND,	Morton,	Cold,	6,	A
+ND,	Mountrail,	Very Cold,	7,	A
+ND,	Nelson,	Very Cold,	7,	A
+ND,	Oliver,	Cold,	6,	A
+ND,	Pembina,	Very Cold,	7,	A
+ND,	Pierce,	Very Cold,	7,	A
+ND,	Ramsey,	Very Cold,	7,	A
+ND,	Ransom,	Cold,	6,	A
+ND,	Renville,	Very Cold,	7,	A
+ND,	Richland,	Cold,	6,	A
+ND,	Rolette,	Very Cold,	7,	A
+ND,	Sargent,	Cold,	6,	A
+ND,	Sheridan,	Very Cold,	7,	A
+ND,	Sioux,	Cold,	6,	A
+ND,	Slope,	Cold,	6,	A
+ND,	Stark,	Cold,	6,	A
+ND,	Steele,	Very Cold,	7,	A
+ND,	Stutsman,	Very Cold,	7,	A
+ND,	Towner,	Very Cold,	7,	A
+ND,	Traill,	Very Cold,	7,	A
+ND,	Walsh,	Very Cold,	7,	A
+ND,	Ward,	Very Cold,	7,	A
+ND,	Wells,	Very Cold,	7,	A
+ND,	Williams,	Very Cold,	7,	A
+OH,	Adams,	Mixed-Humid,	4,	A
+OH,	Allen,	Cold,	5,	A
+OH,	Ashland,	Cold,	5,	A
+OH,	Ashtabula,	Cold,	5,	A
+OH,	Athens,	Cold,	5,	A
+OH,	Auglaize,	Cold,	5,	A
+OH,	Belmont,	Cold,	5,	A
+OH,	Brown,	Mixed-Humid,	4,	A
+OH,	Butler,	Cold,	5,	A
+OH,	Carroll,	Cold,	5,	A
+OH,	Champaign,	Cold,	5,	A
+OH,	Clark,	Cold,	5,	A
+OH,	Clermont,	Mixed-Humid,	4,	A
+OH,	Clinton,	Cold,	5,	A
+OH,	Columbiana,	Cold,	5,	A
+OH,	Coshocton,	Cold,	5,	A
+OH,	Crawford,	Cold,	5,	A
+OH,	Cuyahoga,	Cold,	5,	A
+OH,	Darke,	Cold,	5,	A
+OH,	Defiance,	Cold,	5,	A
+OH,	Delaware,	Cold,	5,	A
+OH,	Erie,	Cold,	5,	A
+OH,	Fairfield,	Cold,	5,	A
+OH,	Fayette,	Cold,	5,	A
+OH,	Franklin,	Cold,	5,	A
+OH,	Fulton,	Cold,	5,	A
+OH,	Gallia,	Mixed-Humid,	4,	A
+OH,	Geauga,	Cold,	5,	A
+OH,	Greene,	Cold,	5,	A
+OH,	Guernsey,	Cold,	5,	A
+OH,	Hamilton,	Mixed-Humid,	4,	A
+OH,	Hancock,	Cold,	5,	A
+OH,	Hardin,	Cold,	5,	A
+OH,	Harrison,	Cold,	5,	A
+OH,	Henry,	Cold,	5,	A
+OH,	Highland,	Cold,	5,	A
+OH,	Hocking,	Cold,	5,	A
+OH,	Holmes,	Cold,	5,	A
+OH,	Huron,	Cold,	5,	A
+OH,	Jackson,	Cold,	5,	A
+OH,	Jefferson,	Cold,	5,	A
+OH,	Knox,	Cold,	5,	A
+OH,	Lake,	Cold,	5,	A
+OH,	Lawrence,	Mixed-Humid,	4,	A
+OH,	Licking,	Cold,	5,	A
+OH,	Logan,	Cold,	5,	A
+OH,	Lorain,	Cold,	5,	A
+OH,	Lucas,	Cold,	5,	A
+OH,	Madison,	Cold,	5,	A
+OH,	Mahoning,	Cold,	5,	A
+OH,	Marion,	Cold,	5,	A
+OH,	Medina,	Cold,	5,	A
+OH,	Meigs,	Cold,	5,	A
+OH,	Mercer,	Cold,	5,	A
+OH,	Miami,	Cold,	5,	A
+OH,	Monroe,	Cold,	5,	A
+OH,	Montgomery,	Cold,	5,	A
+OH,	Morgan,	Cold,	5,	A
+OH,	Morrow,	Cold,	5,	A
+OH,	Muskingum,	Cold,	5,	A
+OH,	Noble,	Cold,	5,	A
+OH,	Ottawa,	Cold,	5,	A
+OH,	Paulding,	Cold,	5,	A
+OH,	Perry,	Cold,	5,	A
+OH,	Pickaway,	Cold,	5,	A
+OH,	Pike,	Mixed-Humid,	4,	A
+OH,	Portage,	Cold,	5,	A
+OH,	Preble,	Cold,	5,	A
+OH,	Putnam,	Cold,	5,	A
+OH,	Richland,	Cold,	5,	A
+OH,	Ross,	Cold,	5,	A
+OH,	Sandusky,	Cold,	5,	A
+OH,	Scioto,	Mixed-Humid,	4,	A
+OH,	Seneca,	Cold,	5,	A
+OH,	Shelby,	Cold,	5,	A
+OH,	Stark,	Cold,	5,	A
+OH,	Summit,	Cold,	5,	A
+OH,	Trumbull,	Cold,	5,	A
+OH,	Tuscarawas,	Cold,	5,	A
+OH,	Union,	Cold,	5,	A
+OH,	Van Wert,	Cold,	5,	A
+OH,	Vinton,	Cold,	5,	A
+OH,	Warren,	Cold,	5,	A
+OH,	Washington,	Mixed-Humid,	4,	A
+OH,	Wayne,	Cold,	5,	A
+OH,	Williams,	Cold,	5,	A
+OH,	Wood,	Cold,	5,	A
+OH,	Wyandot,	Cold,	5,	A
+OK,	Adair,	Mixed-Humid,	3,	A
+OK,	Alfalfa,	Mixed-Humid,	3,	A
+OK,	Atoka,	Mixed-Humid,	3,	A
+OK,	Beaver,	Mixed-Dry,	4,	B
+OK,	Beckham,	Mixed-Humid,	3,	A
+OK,	Blaine,	Mixed-Humid,	3,	A
+OK,	Bryan,	Mixed-Humid,	3,	A
+OK,	Caddo,	Mixed-Humid,	3,	A
+OK,	Canadian,	Mixed-Humid,	3,	A
+OK,	Carter,	Mixed-Humid,	3,	A
+OK,	Cherokee,	Mixed-Humid,	3,	A
+OK,	Choctaw,	Mixed-Humid,	3,	A
+OK,	Cimarron,	Mixed-Dry,	4,	B
+OK,	Cleveland,	Mixed-Humid,	3,	A
+OK,	Coal,	Mixed-Humid,	3,	A
+OK,	Comanche,	Mixed-Humid,	3,	A
+OK,	Cotton,	Mixed-Humid,	3,	A
+OK,	Craig,	Mixed-Humid,	3,	A
+OK,	Creek,	Mixed-Humid,	3,	A
+OK,	Custer,	Mixed-Humid,	3,	A
+OK,	Delaware,	Mixed-Humid,	3,	A
+OK,	Dewey,	Mixed-Humid,	3,	A
+OK,	Ellis,	Mixed-Humid,	3,	A
+OK,	Garfield,	Mixed-Humid,	3,	A
+OK,	Garvin,	Mixed-Humid,	3,	A
+OK,	Grady,	Mixed-Humid,	3,	A
+OK,	Grant,	Mixed-Humid,	3,	A
+OK,	Greer,	Mixed-Humid,	3,	A
+OK,	Harmon,	Mixed-Humid,	3,	A
+OK,	Harper,	Mixed-Humid,	3,	A
+OK,	Haskell,	Mixed-Humid,	3,	A
+OK,	Hughes,	Mixed-Humid,	3,	A
+OK,	Jackson,	Mixed-Humid,	3,	A
+OK,	Jefferson,	Mixed-Humid,	3,	A
+OK,	Johnston,	Mixed-Humid,	3,	A
+OK,	Kay,	Mixed-Humid,	3,	A
+OK,	Kingfisher,	Mixed-Humid,	3,	A
+OK,	Kiowa,	Mixed-Humid,	3,	A
+OK,	Latimer,	Mixed-Humid,	3,	A
+OK,	Le Flore,	Mixed-Humid,	3,	A
+OK,	Lincoln,	Mixed-Humid,	3,	A
+OK,	Logan,	Mixed-Humid,	3,	A
+OK,	Love,	Mixed-Humid,	3,	A
+OK,	Major,	Mixed-Humid,	3,	A
+OK,	Marshall,	Mixed-Humid,	3,	A
+OK,	Mayes,	Mixed-Humid,	3,	A
+OK,	McClain,	Mixed-Humid,	3,	A
+OK,	McCurtain,	Mixed-Humid,	3,	A
+OK,	McIntosh,	Mixed-Humid,	3,	A
+OK,	Murray,	Mixed-Humid,	3,	A
+OK,	Muskogee,	Mixed-Humid,	3,	A
+OK,	Noble,	Mixed-Humid,	3,	A
+OK,	Nowata,	Mixed-Humid,	3,	A
+OK,	Okfuskee,	Mixed-Humid,	3,	A
+OK,	Oklahoma,	Mixed-Humid,	3,	A
+OK,	Okmulgee,	Mixed-Humid,	3,	A
+OK,	Osage,	Mixed-Humid,	3,	A
+OK,	Ottawa,	Mixed-Humid,	3,	A
+OK,	Pawnee,	Mixed-Humid,	3,	A
+OK,	Payne,	Mixed-Humid,	3,	A
+OK,	Pittsburg,	Mixed-Humid,	3,	A
+OK,	Pontotoc,	Mixed-Humid,	3,	A
+OK,	Pottawatomie,	Mixed-Humid,	3,	A
+OK,	Pushmataha,	Mixed-Humid,	3,	A
+OK,	Roger Mills,	Mixed-Humid,	3,	A
+OK,	Rogers,	Mixed-Humid,	3,	A
+OK,	Seminole,	Mixed-Humid,	3,	A
+OK,	Sequoyah,	Mixed-Humid,	3,	A
+OK,	Stephens,	Mixed-Humid,	3,	A
+OK,	Texas,	Mixed-Dry,	4,	B
+OK,	Tillman,	Mixed-Humid,	3,	A
+OK,	Tulsa,	Mixed-Humid,	3,	A
+OK,	Wagoner,	Mixed-Humid,	3,	A
+OK,	Washington,	Mixed-Humid,	3,	A
+OK,	Washita,	Mixed-Humid,	3,	A
+OK,	Woods,	Mixed-Humid,	3,	A
+OK,	Woodward,	Mixed-Humid,	3,	A
+OR,	Baker,	Cold,	5,	B
+OR,	Benton,	Marine,	4,	C
+OR,	Clackamas,	Marine,	4,	C
+OR,	Clatsop,	Marine,	4,	C
+OR,	Columbia,	Marine,	4,	C
+OR,	Coos,	Marine,	4,	C
+OR,	Crook,	Cold,	5,	B
+OR,	Curry,	Marine,	4,	C
+OR,	Deschutes,	Cold,	5,	B
+OR,	Douglas,	Marine,	4,	C
+OR,	Gilliam,	Cold,	5,	B
+OR,	Grant,	Cold,	5,	B
+OR,	Harney,	Cold,	5,	B
+OR,	Hood River,	Cold,	5,	B
+OR,	Jackson,	Marine,	4,	C
+OR,	Jefferson,	Cold,	5,	B
+OR,	Josephine,	Marine,	4,	C
+OR,	Klamath,	Cold,	5,	B
+OR,	Lake,	Cold,	5,	B
+OR,	Lane,	Marine,	4,	C
+OR,	Lincoln,	Marine,	4,	C
+OR,	Linn,	Marine,	4,	C
+OR,	Malheur,	Cold,	5,	B
+OR,	Marion,	Marine,	4,	C
+OR,	Morrow,	Cold,	5,	B
+OR,	Multnomah,	Marine,	4,	C
+OR,	Polk,	Marine,	4,	C
+OR,	Sherman,	Cold,	5,	B
+OR,	Tillamook,	Marine,	4,	C
+OR,	Umatilla,	Cold,	5,	B
+OR,	Union,	Cold,	5,	B
+OR,	Wallowa,	Cold,	5,	B
+OR,	Wasco,	Cold,	5,	B
+OR,	Washington,	Marine,	4,	C
+OR,	Wheeler,	Cold,	5,	B
+OR,	Yamhill,	Marine,	4,	C
+PA,	Adams,	Cold,	5,	A
+PA,	Allegheny,	Cold,	5,	A
+PA,	Armstrong,	Cold,	5,	A
+PA,	Beaver,	Cold,	5,	A
+PA,	Bedford,	Cold,	5,	A
+PA,	Berks,	Cold,	5,	A
+PA,	Blair,	Cold,	5,	A
+PA,	Bradford,	Cold,	5,	A
+PA,	Bucks,	Mixed-Humid,	4,	A
+PA,	Butler,	Cold,	5,	A
+PA,	Cambria,	Cold,	5,	A
+PA,	Cameron,	Cold,	6,	A
+PA,	Carbon,	Cold,	5,	A
+PA,	Centre,	Cold,	5,	A
+PA,	Chester,	Mixed-Humid,	4,	A
+PA,	Clarion,	Cold,	5,	A
+PA,	Clearfield,	Cold,	6,	A
+PA,	Clinton,	Cold,	5,	A
+PA,	Columbia,	Cold,	5,	A
+PA,	Crawford,	Cold,	5,	A
+PA,	Cumberland,	Cold,	5,	A
+PA,	Dauphin,	Cold,	5,	A
+PA,	Delaware,	Mixed-Humid,	4,	A
+PA,	Elk,	Cold,	6,	A
+PA,	Erie,	Cold,	5,	A
+PA,	Fayette,	Cold,	5,	A
+PA,	Forest,	Cold,	5,	A
+PA,	Franklin,	Cold,	5,	A
+PA,	Fulton,	Cold,	5,	A
+PA,	Greene,	Cold,	5,	A
+PA,	Huntingdon,	Cold,	5,	A
+PA,	Indiana,	Cold,	5,	A
+PA,	Jefferson,	Cold,	5,	A
+PA,	Juniata,	Cold,	5,	A
+PA,	Lackawanna,	Cold,	5,	A
+PA,	Lancaster,	Cold,	5,	A
+PA,	Lawrence,	Cold,	5,	A
+PA,	Lebanon,	Cold,	5,	A
+PA,	Lehigh,	Cold,	5,	A
+PA,	Luzerne,	Cold,	5,	A
+PA,	Lycoming,	Cold,	5,	A
+PA,	McKean,	Cold,	6,	A
+PA,	Mercer,	Cold,	5,	A
+PA,	Mifflin,	Cold,	5,	A
+PA,	Monroe,	Cold,	5,	A
+PA,	Montgomery,	Mixed-Humid,	4,	A
+PA,	Montour,	Cold,	5,	A
+PA,	Northampton,	Cold,	5,	A
+PA,	Northumberland,	Cold,	5,	A
+PA,	Perry,	Cold,	5,	A
+PA,	Philadelphia,	Mixed-Humid,	4,	A
+PA,	Pike,	Cold,	5,	A
+PA,	Potter,	Cold,	6,	A
+PA,	Schuylkill,	Cold,	5,	A
+PA,	Snyder,	Cold,	5,	A
+PA,	Somerset,	Cold,	5,	A
+PA,	Sullivan,	Cold,	5,	A
+PA,	Susquehanna,	Cold,	6,	A
+PA,	Tioga,	Cold,	6,	A
+PA,	Union,	Cold,	5,	A
+PA,	Venango,	Cold,	5,	A
+PA,	Warren,	Cold,	5,	A
+PA,	Washington,	Cold,	5,	A
+PA,	Wayne,	Cold,	6,	A
+PA,	Westmoreland,	Cold,	5,	A
+PA,	Wyoming,	Cold,	5,	A
+PA,	York,	Mixed-Humid,	4,	A
+RI,	Bristol,	Cold,	5,	A
+RI,	Kent,	Cold,	5,	A
+RI,	Newport,	Cold,	5,	A
+RI,	Providence,	Cold,	5,	A
+RI,	Washington,	Cold,	5,	A
+SC,	Abbeville,	Mixed-Humid,	3,	A
+SC,	Aiken,	Mixed-Humid,	3,	A
+SC,	Allendale,	Hot-Humid,	3,	A
+SC,	Anderson,	Mixed-Humid,	3,	A
+SC,	Bamberg,	Hot-Humid,	3,	A
+SC,	Barnwell,	Hot-Humid,	3,	A
+SC,	Beaufort,	Hot-Humid,	3,	A
+SC,	Berkeley,	Hot-Humid,	3,	A
+SC,	Calhoun,	Mixed-Humid,	3,	A
+SC,	Charleston,	Hot-Humid,	3,	A
+SC,	Cherokee,	Mixed-Humid,	3,	A
+SC,	Chester,	Mixed-Humid,	3,	A
+SC,	Chesterfield,	Mixed-Humid,	3,	A
+SC,	Clarendon,	Mixed-Humid,	3,	A
+SC,	Colleton,	Hot-Humid,	3,	A
+SC,	Darlington,	Mixed-Humid,	3,	A
+SC,	Dillon,	Mixed-Humid,	3,	A
+SC,	Dorchester,	Hot-Humid,	3,	A
+SC,	Edgefield,	Mixed-Humid,	3,	A
+SC,	Fairfield,	Mixed-Humid,	3,	A
+SC,	Florence,	Mixed-Humid,	3,	A
+SC,	Georgetown,	Hot-Humid,	3,	A
+SC,	Greenville,	Mixed-Humid,	3,	A
+SC,	Greenwood,	Mixed-Humid,	3,	A
+SC,	Hampton,	Hot-Humid,	3,	A
+SC,	Horry,	Hot-Humid,	3,	A
+SC,	Jasper,	Hot-Humid,	3,	A
+SC,	Kershaw,	Mixed-Humid,	3,	A
+SC,	Lancaster,	Mixed-Humid,	3,	A
+SC,	Laurens,	Mixed-Humid,	3,	A
+SC,	Lee,	Mixed-Humid,	3,	A
+SC,	Lexington,	Mixed-Humid,	3,	A
+SC,	Marion,	Mixed-Humid,	3,	A
+SC,	Marlboro,	Mixed-Humid,	3,	A
+SC,	McCormick,	Mixed-Humid,	3,	A
+SC,	Newberry,	Mixed-Humid,	3,	A
+SC,	Oconee,	Mixed-Humid,	3,	A
+SC,	Orangeburg,	Mixed-Humid,	3,	A
+SC,	Pickens,	Mixed-Humid,	3,	A
+SC,	Richland,	Mixed-Humid,	3,	A
+SC,	Saluda,	Mixed-Humid,	3,	A
+SC,	Spartanburg,	Mixed-Humid,	3,	A
+SC,	Sumter,	Mixed-Humid,	3,	A
+SC,	Union,	Mixed-Humid,	3,	A
+SC,	Williamsburg,	Mixed-Humid,	3,	A
+SC,	York,	Mixed-Humid,	3,	A
+SD,	Aurora,	Cold,	6,	A
+SD,	Beadle,	Cold,	6,	A
+SD,	Bennett,	Cold,	5,	A
+SD,	Bon Homme,	Cold,	5,	A
+SD,	Brookings,	Cold,	6,	A
+SD,	Brown,	Cold,	6,	A
+SD,	Brule,	Cold,	6,	A
+SD,	Buffalo,	Cold,	6,	A
+SD,	Butte,	Cold,	6,	A
+SD,	Campbell,	Cold,	6,	A
+SD,	Charles Mix,	Cold,	5,	A
+SD,	Clark,	Cold,	6,	A
+SD,	Clay,	Cold,	5,	A
+SD,	Codington,	Cold,	6,	A
+SD,	Corson,	Cold,	6,	A
+SD,	Custer,	Cold,	6,	A
+SD,	Davison,	Cold,	6,	A
+SD,	Day,	Cold,	6,	A
+SD,	Deuel,	Cold,	6,	A
+SD,	Dewey,	Cold,	6,	A
+SD,	Douglas,	Cold,	5,	A
+SD,	Edmunds,	Cold,	6,	A
+SD,	Fall River,	Cold,	6,	A
+SD,	Faulk,	Cold,	6,	A
+SD,	Grant,	Cold,	6,	A
+SD,	Gregory,	Cold,	5,	A
+SD,	Haakon,	Cold,	6,	A
+SD,	Hamlin,	Cold,	6,	A
+SD,	Hand,	Cold,	6,	A
+SD,	Hanson,	Cold,	6,	A
+SD,	Harding,	Cold,	6,	A
+SD,	Hughes,	Cold,	6,	A
+SD,	Hutchinson,	Cold,	5,	A
+SD,	Hyde,	Cold,	6,	A
+SD,	Jackson,	Cold,	5,	A
+SD,	Jerauld,	Cold,	6,	A
+SD,	Jones,	Cold,	6,	A
+SD,	Kingsbury,	Cold,	6,	A
+SD,	Lake,	Cold,	6,	A
+SD,	Lawrence,	Cold,	6,	A
+SD,	Lincoln,	Cold,	6,	A
+SD,	Lyman,	Cold,	6,	A
+SD,	Marshall,	Cold,	6,	A
+SD,	McCook,	Cold,	6,	A
+SD,	McPherson,	Cold,	6,	A
+SD,	Meade,	Cold,	6,	A
+SD,	Mellette,	Cold,	5,	A
+SD,	Miner,	Cold,	6,	A
+SD,	Minnehaha,	Cold,	6,	A
+SD,	Moody,	Cold,	6,	A
+SD,	Pennington,	Cold,	6,	A
+SD,	Perkins,	Cold,	6,	A
+SD,	Potter,	Cold,	6,	A
+SD,	Roberts,	Cold,	6,	A
+SD,	Sanborn,	Cold,	6,	A
+SD,	Shannon,	Cold,	6,	A
+SD,	Spink,	Cold,	6,	A
+SD,	Stanley,	Cold,	6,	A
+SD,	Sully,	Cold,	6,	A
+SD,	Todd,	Cold,	5,	A
+SD,	Tripp,	Cold,	5,	A
+SD,	Turner,	Cold,	6,	A
+SD,	Union,	Cold,	5,	A
+SD,	Walworth,	Cold,	6,	A
+SD,	Yankton,	Cold,	5,	A
+SD,	Ziebach,	Cold,	6,	A
+TN,	Anderson,	Mixed-Humid,	4,	A
+TN,	Bedford,	Mixed-Humid,	4,	A
+TN,	Benton,	Mixed-Humid,	4,	A
+TN,	Bledsoe,	Mixed-Humid,	4,	A
+TN,	Blount,	Mixed-Humid,	4,	A
+TN,	Bradley,	Mixed-Humid,	4,	A
+TN,	Campbell,	Mixed-Humid,	4,	A
+TN,	Cannon,	Mixed-Humid,	4,	A
+TN,	Carroll,	Mixed-Humid,	4,	A
+TN,	Carter,	Mixed-Humid,	4,	A
+TN,	Cheatham,	Mixed-Humid,	4,	A
+TN,	Chester,	Mixed-Humid,	3,	A
+TN,	Claiborne,	Mixed-Humid,	4,	A
+TN,	Clay,	Mixed-Humid,	4,	A
+TN,	Cocke,	Mixed-Humid,	4,	A
+TN,	Coffee,	Mixed-Humid,	4,	A
+TN,	Crockett,	Mixed-Humid,	3,	A
+TN,	Cumberland,	Mixed-Humid,	4,	A
+TN,	Davidson,	Mixed-Humid,	4,	A
+TN,	Decatur,	Mixed-Humid,	4,	A
+TN,	DeKalb,	Mixed-Humid,	4,	A
+TN,	Dickson,	Mixed-Humid,	4,	A
+TN,	Dyer,	Mixed-Humid,	3,	A
+TN,	Fayette,	Mixed-Humid,	3,	A
+TN,	Fentress,	Mixed-Humid,	4,	A
+TN,	Franklin,	Mixed-Humid,	4,	A
+TN,	Gibson,	Mixed-Humid,	4,	A
+TN,	Giles,	Mixed-Humid,	4,	A
+TN,	Grainger,	Mixed-Humid,	4,	A
+TN,	Greene,	Mixed-Humid,	4,	A
+TN,	Grundy,	Mixed-Humid,	4,	A
+TN,	Hamblen,	Mixed-Humid,	4,	A
+TN,	Hamilton,	Mixed-Humid,	4,	A
+TN,	Hancock,	Mixed-Humid,	4,	A
+TN,	Hardeman,	Mixed-Humid,	3,	A
+TN,	Hardin,	Mixed-Humid,	3,	A
+TN,	Hawkins,	Mixed-Humid,	4,	A
+TN,	Haywood,	Mixed-Humid,	3,	A
+TN,	Henderson,	Mixed-Humid,	3,	A
+TN,	Henry,	Mixed-Humid,	4,	A
+TN,	Hickman,	Mixed-Humid,	4,	A
+TN,	Houston,	Mixed-Humid,	4,	A
+TN,	Humphreys,	Mixed-Humid,	4,	A
+TN,	Jackson,	Mixed-Humid,	4,	A
+TN,	Jefferson,	Mixed-Humid,	4,	A
+TN,	Johnson,	Mixed-Humid,	4,	A
+TN,	Knox,	Mixed-Humid,	4,	A
+TN,	Lake,	Mixed-Humid,	3,	A
+TN,	Lauderdale,	Mixed-Humid,	3,	A
+TN,	Lawrence,	Mixed-Humid,	4,	A
+TN,	Lewis,	Mixed-Humid,	4,	A
+TN,	Lincoln,	Mixed-Humid,	4,	A
+TN,	Loudon,	Mixed-Humid,	4,	A
+TN,	Macon,	Mixed-Humid,	4,	A
+TN,	Madison,	Mixed-Humid,	3,	A
+TN,	Marion,	Mixed-Humid,	4,	A
+TN,	Marshall,	Mixed-Humid,	4,	A
+TN,	Maury,	Mixed-Humid,	4,	A
+TN,	McMinn,	Mixed-Humid,	4,	A
+TN,	McNairy,	Mixed-Humid,	3,	A
+TN,	Meigs,	Mixed-Humid,	4,	A
+TN,	Monroe,	Mixed-Humid,	4,	A
+TN,	Montgomery,	Mixed-Humid,	4,	A
+TN,	Moore,	Mixed-Humid,	4,	A
+TN,	Morgan,	Mixed-Humid,	4,	A
+TN,	Obion,	Mixed-Humid,	4,	A
+TN,	Overton,	Mixed-Humid,	4,	A
+TN,	Perry,	Mixed-Humid,	4,	A
+TN,	Pickett,	Mixed-Humid,	4,	A
+TN,	Polk,	Mixed-Humid,	4,	A
+TN,	Putnam,	Mixed-Humid,	4,	A
+TN,	Rhea,	Mixed-Humid,	4,	A
+TN,	Roane,	Mixed-Humid,	4,	A
+TN,	Robertson,	Mixed-Humid,	4,	A
+TN,	Rutherford,	Mixed-Humid,	4,	A
+TN,	Scott,	Mixed-Humid,	4,	A
+TN,	Sequatchie,	Mixed-Humid,	4,	A
+TN,	Sevier,	Mixed-Humid,	4,	A
+TN,	Shelby,	Mixed-Humid,	3,	A
+TN,	Smith,	Mixed-Humid,	4,	A
+TN,	Stewart,	Mixed-Humid,	4,	A
+TN,	Sullivan,	Mixed-Humid,	4,	A
+TN,	Sumner,	Mixed-Humid,	4,	A
+TN,	Tipton,	Mixed-Humid,	3,	A
+TN,	Trousdale,	Mixed-Humid,	4,	A
+TN,	Unicoi,	Mixed-Humid,	4,	A
+TN,	Union,	Mixed-Humid,	4,	A
+TN,	Van Buren,	Mixed-Humid,	4,	A
+TN,	Warren,	Mixed-Humid,	4,	A
+TN,	Washington,	Mixed-Humid,	4,	A
+TN,	Wayne,	Mixed-Humid,	4,	A
+TN,	Weakley,	Mixed-Humid,	4,	A
+TN,	White,	Mixed-Humid,	4,	A
+TN,	Williamson,	Mixed-Humid,	4,	A
+TN,	Wilson,	Mixed-Humid,	4,	A
+TX,	Anderson,	Hot-Humid,	2,	A
+TX,	Andrews,	Hot-Dry,	3,	B
+TX,	Angelina,	Hot-Humid,	2,	A
+TX,	Aransas,	Hot-Humid,	2,	A
+TX,	Archer,	Mixed-Humid,	3,	A
+TX,	Armstrong,	Mixed-Dry,	4,	B
+TX,	Atascosa,	Hot-Humid,	2,	A
+TX,	Austin,	Hot-Humid,	2,	A
+TX,	Bailey,	Mixed-Dry,	4,	B
+TX,	Bandera,	Hot-Humid,	2,	B
+TX,	Bastrop,	Hot-Humid,	2,	A
+TX,	Baylor,	Hot-Dry,	3,	B
+TX,	Bee,	Hot-Humid,	2,	A
+TX,	Bell,	Hot-Humid,	2,	A
+TX,	Bexar,	Hot-Humid,	2,	A
+TX,	Blanco,	Hot-Humid,	3,	A
+TX,	Borden,	Hot-Dry,	3,	B
+TX,	Bosque,	Hot-Humid,	2,	A
+TX,	Bowie,	Hot-Humid,	3,	A
+TX,	Brazoria,	Hot-Humid,	2,	A
+TX,	Brazos,	Hot-Humid,	2,	A
+TX,	Brewster,	Hot-Dry,	3,	B
+TX,	Briscoe,	Mixed-Dry,	4,	B
+TX,	Brooks,	Hot-Humid,	2,	A
+TX,	Brown,	Hot-Humid,	3,	A
+TX,	Burleson,	Hot-Humid,	2,	A
+TX,	Burnet,	Hot-Humid,	3,	A
+TX,	Caldwell,	Hot-Humid,	2,	A
+TX,	Calhoun,	Hot-Humid,	2,	A
+TX,	Callahan,	Hot-Dry,	3,	B
+TX,	Cameron,	Hot-Humid,	2,	A
+TX,	Camp,	Hot-Humid,	3,	A
+TX,	Carson,	Mixed-Dry,	4,	B
+TX,	Cass,	Hot-Humid,	3,	A
+TX,	Castro,	Mixed-Dry,	4,	B
+TX,	Chambers,	Hot-Humid,	2,	A
+TX,	Cherokee,	Hot-Humid,	2,	A
+TX,	Childress,	Hot-Dry,	3,	B
+TX,	Clay,	Mixed-Humid,	3,	A
+TX,	Cochran,	Mixed-Dry,	4,	B
+TX,	Coke,	Hot-Dry,	3,	B
+TX,	Coleman,	Hot-Dry,	3,	B
+TX,	Collin,	Hot-Humid,	3,	A
+TX,	Collingsworth,	Hot-Dry,	3,	B
+TX,	Colorado,	Hot-Humid,	2,	A
+TX,	Comal,	Hot-Humid,	2,	A
+TX,	Comanche,	Hot-Humid,	3,	A
+TX,	Concho,	Hot-Dry,	3,	B
+TX,	Cooke,	Mixed-Humid,	3,	A
+TX,	Coryell,	Hot-Humid,	2,	A
+TX,	Cottle,	Hot-Dry,	3,	B
+TX,	Crane,	Hot-Dry,	3,	B
+TX,	Crockett,	Hot-Dry,	3,	B
+TX,	Crosby,	Hot-Dry,	3,	B
+TX,	Culberson,	Hot-Dry,	3,	B
+TX,	Dallam,	Mixed-Dry,	4,	B
+TX,	Dallas,	Hot-Humid,	3,	A
+TX,	Dawson,	Hot-Dry,	3,	B
+TX,	Deaf Smith,	Mixed-Dry,	4,	B
+TX,	Delta,	Hot-Humid,	3,	A
+TX,	Denton,	Hot-Humid,	3,	A
+TX,	DeWitt,	Hot-Humid,	2,	A
+TX,	Dickens,	Hot-Dry,	3,	B
+TX,	Dimmit,	Hot-Humid,	2,	B
+TX,	Donley,	Mixed-Dry,	4,	B
+TX,	Duval,	Hot-Humid,	2,	A
+TX,	Eastland,	Mixed-Humid,	3,	A
+TX,	Ector,	Hot-Dry,	3,	B
+TX,	Edwards,	Hot-Humid,	2,	B
+TX,	El Paso,	Hot-Dry,	3,	B
+TX,	Ellis,	Hot-Humid,	3,	A
+TX,	Erath,	Hot-Humid,	3,	A
+TX,	Falls,	Hot-Humid,	2,	A
+TX,	Fannin,	Mixed-Humid,	3,	A
+TX,	Fayette,	Hot-Humid,	2,	A
+TX,	Fisher,	Hot-Dry,	3,	B
+TX,	Floyd,	Mixed-Dry,	4,	B
+TX,	Foard,	Hot-Dry,	3,	B
+TX,	Fort Bend,	Hot-Humid,	2,	A
+TX,	Franklin,	Hot-Humid,	3,	A
+TX,	Freestone,	Hot-Humid,	2,	A
+TX,	Frio,	Hot-Humid,	2,	B
+TX,	Gaines,	Hot-Dry,	3,	B
+TX,	Galveston,	Hot-Humid,	2,	A
+TX,	Garza,	Hot-Dry,	3,	B
+TX,	Gillespie,	Hot-Humid,	3,	A
+TX,	Glasscock,	Hot-Dry,	3,	B
+TX,	Goliad,	Hot-Humid,	2,	A
+TX,	Gonzales,	Hot-Humid,	2,	A
+TX,	Gray,	Mixed-Dry,	4,	B
+TX,	Grayson,	Mixed-Humid,	3,	A
+TX,	Gregg,	Hot-Humid,	3,	A
+TX,	Grimes,	Hot-Humid,	2,	A
+TX,	Guadalupe,	Hot-Humid,	2,	A
+TX,	Hale,	Mixed-Dry,	4,	B
+TX,	Hall,	Hot-Dry,	3,	B
+TX,	Hamilton,	Hot-Humid,	3,	A
+TX,	Hansford,	Mixed-Dry,	4,	B
+TX,	Hardeman,	Hot-Dry,	3,	B
+TX,	Hardin,	Hot-Humid,	2,	A
+TX,	Harris,	Hot-Humid,	2,	A
+TX,	Harrison,	Hot-Humid,	3,	A
+TX,	Hartley,	Mixed-Dry,	4,	B
+TX,	Haskell,	Hot-Dry,	3,	B
+TX,	Hays,	Hot-Humid,	2,	A
+TX,	Hemphill,	Hot-Dry,	3,	B
+TX,	Henderson,	Hot-Humid,	3,	A
+TX,	Hidalgo,	Hot-Humid,	2,	A
+TX,	Hill,	Hot-Humid,	2,	A
+TX,	Hockley,	Mixed-Dry,	4,	B
+TX,	Hood,	Hot-Humid,	3,	A
+TX,	Hopkins,	Hot-Humid,	3,	A
+TX,	Houston,	Hot-Humid,	2,	A
+TX,	Howard,	Hot-Dry,	3,	B
+TX,	Hudspeth,	Hot-Dry,	3,	B
+TX,	Hunt,	Hot-Humid,	3,	A
+TX,	Hutchinson,	Mixed-Dry,	4,	B
+TX,	Irion,	Hot-Dry,	3,	B
+TX,	Jack,	Mixed-Humid,	3,	A
+TX,	Jackson,	Hot-Humid,	2,	A
+TX,	Jasper,	Hot-Humid,	2,	A
+TX,	Jeff Davis,	Hot-Dry,	3,	B
+TX,	Jefferson,	Hot-Humid,	2,	A
+TX,	Jim Hogg,	Hot-Humid,	2,	A
+TX,	Jim Wells,	Hot-Humid,	2,	A
+TX,	Johnson,	Hot-Humid,	3,	A
+TX,	Jones,	Hot-Dry,	3,	B
+TX,	Karnes,	Hot-Humid,	2,	A
+TX,	Kaufman,	Hot-Humid,	3,	A
+TX,	Kendall,	Hot-Humid,	3,	A
+TX,	Kenedy,	Hot-Humid,	2,	A
+TX,	Kent,	Hot-Dry,	3,	B
+TX,	Kerr,	Hot-Dry,	3,	B
+TX,	Kimble,	Hot-Dry,	3,	B
+TX,	King,	Hot-Dry,	3,	B
+TX,	Kinney,	Hot-Humid,	2,	B
+TX,	Kleberg,	Hot-Humid,	2,	A
+TX,	Knox,	Hot-Dry,	3,	B
+TX,	La Salle,	Hot-Humid,	2,	B
+TX,	Lamar,	Hot-Humid,	3,	A
+TX,	Lamb,	Mixed-Dry,	4,	B
+TX,	Lampasas,	Hot-Humid,	3,	A
+TX,	Lavaca,	Hot-Humid,	2,	A
+TX,	Lee,	Hot-Humid,	2,	A
+TX,	Leon,	Hot-Humid,	2,	A
+TX,	Liberty,	Hot-Humid,	2,	A
+TX,	Limestone,	Hot-Humid,	2,	A
+TX,	Lipscomb,	Mixed-Dry,	4,	B
+TX,	Live Oak,	Hot-Humid,	2,	A
+TX,	Llano,	Hot-Humid,	3,	A
+TX,	Loving,	Hot-Dry,	3,	B
+TX,	Lubbock,	Hot-Dry,	3,	B
+TX,	Lynn,	Hot-Dry,	3,	B
+TX,	Madison,	Hot-Humid,	2,	A
+TX,	Marion,	Hot-Humid,	3,	A
+TX,	Martin,	Hot-Dry,	3,	B
+TX,	Mason,	Hot-Dry,	3,	B
+TX,	Matagorda,	Hot-Humid,	2,	A
+TX,	Maverick,	Hot-Humid,	2,	B
+TX,	McCulloch,	Hot-Dry,	3,	B
+TX,	McLennan,	Hot-Humid,	2,	A
+TX,	McMullen,	Hot-Humid,	2,	A
+TX,	Medina,	Hot-Humid,	2,	B
+TX,	Menard,	Hot-Dry,	3,	B
+TX,	Midland,	Hot-Dry,	3,	B
+TX,	Milam,	Hot-Humid,	2,	A
+TX,	Mills,	Hot-Humid,	3,	A
+TX,	Mitchell,	Hot-Dry,	3,	B
+TX,	Montague,	Mixed-Humid,	3,	A
+TX,	Montgomery,	Hot-Humid,	2,	A
+TX,	Moore,	Mixed-Dry,	4,	B
+TX,	Morris,	Hot-Humid,	3,	A
+TX,	Motley,	Hot-Dry,	3,	B
+TX,	Nacogdoches,	Hot-Humid,	3,	A
+TX,	Navarro,	Hot-Humid,	3,	A
+TX,	Newton,	Hot-Humid,	2,	A
+TX,	Nolan,	Hot-Dry,	3,	B
+TX,	Nueces,	Hot-Humid,	2,	A
+TX,	Ochiltree,	Mixed-Dry,	4,	B
+TX,	Oldham,	Mixed-Dry,	4,	B
+TX,	Orange,	Hot-Humid,	2,	A
+TX,	Palo Pinto,	Mixed-Humid,	3,	A
+TX,	Panola,	Hot-Humid,	3,	A
+TX,	Parker,	Hot-Humid,	3,	A
+TX,	Parmer,	Mixed-Dry,	4,	B
+TX,	Pecos,	Hot-Dry,	3,	B
+TX,	Polk,	Hot-Humid,	2,	A
+TX,	Potter,	Mixed-Dry,	4,	B
+TX,	Presidio,	Hot-Dry,	3,	B
+TX,	Rains,	Hot-Humid,	3,	A
+TX,	Randall,	Mixed-Dry,	4,	B
+TX,	Reagan,	Hot-Dry,	3,	B
+TX,	Real,	Hot-Humid,	2,	B
+TX,	Red River,	Hot-Humid,	3,	A
+TX,	Reeves,	Hot-Dry,	3,	B
+TX,	Refugio,	Hot-Humid,	2,	A
+TX,	Roberts,	Mixed-Dry,	4,	B
+TX,	Robertson,	Hot-Humid,	2,	A
+TX,	Rockwall,	Hot-Humid,	3,	A
+TX,	Runnels,	Hot-Dry,	3,	B
+TX,	Rusk,	Hot-Humid,	3,	A
+TX,	Sabine,	Hot-Humid,	3,	A
+TX,	San Augustine,	Hot-Humid,	3,	A
+TX,	San Jacinto,	Hot-Humid,	2,	A
+TX,	San Patricio,	Hot-Humid,	2,	A
+TX,	San Saba,	Hot-Humid,	3,	A
+TX,	Schleicher,	Hot-Dry,	3,	B
+TX,	Scurry,	Hot-Dry,	3,	B
+TX,	Shackelford,	Hot-Dry,	3,	B
+TX,	Shelby,	Hot-Humid,	3,	A
+TX,	Sherman,	Mixed-Dry,	4,	B
+TX,	Smith,	Hot-Humid,	3,	A
+TX,	Somervell,	Hot-Humid,	3,	A
+TX,	Starr,	Hot-Humid,	2,	A
+TX,	Stephens,	Mixed-Humid,	3,	A
+TX,	Sterling,	Hot-Dry,	3,	B
+TX,	Stonewall,	Hot-Dry,	3,	B
+TX,	Sutton,	Hot-Dry,	3,	B
+TX,	Swisher,	Mixed-Dry,	4,	B
+TX,	Tarrant,	Hot-Humid,	3,	A
+TX,	Taylor,	Hot-Dry,	3,	B
+TX,	Terrell,	Hot-Dry,	3,	B
+TX,	Terry,	Hot-Dry,	3,	B
+TX,	Throckmorton,	Hot-Dry,	3,	B
+TX,	Titus,	Hot-Humid,	3,	A
+TX,	Tom Green,	Hot-Dry,	3,	B
+TX,	Travis,	Hot-Humid,	2,	A
+TX,	Trinity,	Hot-Humid,	2,	A
+TX,	Tyler,	Hot-Humid,	2,	A
+TX,	Upshur,	Hot-Humid,	3,	A
+TX,	Upton,	Hot-Dry,	3,	B
+TX,	Uvalde,	Hot-Humid,	2,	B
+TX,	Val Verde,	Hot-Humid,	2,	B
+TX,	Van Zandt,	Hot-Humid,	3,	A
+TX,	Victoria,	Hot-Humid,	2,	A
+TX,	Walker,	Hot-Humid,	2,	A
+TX,	Waller,	Hot-Humid,	2,	A
+TX,	Ward,	Hot-Dry,	3,	B
+TX,	Washington,	Hot-Humid,	2,	A
+TX,	Webb,	Hot-Humid,	2,	B
+TX,	Wharton,	Hot-Humid,	2,	A
+TX,	Wheeler,	Hot-Dry,	3,	B
+TX,	Wichita,	Mixed-Humid,	3,	A
+TX,	Wilbarger,	Hot-Dry,	3,	B
+TX,	Willacy,	Hot-Humid,	2,	A
+TX,	Williamson,	Hot-Humid,	2,	A
+TX,	Wilson,	Hot-Humid,	2,	A
+TX,	Winkler,	Hot-Dry,	3,	B
+TX,	Wise,	Mixed-Humid,	3,	A
+TX,	Wood,	Hot-Humid,	3,	A
+TX,	Yoakum,	Mixed-Dry,	4,	B
+TX,	Young,	Mixed-Humid,	3,	A
+TX,	Zapata,	Hot-Humid,	2,	B
+TX,	Zavala,	Hot-Humid,	2,	B
+UT,	Beaver,	Cold,	5,	B
+UT,	Box Elder,	Cold,	6,	B
+UT,	Cache,	Cold,	6,	B
+UT,	Carbon,	Cold,	6,	B
+UT,	Daggett,	Cold,	6,	B
+UT,	Davis,	Cold,	5,	B
+UT,	Duchesne,	Cold,	6,	B
+UT,	Emery,	Cold,	5,	B
+UT,	Garfield,	Cold,	5,	B
+UT,	Grand,	Cold,	5,	B
+UT,	Iron,	Cold,	5,	B
+UT,	Juab,	Cold,	5,	B
+UT,	Kane,	Cold,	5,	B
+UT,	Millard,	Cold,	5,	B
+UT,	Morgan,	Cold,	6,	B
+UT,	Piute,	Cold,	5,	B
+UT,	Rich,	Cold,	6,	B
+UT,	Salt Lake,	Cold,	5,	B
+UT,	San Juan,	Cold,	5,	B
+UT,	Sanpete,	Cold,	5,	B
+UT,	Sevier,	Cold,	5,	B
+UT,	Summit,	Cold,	6,	B
+UT,	Tooele,	Cold,	5,	B
+UT,	Uintah,	Cold,	6,	B
+UT,	Utah,	Cold,	5,	B
+UT,	Wasatch,	Cold,	6,	B
+UT,	Washington,	Hot-Dry,	3,	B
+UT,	Wayne,	Cold,	5,	B
+UT,	Weber,	Cold,	5,	B
+VT,	Addison,	Cold,	6,	A
+VT,	Bennington,	Cold,	6,	A
+VT,	Caledonia,	Cold,	6,	A
+VT,	Chittenden,	Cold,	6,	A
+VT,	Essex,	Cold,	6,	A
+VT,	Franklin,	Cold,	6,	A
+VT,	Grand Isle,	Cold,	6,	A
+VT,	Lamoille,	Cold,	6,	A
+VT,	Orange,	Cold,	6,	A
+VT,	Orleans,	Cold,	6,	A
+VT,	Rutland,	Cold,	6,	A
+VT,	Washington,	Cold,	6,	A
+VT,	Windham,	Cold,	6,	A
+VT,	Windsor,	Cold,	6,	A
+VA,	Accomack,	Mixed-Humid,	4,	A
+VA,	Albemarle,	Mixed-Humid,	4,	A
+VA,	Alexandria (city),	Mixed-Humid,	4,	A
+VA,	Alleghany,	Mixed-Humid,	4,	A
+VA,	Amelia,	Mixed-Humid,	4,	A
+VA,	Amherst,	Mixed-Humid,	4,	A
+VA,	Appomattox,	Mixed-Humid,	4,	A
+VA,	Arlington,	Mixed-Humid,	4,	A
+VA,	Augusta,	Mixed-Humid,	4,	A
+VA,	Bath,	Mixed-Humid,	4,	A
+VA,	Bedford,	Mixed-Humid,	4,	A
+VA,	Bedford (city),	Mixed-Humid,	4,	A
+VA,	Bland,	Mixed-Humid,	4,	A
+VA,	Botetourt,	Mixed-Humid,	4,	A
+VA,	Bristol (city),	Mixed-Humid,	4,	A
+VA,	Brunswick,	Mixed-Humid,	4,	A
+VA,	Buchanan,	Mixed-Humid,	4,	A
+VA,	Buckingham,	Mixed-Humid,	4,	A
+VA,	Buena Vista (city),	Mixed-Humid,	4,	A
+VA,	Campbell,	Mixed-Humid,	4,	A
+VA,	Caroline,	Mixed-Humid,	4,	A
+VA,	Carroll,	Mixed-Humid,	4,	A
+VA,	Charles City,	Mixed-Humid,	4,	A
+VA,	Charlotte,	Mixed-Humid,	4,	A
+VA,	Charlottesville (city),	Mixed-Humid,	4,	A
+VA,	Chesapeake (city),	Mixed-Humid,	4,	A
+VA,	Chesterfield,	Mixed-Humid,	4,	A
+VA,	Clarke,	Mixed-Humid,	4,	A
+VA,	Clifton Forge (city),	Mixed-Humid,	4,	A
+VA,	Colonial Heights (city),	Mixed-Humid,	4,	A
+VA,	Covington (city),	Mixed-Humid,	4,	A
+VA,	Craig,	Mixed-Humid,	4,	A
+VA,	Culpeper,	Mixed-Humid,	4,	A
+VA,	Cumberland,	Mixed-Humid,	4,	A
+VA,	Danville (city),	Mixed-Humid,	4,	A
+VA,	Dickenson,	Mixed-Humid,	4,	A
+VA,	Dinwiddie,	Mixed-Humid,	4,	A
+VA,	Emporia (city),	Mixed-Humid,	4,	A
+VA,	Essex,	Mixed-Humid,	4,	A
+VA,	Fairfax,	Mixed-Humid,	4,	A
+VA,	Fairfax (city),	Mixed-Humid,	4,	A
+VA,	Falls Church (city),	Mixed-Humid,	4,	A
+VA,	Fauquier,	Mixed-Humid,	4,	A
+VA,	Floyd,	Mixed-Humid,	4,	A
+VA,	Fluvanna,	Mixed-Humid,	4,	A
+VA,	Franklin,	Mixed-Humid,	4,	A
+VA,	Franklin (city),	Mixed-Humid,	4,	A
+VA,	Frederick,	Mixed-Humid,	4,	A
+VA,	Fredericksburg (city),	Mixed-Humid,	4,	A
+VA,	Galax (city),	Mixed-Humid,	4,	A
+VA,	Giles,	Mixed-Humid,	4,	A
+VA,	Gloucester,	Mixed-Humid,	4,	A
+VA,	Goochland,	Mixed-Humid,	4,	A
+VA,	Grayson,	Mixed-Humid,	4,	A
+VA,	Greene,	Mixed-Humid,	4,	A
+VA,	Greensville,	Mixed-Humid,	4,	A
+VA,	Halifax,	Mixed-Humid,	4,	A
+VA,	Hampton (city),	Mixed-Humid,	4,	A
+VA,	Hanover,	Mixed-Humid,	4,	A
+VA,	Harrisonburg (city),	Mixed-Humid,	4,	A
+VA,	Henrico,	Mixed-Humid,	4,	A
+VA,	Henry,	Mixed-Humid,	4,	A
+VA,	Highland,	Mixed-Humid,	4,	A
+VA,	Hopewell (city),	Mixed-Humid,	4,	A
+VA,	Isle of Wight,	Mixed-Humid,	4,	A
+VA,	James City,	Mixed-Humid,	4,	A
+VA,	King and Queen,	Mixed-Humid,	4,	A
+VA,	King George,	Mixed-Humid,	4,	A
+VA,	King William,	Mixed-Humid,	4,	A
+VA,	Lancaster,	Mixed-Humid,	4,	A
+VA,	Lee,	Mixed-Humid,	4,	A
+VA,	Lexington (city),	Mixed-Humid,	4,	A
+VA,	Loudoun,	Mixed-Humid,	4,	A
+VA,	Louisa,	Mixed-Humid,	4,	A
+VA,	Lunenburg,	Mixed-Humid,	4,	A
+VA,	Lynchburg (city),	Mixed-Humid,	4,	A
+VA,	Madison,	Mixed-Humid,	4,	A
+VA,	Manassas (city),	Mixed-Humid,	4,	A
+VA,	Manassas Park (city),	Mixed-Humid,	4,	A
+VA,	Martinsville (city),	Mixed-Humid,	4,	A
+VA,	Mathews,	Mixed-Humid,	4,	A
+VA,	Stafford,	Mixed-Humid,	4,	A
+VA,	Staunton (city),	Mixed-Humid,	4,	A
+VA,	Suffolk (city),	Mixed-Humid,	4,	A
+VA,	Surry,	Mixed-Humid,	4,	A
+VA,	Sussex,	Mixed-Humid,	4,	A
+VA,	Tazewell,	Mixed-Humid,	4,	A
+VA,	Virginia Beach (city),	Mixed-Humid,	4,	A
+VA,	Warren,	Mixed-Humid,	4,	A
+VA,	Washington,	Mixed-Humid,	4,	A
+VA,	Waynesboro (city),	Mixed-Humid,	4,	A
+VA,	Westmoreland,	Mixed-Humid,	4,	A
+VA,	Williamsburg (city),	Mixed-Humid,	4,	A
+VA,	Winchester (city),	Mixed-Humid,	4,	A
+VA,	Wise,	Mixed-Humid,	4,	A
+VA,	Wythe,	Mixed-Humid,	4,	A
+VA,	York,	Mixed-Humid,	4,	A
+WA,	Adams,	Cold,	5,	B
+WA,	Asotin,	Cold,	5,	B
+WA,	Benton,	Cold,	5,	B
+WA,	Chelan,	Cold,	5,	B
+WA,	Clallam,	Marine,	4,	C
+WA,	Clark,	Marine,	4,	C
+WA,	Columbia,	Cold,	5,	B
+WA,	Cowlitz,	Marine,	4,	C
+WA,	Douglas,	Cold,	5,	B
+WA,	Ferry,	Cold,	6,	B
+WA,	Franklin,	Cold,	5,	B
+WA,	Garfield,	Cold,	5,	B
+WA,	Grant,	Cold,	5,	B
+WA,	Grays Harbor,	Marine,	4,	C
+WA,	Island,	Cold,	4,	C
+WA,	Jefferson,	Marine,	4,	C
+WA,	King,	Marine,	4,	C
+WA,	Kitsap,	Marine,	4,	C
+WA,	Kittitas,	Cold,	5,	B
+WA,	Klickitat,	Cold,	5,	B
+WA,	Lewis,	Marine,	4,	C
+WA,	Lincoln,	Cold,	5,	B
+VA,	Mecklenburg,	Mixed-Humid,	4,	A
+VA,	Middlesex,	Mixed-Humid,	4,	A
+VA,	Montgomery,	Mixed-Humid,	4,	A
+VA,	Nelson,	Mixed-Humid,	4,	A
+VA,	New Kent,	Mixed-Humid,	4,	A
+VA,	Newport News (city),	Mixed-Humid,	4,	A
+VA,	Norfolk (city),	Mixed-Humid,	4,	A
+VA,	Northampton,	Mixed-Humid,	4,	A
+VA,	Northumberland,	Mixed-Humid,	4,	A
+VA,	Norton (city),	Mixed-Humid,	4,	A
+VA,	Nottoway,	Mixed-Humid,	4,	A
+VA,	Orange,	Mixed-Humid,	4,	A
+VA,	Page,	Mixed-Humid,	4,	A
+VA,	Patrick,	Mixed-Humid,	4,	A
+VA,	Petersburg (city),	Mixed-Humid,	4,	A
+VA,	Pittsylvania,	Mixed-Humid,	4,	A
+VA,	Poquoson (city),	Mixed-Humid,	4,	A
+VA,	Portsmouth (city),	Mixed-Humid,	4,	A
+VA,	Powhatan,	Mixed-Humid,	4,	A
+VA,	Prince Edward,	Mixed-Humid,	4,	A
+VA,	Prince George,	Mixed-Humid,	4,	A
+VA,	Prince William,	Mixed-Humid,	4,	A
+VA,	Pulaski,	Mixed-Humid,	4,	A
+VA,	Radford (city),	Mixed-Humid,	4,	A
+VA,	Rappahannock,	Mixed-Humid,	4,	A
+VA,	Richmond,	Mixed-Humid,	4,	A
+VA,	Richmond (city),	Mixed-Humid,	4,	A
+VA,	Roanoke,	Mixed-Humid,	4,	A
+VA,	Roanoke (city),	Mixed-Humid,	4,	A
+VA,	Rockbridge,	Mixed-Humid,	4,	A
+VA,	Rockingham,	Mixed-Humid,	4,	A
+VA,	Russell,	Mixed-Humid,	4,	A
+VA,	Salem (city),	Mixed-Humid,	4,	A
+VA,	Scott,	Mixed-Humid,	4,	A
+VA,	Shenandoah,	Mixed-Humid,	4,	A
+VA,	Smyth,	Mixed-Humid,	4,	A
+VA,	Southampton,	Mixed-Humid,	4,	A
+VA,	Spotsylvania,	Mixed-Humid,	4,	A
+WA,	Mason,	Marine,	4,	C
+WA,	Okanogan,	Cold,	6,	B
+WA,	Pacific,	Marine,	4,	C
+WA,	Pend Oreille,	Cold,	6,	B
+WA,	Pierce,	Marine,	4,	C
+WA,	San Juan,	Cold,	4,	C
+WA,	Skagit,	Marine,	4,	C
+WA,	Skamania,	Cold,	5,	B
+WA,	Snohomish,	Marine,	4,	C
+WA,	Spokane,	Cold,	5,	B
+WA,	Stevens,	Cold,	5,	B
+WA,	Thurston,	Marine,	4,	C
+WA,	Wahkiakum,	Marine,	4,	C
+WA,	Walla Walla,	Cold,	5,	B
+WA,	Whatcom,	Marine,	4,	C
+WA,	Whitman,	Cold,	5,	B
+WA,	Yakima,	Cold,	5,	C
+WV,	Barbour,	Cold,	5,	A
+WV,	Berkeley,	Mixed-Humid,	4,	A
+WV,	Boone,	Mixed-Humid,	4,	A
+WV,	Braxton,	Mixed-Humid,	4,	A
+WV,	Brooke,	Cold,	5,	A
+WV,	Cabell,	Mixed-Humid,	4,	A
+WV,	Calhoun,	Mixed-Humid,	4,	A
+WV,	Clay,	Mixed-Humid,	4,	A
+WV,	Doddridge,	Cold,	5,	A
+WV,	Fayette,	Cold,	5,	A
+WV,	Gilmer,	Mixed-Humid,	4,	A
+WV,	Grant,	Cold,	5,	A
+WV,	Greenbrier,	Cold,	5,	A
+WV,	Hampshire,	Cold,	5,	A
+WV,	Hancock,	Cold,	5,	A
+WV,	Hardy,	Cold,	5,	A
+WV,	Harrison,	Cold,	5,	A
+WV,	Jackson,	Mixed-Humid,	4,	A
+WV,	Jefferson,	Mixed-Humid,	4,	A
+WV,	Kanawha,	Mixed-Humid,	4,	A
+WV,	Lewis,	Cold,	5,	A
+WV,	Lincoln,	Mixed-Humid,	4,	A
+WV,	Logan,	Mixed-Humid,	4,	A
+WV,	Marion,	Cold,	5,	A
+WV,	Marshall,	Cold,	5,	A
+WV,	Mason,	Mixed-Humid,	4,	A
+WV,	McDowell,	Mixed-Humid,	4,	A
+WV,	Mercer,	Mixed-Humid,	4,	A
+WV,	Mineral,	Cold,	5,	A
+WV,	Mingo,	Mixed-Humid,	4,	A
+WV,	Monongalia,	Cold,	5,	A
+WV,	Monroe,	Mixed-Humid,	4,	A
+WV,	Morgan,	Mixed-Humid,	4,	A
+WV,	Nicholas,	Cold,	5,	A
+WV,	Ohio,	Cold,	5,	A
+WV,	Pendleton,	Cold,	5,	A
+WV,	Pleasants,	Mixed-Humid,	4,	A
+WV,	Pocahontas,	Cold,	5,	A
+WV,	Preston,	Cold,	5,	A
+WV,	Putnam,	Mixed-Humid,	4,	A
+WV,	Raleigh,	Cold,	5,	A
+WV,	Randolph,	Cold,	5,	A
+WV,	Ritchie,	Mixed-Humid,	4,	A
+WV,	Roane,	Mixed-Humid,	4,	A
+WV,	Summers,	Cold,	5,	A
+WV,	Taylor,	Cold,	5,	A
+WV,	Tucker,	Cold,	5,	A
+WV,	Tyler,	Mixed-Humid,	4,	A
+WV,	Upshur,	Cold,	5,	A
+WV,	Wayne,	Mixed-Humid,	4,	A
+WV,	Webster,	Cold,	5,	A
+WV,	Wetzel,	Cold,	5,	A
+WV,	Wirt,	Mixed-Humid,	4,	A
+WV,	Wood,	Mixed-Humid,	4,	A
+WV,	Wyoming,	Mixed-Humid,	4,	A
+WI,	Adams,	Cold,	6,	A
+WI,	Ashland,	Very Cold,	7,	A
+WI,	Barron,	Cold,	6,	A
+WI,	Bayfield,	Very Cold,	7,	A
+WI,	Brown,	Cold,	6,	A
+WI,	Buffalo,	Cold,	6,	A
+WI,	Burnett,	Very Cold,	7,	A
+WI,	Calumet,	Cold,	6,	A
+WI,	Chippewa,	Cold,	6,	A
+WI,	Clark,	Cold,	6,	A
+WI,	Columbia,	Cold,	6,	A
+WI,	Crawford,	Cold,	6,	A
+WI,	Dane,	Cold,	6,	A
+WI,	Dodge,	Cold,	6,	A
+WI,	Door,	Cold,	6,	A
+WI,	Douglas,	Very Cold,	7,	A
+WI,	Dunn,	Cold,	6,	A
+WI,	Eau Claire,	Cold,	6,	A
+WI,	Florence,	Very Cold,	7,	A
+WI,	Fond du Lac,	Cold,	6,	A
+WI,	Forest,	Very Cold,	7,	A
+WI,	Grant,	Cold,	6,	A
+WI,	Green,	Cold,	6,	A
+WI,	Green Lake,	Cold,	6,	A
+WI,	Iowa,	Cold,	6,	A
+WI,	Iron,	Very Cold,	7,	A
+WI,	Jackson,	Cold,	6,	A
+WI,	Jefferson,	Cold,	6,	A
+WI,	Juneau,	Cold,	6,	A
+WI,	Kenosha,	Cold,	6,	A
+WI,	Kewaunee,	Cold,	6,	A
+WI,	La Crosse,	Cold,	6,	A
+WI,	Lafayette,	Cold,	6,	A
+WI,	Langlade,	Very Cold,	7,	A
+WI,	Lincoln,	Very Cold,	7,	A
+WI,	Manitowoc,	Cold,	6,	A
+WI,	Marathon,	Cold,	6,	A
+WI,	Marinette,	Cold,	6,	A
+WI,	Marquette,	Cold,	6,	A
+WI,	Menominee,	Cold,	6,	A
+WI,	Milwaukee,	Cold,	6,	A
+WI,	Monroe,	Cold,	6,	A
+WI,	Oconto,	Cold,	6,	A
+WI,	Oneida,	Very Cold,	7,	A
+WI,	Outagamie,	Cold,	6,	A
+WI,	Ozaukee,	Cold,	6,	A
+WI,	Pepin,	Cold,	6,	A
+WI,	Pierce,	Cold,	6,	A
+WI,	Polk,	Cold,	6,	A
+WI,	Portage,	Cold,	6,	A
+WI,	Price,	Very Cold,	7,	A
+WI,	Racine,	Cold,	6,	A
+WI,	Richland,	Cold,	6,	A
+WI,	Rock,	Cold,	6,	A
+WI,	Rusk,	Cold,	6,	A
+WI,	Sauk,	Cold,	6,	A
+WI,	Sawyer,	Very Cold,	7,	A
+WI,	Shawano,	Cold,	6,	A
+WI,	Sheboygan,	Cold,	6,	A
+WI,	St. Croix,	Cold,	6,	A
+WI,	Taylor,	Very Cold,	7,	A
+WI,	Trempealeau,	Cold,	6,	A
+WI,	Vernon,	Cold,	6,	A
+WI,	Vilas,	Very Cold,	7,	A
+WI,	Walworth,	Cold,	6,	A
+WI,	Washburn,	Very Cold,	7,	A
+WI,	Washington,	Cold,	6,	A
+WI,	Waukesha,	Cold,	6,	A
+WI,	Waupaca,	Cold,	6,	A
+WI,	Waushara,	Cold,	6,	A
+WI,	Winnebago,	Cold,	6,	A
+WI,	Wood,	Cold,	6,	A
+WY,	Albany,	Cold,	6,	B
+WY,	Big Horn,	Cold,	6,	B
+WY,	Campbell,	Cold,	6,	B
+WY,	Carbon,	Cold,	6,	B
+WY,	Converse,	Cold,	6,	B
+WY,	Crook,	Cold,	6,	B
+WY,	Fremont,	Cold,	6,	B
+WY,	Goshen,	Cold,	5,	B
+WY,	Hot Springs,	Cold,	6,	B
+WY,	Johnson,	Cold,	6,	B
+WY,	Laramie,	Cold,	6,	B
+WY,	Lincoln,	Very Cold,	7,	B
+WY,	Natrona,	Cold,	6,	B
+WY,	Niobrara,	Cold,	6,	B
+WY,	Park,	Cold,	6,	B
+WY,	Platte,	Cold,	5,	B
+WY,	Sheridan,	Cold,	6,	B
+WY,	Sublette,	Very Cold,	7,	B
+WY,	Sweetwater,	Cold,	6,	B
+WY,	Teton,	Very Cold,	7,	B
+WY,	Uinta,	Cold,	6,	B
+WY,	Washakie,	Cold,	6,	B
+WY,	Weston,	Cold,	6,	B

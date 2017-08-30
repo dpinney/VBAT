@@ -22,7 +22,7 @@
 
 clear;
 clc;
-
+%Run_time = clock; %starts timer
 %% read in the housing data and re-organize data into a structure
 % read the data
 
@@ -46,19 +46,19 @@ end
 uniqueState = unique(state);
 
 
-Run_time = clock; %starts timer
-statePostalCodes = readtable('.\climate_zone_files\statePostalCode.xlsx');
+
+%statePostalCodes = readtable('.\climate_zone_files\statePostalCode.xlsx');
 %opening xlsx takes 700ms
 %readtable() not in octave 
-%statePostalCodes = readtable('.\climate_zone_files\statePostalCode.txt');
-Run_time = seconds(clock) - seconds(Run_time);Run_time = Run_time(6) %#ok<NOPTS> %ends timer
+statePostalCodes = readtable('.\climate_zone_files\statePostalCode.txt');
+
 
 
 for i = 1:length(uniqueState)
    currState = uniqueState{i};   
    idx = find(strcmp(state,currState));  %idx = find(strcmp(state,currState));  
    virtualBatteryData(i).state = strtrim(currState);
-   k = strcmp(statePostalCodes.State, currState);
+   %k = find(strcmp(statePostalCodes.State, currState)); %this like returns i at every iteration
    virtualBatteryData(i).stateCode = statePostalCodes.PostalCode{i};%virtualBatteryData(i).stateCode = statePostalCodes.PostalCode{k};
    virtualBatteryData(i).nCounty = length(idx);
    counties = county(idx);
@@ -68,6 +68,7 @@ for i = 1:length(uniqueState)
            counties{j} = counties{j}(1:k-2);
        end
    end
+   
    virtualBatteryData(i).county = counties;   
    virtualBatteryData(i).countyId = housingData.Id(idx);
    virtualBatteryData(i).countId2 = housingData.Id2(idx);
@@ -79,7 +80,8 @@ end
 
 
 %% get IECC climate zone index for each county
-climateZones = readtable('.\climate_zone_files\climate_zones.xlsx');
+climateZones = readtable('.\climate_zone_files\climate_zones.txt');
+%climateZones = readtable('.\climate_zone_files\climate_zones.xlsx');
 climateZones = sortrows(climateZones,[1,2]);
 
 % need to delete Alexandria (city) to match housing data
@@ -113,6 +115,7 @@ end
 allStates = {virtualBatteryData.stateCode};
 CA_Idx = find(strcmp(allStates,'CA'));
 tempDataFile = '.\temperature_files\CA_all_stations.csv';
+%tempDataFile = '.\temperature_files\CA_all_stations.txt';
 dataLinkFile = '.\temperature_files\NCDC_obs_locations_county_CA.csv';
 countyTempMapFile = '.\temperature_files\CA_county_station_map.csv';
 
@@ -141,5 +144,5 @@ virtualBatteryData = update_saturation_rate(virtualBatteryData, saturationRateFi
 
 %% save the data
 save('virtualBatteryData_org.mat','virtualBatteryData');
-
+%Run_time = seconds(clock) - seconds(Run_time);Run_time = Run_time(6) %ends timer
 %seconds not octave supported, easily implementable ie convert = [0;0;60*60*24;60*60;60;1]
