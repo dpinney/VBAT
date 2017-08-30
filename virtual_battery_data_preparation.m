@@ -22,7 +22,7 @@
 
 clear;
 clc;
-Run_time = clock;
+
 %% read in the housing data and re-organize data into a structure
 % read the data
 
@@ -32,7 +32,8 @@ housingData = read_Housing_Data(); %housingData = read_Housing_Data(housingFile)
 % re-organize the data
 geography = housingData.Geography;
 county = cell(1,length(geography));
-state = cell(1,length(geography));
+state = cell(1,length(geography)); %pre allocating space
+
 
 for i = 1:length(geography)
     currData = geography{i};
@@ -41,13 +42,21 @@ for i = 1:length(geography)
     state{i} = strtrim(currData(k+1:end));
 end
 
+
 uniqueState = unique(state);
 
+
+Run_time = clock; %starts timer
 statePostalCodes = readtable('.\climate_zone_files\statePostalCode.xlsx');
+%opening xlsx takes 700ms
+%readtable() not in octave 
+%statePostalCodes = readtable('.\climate_zone_files\statePostalCode.txt');
+Run_time = seconds(clock) - seconds(Run_time);Run_time = Run_time(6) %#ok<NOPTS> %ends timer
+
 
 for i = 1:length(uniqueState)
    currState = uniqueState{i};   
-   idx = find(strcmp(state,currState));    
+   idx = find(strcmp(state,currState));  %idx = find(strcmp(state,currState));  
    virtualBatteryData(i).state = strtrim(currState);
    k = strcmp(statePostalCodes.State, currState);
    virtualBatteryData(i).stateCode = statePostalCodes.PostalCode{i};%virtualBatteryData(i).stateCode = statePostalCodes.PostalCode{k};
@@ -132,4 +141,5 @@ virtualBatteryData = update_saturation_rate(virtualBatteryData, saturationRateFi
 
 %% save the data
 save('virtualBatteryData_org.mat','virtualBatteryData');
-Run_time = seconds(clock) - seconds(Run_time);Run_time = Run_time(6)
+
+%seconds not octave supported, easily implementable ie convert = [0;0;60*60*24;60*60;60;1]

@@ -3,7 +3,7 @@
 %
 %
 
-function housingData = read_Housing_Data(housingFile)
+function housingData = read_Housing_Data() %function housingData = read_Housing_Data(housingFile)
 load('housingData_all.mat');%load('housingData_all.mat');
 
 % the columns that we are interested
@@ -28,5 +28,4 @@ housingData(k,:) = [];
 str = 'Petersburg Census Area';
 k = find(strncmp(housingData.Geography, str,length(str)));
 housingData(k,:) = [];
-
 end
