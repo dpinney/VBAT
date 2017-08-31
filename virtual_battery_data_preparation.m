@@ -20,8 +20,6 @@
 % 
 %
 
-clear;
-clc;
 %Run_time = clock; %starts timer
 %% read in the housing data and re-organize data into a structure
 % read the data

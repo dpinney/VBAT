@@ -54,9 +54,6 @@ theta_lower_wh = theta_s_wh - delta_wh/2;
 theta_upper_wh = theta_s_wh + delta_wh/2;
 
 
-
-
-
 % m_water is the water draw in unit of gallon per minute
 m_water = csvread('Flow_raw_1minute_BPA.csv', 1, 1)*0.00378541178*1000/h;
 
@@ -67,15 +64,17 @@ for i = 1:N_wh
     water_draw(:,i) = circshift(m_water(:, k), [1, unidrnd(15)-15]) + m_water(:, k)*0.1*(rand-0.5);
 end
 
-Po = zeros(T, N_wh);
 
-for t = 1:T %long
-    for i = 1:N_wh
-        Po(t, i) = -(theta_a(t)-theta_s_wh(i))/R_wh(i) - 4.2*water_draw(t, i)*((55-32)*5/9 - theta_s_wh(i));
-    end
-end
-%theta_a(t) is full of a single value?
+Po = -(repmat(theta_a,1,N_wh)-repmat(theta_s_wh.',T,1))./repmat(R_wh.',T,1)...
+-4.2.*water_draw.*repmat((repmat((55-32)*5/9,N_wh,1) - theta_s_wh).',T,1);
 
+
+% Po = zeros(T, N_wh);
+% for t = 1:T %long
+%     for i = 1:N_wh
+%         Po(t, i) = -(theta_a(t)-theta_s_wh(i))/R_wh(i) - 4.2*water_draw(t, i)*((55-32)*5/9 - theta_s_wh(i));
+%     end
+% end
 
 % Po_total is the analytically predicted aggregate baseline power
 Po_total = sum(Po,2);
