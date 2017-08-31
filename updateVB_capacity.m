@@ -15,7 +15,7 @@ state_Idx = find(strcmp(allStates,'CA'));
 deltaT = 60;
 str = [num2str(deltaT),'-minute capacity:'];
 disp(str);
-capData = updateVB_capacity_Temperrature_data(virtualBatteryData, 'California', deltaT);
+capData = updateVB_capacity_Temperrature_data(virtualBatteryData, 'California', deltaT); %takes about 1 hour
 
 virtualBatteryData(state_Idx).cap_60_minute=capData;
 
