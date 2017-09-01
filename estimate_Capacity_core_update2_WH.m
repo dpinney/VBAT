@@ -66,7 +66,7 @@ end
 
 
 Po = -(repmat(theta_a,1,N_wh)-repmat(theta_s_wh.',T,1))./repmat(R_wh.',T,1)...
--4.2.*water_draw.*repmat((repmat((55-32)*5/9,N_wh,1) - theta_s_wh).',T,1);
+    -4.2.*water_draw.*repmat((repmat((55-32)*5/9,N_wh,1) - theta_s_wh).',T,1);
 
 
 % Po = zeros(T, N_wh);
@@ -93,7 +93,8 @@ m(1:N_wh*0.8,1) = 0;
 % placeholder1(:,1) = theta_s_wh;
 
 for t=1:T-1
-    theta(:,t+1) = (1-h./(C_wh*3600)./R_wh).*theta(:,t) + h./(C_wh*3600)./R_wh*theta_a(1) + h./(C_wh*3600).*m(:,t).*P_wh;
+    theta(:,t+1) = (1-h./(C_wh*3600)./R_wh).*theta(:,t) + h./(C_wh*3600)./R_wh*theta_a(1)...
+        + h./(C_wh*3600).*m(:,t).*P_wh;
     for i=1:N_wh
         if theta(i,t+1) > theta_upper_wh(i)
             m(i,t+1) = 0;
@@ -131,7 +132,6 @@ Po_total_sim = zeros(T,1);
 Po_total_sim(1) = sum(m(:,1).*P_wh);
 
 for t=1:1:T-1 %very very long
-
     for i=1:N_wh
 
         theta(i,t+1) = (1-h/(C_wh(i)*3600)/R_wh(i))*theta(i,t) + h/(C_wh(i)*3600)/R_wh(i)*theta_a(t)...
