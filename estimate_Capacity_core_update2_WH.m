@@ -89,27 +89,12 @@ theta(:,1) = theta_s_wh;
 m = ones(N_wh,T);
 m(1:N_wh*0.8,1) = 0;
 
-
-% placeholder = m;
-
 % placeholder1 = zeros(N_wh,T);
+% placeholder1(:,1) = theta_s_wh;
 
-% placeholder1(:,2)= (((1-h./(C_wh*3600)./R_wh)).*theta_s_wh).';
-% placeholder1 = repmat(h./(C_wh*3600)./R_wh,1,T).*repmat(theta_a.',N_wh,1);
-% placeholder1(:,2)= (((1-h./(C_wh*3600)./R_wh)).*theta_s_wh).';
-% placeholder2 = (((1-h./(C_wh*3600)./R_wh)).*theta_s_wh);
-% placeholder2 = repmat(theta_a.',N_wh,1);
-% placeholder1 = placeholder1.*placeholder2;
-% placeholder1(:,1) = m(:,1);
-
-%placeholder1 = m.*(repmat((1-h./(C_wh*3600)./R_wh),1,T));
-
-for t=1:1:T-1 %very long
+for t=1:T-1
+    theta(:,t+1) = (1-h./(C_wh*3600)./R_wh).*theta(:,t) + h./(C_wh*3600)./R_wh*theta_a(1) + h./(C_wh*3600).*m(:,t).*P_wh;
     for i=1:N_wh
-        %placeholder(i,t+1) = (1-h/(C_wh(i)*3600)/R_wh(i))*theta(i,t) + h/(C_wh(i)*3600)/R_wh(i)*theta_a(t);
-        theta(i,t+1) = (1-h/(C_wh(i)*3600)/R_wh(i))*theta(i,t) + h/(C_wh(i)*3600)/R_wh(i)*theta_a(t)...
-            + h/(C_wh(i)*3600)*m(i,t)*P_wh(i) ;
-         
         if theta(i,t+1) > theta_upper_wh(i)
             m(i,t+1) = 0;
         elseif theta(i,t+1) < theta_lower_wh(i)
@@ -119,6 +104,22 @@ for t=1:1:T-1 %very long
         end
     end
 end
+
+
+% for t=1:1:T-1 %very long
+%     for i=1:N_wh
+%         theta(i,t+1) = (1-h/(C_wh(i)*3600)/R_wh(i))*theta(i,t) + h/(C_wh(i)*3600)/R_wh(i)*theta_a(t)...
+%             + h/(C_wh(i)*3600)*m(i,t)*P_wh(i);
+% 
+%         if theta(i,t+1) > theta_upper_wh(i)
+%             m(i,t+1) = 0;
+%         elseif theta(i,t+1) < theta_lower_wh(i)
+%             m(i,t+1) = 1;
+%         else
+%             m(i,t+1) = m(i,t);
+%         end
+%     end
+% end
 
 
 % initialize the temperature and on/off state of WHs at stead-state

@@ -9,7 +9,7 @@ clear;
 load('virtualBatteryData_org.mat');
 
 %% update virtual battery capacity for CA
-% time interval of temperature data in minures
+% time interval of temperature data in minutes
 allStates = {virtualBatteryData.stateCode};
 state_Idx = find(strcmp(allStates,'CA'));
 deltaT = 60;
