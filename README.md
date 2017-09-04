@@ -30,7 +30,7 @@ VirtualBatteries core load models and data preparation scripts
 	*	Output: updated virtual battery data structure with residential building virtual battery capacities for CA, WA, and OR: 'virtualBatteryData.mat'
 	*	Note: this is probably what needs to be exposed in the OMF to user inputs.
 
-3. update_commercial_CA_update1.m
+3. update_commercial_CA_update1.m (only for commercial buildings, likely not used)
 	*	Update commercial building virtual battery capacities for CA
 	*	Input
 		*	Virtual battery data structure: 'virtualBatteryData.mat'
