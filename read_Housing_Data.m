@@ -4,10 +4,11 @@
 %
 
 function housingData = read_Housing_Data() %function housingData = read_Housing_Data(housingFile)
-load('housingData_all.mat');%load('housingData_all.mat');
+load('housingData_prep.txt');%load('housingData_all.mat');
 
 % the columns that we are interested
 usedColumns = [1,2,3,4,28,244,256];
+% housingData = housingData(1);
 housingData = housingData(:,usedColumns); %#ok<NODEF>
 
 % check data using Los Angeles data
