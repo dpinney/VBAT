@@ -4,12 +4,13 @@
 %
 
 function housingData = read_Housing_Data() %function housingData = read_Housing_Data(housingFile)
-load('housingData_prep.txt');%load('housingData_all.mat');
 
-% the columns that we are interested
+load('housingData_all.mat');
+
 usedColumns = [1,2,3,4,28,244,256];
-% housingData = housingData(1);
-housingData = housingData(:,usedColumns); %#ok<NODEF>
+
+housingData = housingData(:,usedColumns); 
+
 
 % check data using Los Angeles data
 str = 'Los Angeles';
@@ -19,7 +20,7 @@ idx = find(strncmp(housingData.Geography,str,n));
 dataLA = housingData(idx,:); %can this be commented?
 
 % update table header names
-housingData.Properties.VariableNames(4:7) = {'totalHousing', 'detachedHousing',
+housingData.Properties.VariableNames(4:7) = {'totalHousing', 'detachedHousing',...
     'occupiedHousing', 'elecHeatingOccupiedHousing'};
 
 % need to delete couple counties in Alaske to match climate zone
