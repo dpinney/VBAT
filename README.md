@@ -30,7 +30,7 @@ VirtualBatteries core load models and data preparation scripts
 	*	Output: updated virtual battery data structure with residential building virtual battery capacities for CA, WA, and OR: 'virtualBatteryData.mat'
 	*	Note: this is probably what needs to be exposed in the OMF to user inputs.
 
-3. update_commercial_CA_update1.m
+3. update_commercial_CA_update1.m (only for commercial buildings, likely not used)
 	*	Update commercial building virtual battery capacities for CA
 	*	Input
 		*	Virtual battery data structure: 'virtualBatteryData.mat'
@@ -40,3 +40,5 @@ VirtualBatteries core load models and data preparation scripts
 		*	File to map CA counties to CA NCDC observation station indices: '.\temperature_files\CA_county_station_map.csv'
 	*	Output: updated virtual battery data structure with CA commercial building virtual battery capacities: 'virtualBatteryData.mat'
 	*	Note: takes a very long time, over 2 hours to run. Long-running code is some kind of optimization routine.
+# Additional Steps required if using Octave
+1. Run 'read_Housing_Data_Octave.m' at least once in Matlab to initiate variables, then can be used in Octave
