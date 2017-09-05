@@ -1,18 +1,39 @@
 
-
-
-
 if isempty(version('-release'))
     %disp('Using Octave');
     load('housingData_prep.mat');
    
     str = 'Hoonah-Angoon Census Area';
-    k = find(strncmp(housingData.Geography, str,length(str)));
-    housingData(k,:) = [];
+    k = find(strncmp(Geography, str,length(str)));
+    %if k~=
+    Housing_Data(k,[]);
 
+%     
+%     Id(k) = [];
+%     Id2(k) = [];
+%     Geography(k) = [];
+%     totalHousing(k) = [];
+%     detachedHousing(k) = [];
+%     occupiedHousing(k) = [];
+%     elecHeatingOccupiedHousing(k) = [];
+
+    load('housingData_prep.mat');
     str = 'Petersburg Census Area';
-    k = find(strncmp(housingData.Geography, str,length(str)));
-    housingData(k,:) = [];
+    k = find(strncmp(Geography, str,length(str)));
+    Housing_Data(k,[]);
+    save('housingData_prep.mat','Id','Id2','Geography','totalHousing',...
+       'detachedHousing','occupiedHousing','elecHeatingOccupiedHousing','-v7')  
+    
+%     Id(k) = [];
+%     Id2(k) = [];
+%     Geography(k) = [];
+%     totalHousing(k) = [];
+%     detachedHousing(k) = [];
+%     occupiedHousing(k) = [];
+%     elecHeatingOccupiedHousing(k) = [];
+%     
+%     save('housingData_prep.mat','Id','Id2','Geography','totalHousing',...
+%        'detachedHousing','occupiedHousing','elecHeatingOccupiedHousing','-v7')
 else
    load('housingData_all.mat');
    usedColumns = [1,2,3,4,28,244,256];
@@ -36,11 +57,3 @@ else
 end
 
 
-function z = Housing_Data(x,y)
-Id(x,y) = z;
-Id2(x,y) = z;
-Geography(x,y) = z;
-totalHousing(x,y) = z;
-detachedHousing(x,y) = z;
-occupiedHousing(x,y) = z;
-end

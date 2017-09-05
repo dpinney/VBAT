@@ -17,7 +17,7 @@ str = 'Los Angeles';
 n = length(str);
 idx = find(strncmp(housingData.Geography,str,n));
 
-dataLA = housingData(idx,:); %can this be commented?
+%dataLA = housingData(idx,:); %can this be commented?
 
 % update table header names
 housingData.Properties.VariableNames(4:7) = {'totalHousing', 'detachedHousing',...

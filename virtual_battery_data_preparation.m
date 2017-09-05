@@ -26,12 +26,17 @@
 
 % housingFile = '.\housing_county_DP04\ACS_12_5YR_DP04_with_ann.xlsx'; %USELESS
 % housingData = read_Housing_Data(housingFile);
-housingData = read_Housing_Data(); 
+
+%housingData = read_Housing_Data();  %OCTAVE COMMENT
+run('read_Housing_Data_Octave.m')  %OCTAVE UN-COMMENT
+
+
 
 % re-organize the data
-geography = housingData.Geography;
-county = cell(1,length(geography));
-state = cell(1,length(geography)); %pre allocating space
+%geography = housingData.Geography;  %OCTAVE COMMENT
+geography = Geography;             %OCTAVE UN-COMMENT
+county = cell(1,length(geography)); 
+state = cell(1,length(geography));
 
 
 for i = 1:length(geography)
