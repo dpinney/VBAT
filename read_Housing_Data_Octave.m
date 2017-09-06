@@ -53,6 +53,7 @@ else
    occupiedHousing = table2array(occupiedHousing);
    elecHeatingOccupiedHousing = housingData(:,7);          %housingData(:,7)
    elecHeatingOccupiedHousing = table2array(elecHeatingOccupiedHousing);
+   clear housingData;
    save('housingData_prep.mat','Id','Id2','Geography','totalHousing',...
        'detachedHousing','occupiedHousing','elecHeatingOccupiedHousing','-v7')  
 end

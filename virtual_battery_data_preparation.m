@@ -20,21 +20,21 @@
 % 
 %
 
-%Run_time = clock; %starts timer
+clear
 %% read in the housing data and re-organize data into a structure
 % read the data
 
 % housingFile = '.\housing_county_DP04\ACS_12_5YR_DP04_with_ann.xlsx'; %USELESS
 % housingData = read_Housing_Data(housingFile);
 
-housingData = read_Housing_Data();  %OCTAVE COMMENT
-% run('read_Housing_Data_Octave.m')  %OCTAVE UN-COMMENT
+%housingData = read_Housing_Data();  %OCTAVE COMMENT
+run('read_Housing_Data_Octave.m')  %OCTAVE UN-COMMENT
 
 
 
 % re-organize the data
-geography = housingData.Geography;  %OCTAVE COMMENT
-% geography = Geography;             %OCTAVE UN-COMMENT
+%geography = housingData.Geography;  %OCTAVE COMMENT
+geography = Geography;             %OCTAVE UN-COMMENT
 county = cell(1,length(geography)); 
 state = cell(1,length(geography));
 
@@ -53,9 +53,21 @@ uniqueState = unique(state);
 
 %statePostalCodes = readtable('.\climate_zone_files\statePostalCode.xlsx');
 %opening xlsx takes 700ms
-%readtable() not in octave 
-statePostalCodes = readtable('.\climate_zone_files\statePostalCode.txt');
+%readtable() not in octave
 
+% statePostalCodes = readtable('.\climate_zone_files\statePostalCode.txt'); %OCTAVE COMMENT
+
+fileID = fopen('.\climate_zone_files\statePostalCode.txt');       %OCTAVE UN-COMMENT
+m = textscan(fileID,'%s %s','Delimiter',',');                     %OCTAVE UN-COMMENT
+fclose(fileID);                                                   %OCTAVE UN-COMMENT
+
+statePostalCodes(:,1) = m{1,1};
+statePostalCodes(:,2) = m{1,2};
+% statePostalCodes(:,1) = cell2table(m{1,1});                       %OCTAVE UN-COMMENT
+% statePostalCodes(:,2) = cell2table(m{1,2});                       %OCTAVE UN-COMMENT
+statePostalCodes(1,:) = [];                                       %OCTAVE UN-COMMENT
+% statePostalCodes.Properties.VariableNames{'Var1'} = 'PostalCode'; %OCTAVE UN-COMMENT
+% statePostalCodes.Properties.VariableNames{'Var2'} = 'State';      %OCTAVE UN-COMMENT
 
 
 for i = 1:length(uniqueState)
@@ -63,7 +75,9 @@ for i = 1:length(uniqueState)
    idx = find(strcmp(state,currState));  %idx = find(strcmp(state,currState));  
    virtualBatteryData(i).state = strtrim(currState);
    %k = find(strcmp(statePostalCodes.State, currState)); %this like returns i at every iteration
-   virtualBatteryData(i).stateCode = statePostalCodes.PostalCode{i};%virtualBatteryData(i).stateCode = statePostalCodes.PostalCode{k};
+   %virtualBatteryData(i).stateCode = statePostalCodes.PostalCode{i};%virtualBatteryData(i).stateCode = statePostalCodes.PostalCode{k};
+   virtualBatteryData(i).stateCode = statePostalCodes{i,1};
+
    virtualBatteryData(i).nCounty = length(idx);
    counties = county(idx);
    for j = 1:length(counties)
@@ -73,13 +87,22 @@ for i = 1:length(uniqueState)
        end
    end
    
-   virtualBatteryData(i).county = counties;   
-   virtualBatteryData(i).countyId = housingData.Id(idx);
-   virtualBatteryData(i).countId2 = housingData.Id2(idx);
-   virtualBatteryData(i).totalHousing = housingData.totalHousing(idx);
-   virtualBatteryData(i).detachedHousing = housingData.detachedHousing(idx);
-   virtualBatteryData(i).occupiedHousing = housingData.occupiedHousing(idx);
-   virtualBatteryData(i).elecHeatingOccupiedHousing = housingData.elecHeatingOccupiedHousing(idx);   
+   virtualBatteryData(i).county = counties;
+   
+   virtualBatteryData(i).countyId = Id(idx);
+   virtualBatteryData(i).countId2 = Id2(idx);
+   virtualBatteryData(i).totalHousing = totalHousing(idx);
+   virtualBatteryData(i).detachedHousing = detachedHousing(idx);
+   virtualBatteryData(i).occupiedHousing = occupiedHousing(idx);
+   virtualBatteryData(i).elecHeatingOccupiedHousing = elecHeatingOccupiedHousing(idx);  
+   
+   
+%    virtualBatteryData(i).countyId = housingData.Id(idx);   
+%    virtualBatteryData(i).countId2 = housingData.Id2(idx);   
+%    virtualBatteryData(i).totalHousing = housingData.totalHousing(idx);
+%    virtualBatteryData(i).detachedHousing = housingData.detachedHousing(idx);
+%    virtualBatteryData(i).occupiedHousing = housingData.occupiedHousing(idx);
+%    virtualBatteryData(i).elecHeatingOccupiedHousing = housingData.elecHeatingOccupiedHousing(idx);   
 end
 
 

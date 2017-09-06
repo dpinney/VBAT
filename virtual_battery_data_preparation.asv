@@ -27,16 +27,16 @@
 % housingFile = '.\housing_county_DP04\ACS_12_5YR_DP04_with_ann.xlsx'; %USELESS
 % housingData = read_Housing_Data(housingFile);
 
-housingData = read_Housing_Data(); %OCTAVE COMMENT
-%run('read_Housing_Data_Octave.m') %OCTAVE UN-COMMENT
+housingData = read_Housing_Data();  %OCTAVE COMMENT
+% run('read_Housing_Data_Octave.m')  %OCTAVE UN-COMMENT
 
 
 
 % re-organize the data
-geography = housingData.Geography; %OCTAVE COMMENT
-%OCTAVE UN-COMMENT
-county = cell(1,length(geography));
-state = cell(1,length(geography)); %pre allocating space
+geography = housingData.Geography;  %OCTAVE COMMENT
+% geography = Geography;             %OCTAVE UN-COMMENT
+county = cell(1,length(geography)); 
+state = cell(1,length(geography));
 
 
 for i = 1:length(geography)
@@ -53,10 +53,25 @@ uniqueState = unique(state);
 
 %statePostalCodes = readtable('.\climate_zone_files\statePostalCode.xlsx');
 %opening xlsx takes 700ms
-%readtable() not in octave 
-statePostalCodes = readtable('.\climate_zone_files\statePostalCode.txt');
+%readtable() not in octave
+
+% statePostalCodes = readtable('.\climate_zone_files\statePostalCode.txt');
+
+fileID = fopen('.\climate_zone_files\statePostalCode.txt');
+m = textscan(fileID,'%s %s','Delimiter',','); %m = textscan(fileID,'%s %s','Delimiter',',');
+fclose(fileID);
 
 
+% n(1,:) = [];
+% o(1,:) = [];
+% n = cell2table(m{1,1});
+% o = cell2table(m{1,2});
+
+statePostalCodes1(:,1) = cell2table(m{1,1});%n;
+statePostalCodes1(:,2) = cell2table(m{1,2});%o;
+statePostalCodes1(1,:) = [];
+statePostalCodes1.Properties.VariableNames{'Var1'} = 'PostalCode';
+statePostalCodes1.Properties.VariableNames{'Var2'} = 'State';
 
 for i = 1:length(uniqueState)
    currState = uniqueState{i};   
