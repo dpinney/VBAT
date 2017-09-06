@@ -39,6 +39,6 @@ VirtualBatteries core load models and data preparation scripts
 		*	Commercial building floor space for CA counties: '.\commercial_buildings\DS_California_County_Commercial_Space_for_input.xlsx'
 		*	File to map CA counties to CA NCDC observation station indices: '.\temperature_files\CA_county_station_map.csv'
 	*	Output: updated virtual battery data structure with CA commercial building virtual battery capacities: 'virtualBatteryData.mat'
-	*	Note: takes a very long time, over 2 hours to run. Long-running code is some kind of optimization routine.
+	*	Note: takes a very long time, over 24 hours to run. Long-running code is some kind of optimization routine.
 # Additional Steps required if using Octave
 1. Run 'read_Housing_Data_Octave.m' at least once in Matlab to initiate variables, then can be used in Octave
