@@ -27,14 +27,14 @@ clear
 % housingFile = '.\housing_county_DP04\ACS_12_5YR_DP04_with_ann.xlsx'; %USELESS
 % housingData = read_Housing_Data(housingFile);
 
-%housingData = read_Housing_Data();  %OCTAVE COMMENT
-run('read_Housing_Data_Octave.m')  %OCTAVE UN-COMMENT
+housingData = read_Housing_Data();  %OCTAVE COMMENT
+% run('read_Housing_Data_Octave.m')  %OCTAVE UN-COMMENT
 
 
 
 % re-organize the data
-%geography = housingData.Geography;  %OCTAVE COMMENT
-geography = Geography;             %OCTAVE UN-COMMENT
+geography = housingData.Geography;  %OCTAVE COMMENT
+% geography = Geography;             %OCTAVE UN-COMMENT
 county = cell(1,length(geography)); 
 state = cell(1,length(geography));
 
@@ -55,28 +55,28 @@ uniqueState = unique(state);
 %opening xlsx takes 700ms
 %readtable() not in octave
 
-% statePostalCodes = readtable('.\climate_zone_files\statePostalCode.txt'); %OCTAVE COMMENT
+statePostalCodes = readtable('.\climate_zone_files\statePostalCode.txt'); %OCTAVE COMMENT
 
-fileID = fopen('.\climate_zone_files\statePostalCode.txt');       %OCTAVE UN-COMMENT
-m = textscan(fileID,'%s %s','Delimiter',',');                     %OCTAVE UN-COMMENT
-fclose(fileID);                                                   %OCTAVE UN-COMMENT
+% fileID = fopen('.\climate_zone_files\statePostalCode.txt');       %OCTAVE UN-COMMENT
+% m = textscan(fileID,'%s %s','Delimiter',',');                     %OCTAVE UN-COMMENT
+% fclose(fileID);                                                   %OCTAVE UN-COMMENT
 
-statePostalCodes(:,1) = m{1,1};
-statePostalCodes(:,2) = m{1,2};
+% statePostalCodes(:,1) = m{1,1};
+% statePostalCodes(:,2) = m{1,2};
 % statePostalCodes(:,1) = cell2table(m{1,1});                       %OCTAVE UN-COMMENT
 % statePostalCodes(:,2) = cell2table(m{1,2});                       %OCTAVE UN-COMMENT
-statePostalCodes(1,:) = [];                                       %OCTAVE UN-COMMENT
+% statePostalCodes(1,:) = [];                                       %OCTAVE UN-COMMENT
 % statePostalCodes.Properties.VariableNames{'Var1'} = 'PostalCode'; %OCTAVE UN-COMMENT
 % statePostalCodes.Properties.VariableNames{'Var2'} = 'State';      %OCTAVE UN-COMMENT
-
+% clear m fileID;
 
 for i = 1:length(uniqueState)
    currState = uniqueState{i};   
    idx = find(strcmp(state,currState));  %idx = find(strcmp(state,currState));  
    virtualBatteryData(i).state = strtrim(currState);
    %k = find(strcmp(statePostalCodes.State, currState)); %this like returns i at every iteration
-   %virtualBatteryData(i).stateCode = statePostalCodes.PostalCode{i};%virtualBatteryData(i).stateCode = statePostalCodes.PostalCode{k};
-   virtualBatteryData(i).stateCode = statePostalCodes{i,1};
+   virtualBatteryData(i).stateCode = statePostalCodes.PostalCode{i};%virtualBatteryData(i).stateCode = statePostalCodes.PostalCode{k};
+%    virtualBatteryData(i).stateCode = statePostalCodes{i,1};
 
    virtualBatteryData(i).nCounty = length(idx);
    counties = county(idx);
@@ -88,45 +88,76 @@ for i = 1:length(uniqueState)
    end
    
    virtualBatteryData(i).county = counties;
+   virtualBatteryData(i).countyId = housingData.Id(idx);   
+   virtualBatteryData(i).countId2 = housingData.Id2(idx);   
+   virtualBatteryData(i).totalHousing = housingData.totalHousing(idx);
+   virtualBatteryData(i).detachedHousing = housingData.detachedHousing(idx);
+   virtualBatteryData(i).occupiedHousing = housingData.occupiedHousing(idx);
+   virtualBatteryData(i).elecHeatingOccupiedHousing = housingData.elecHeatingOccupiedHousing(idx);   
+
    
-   virtualBatteryData(i).countyId = Id(idx);
-   virtualBatteryData(i).countId2 = Id2(idx);
-   virtualBatteryData(i).totalHousing = totalHousing(idx);
-   virtualBatteryData(i).detachedHousing = detachedHousing(idx);
-   virtualBatteryData(i).occupiedHousing = occupiedHousing(idx);
-   virtualBatteryData(i).elecHeatingOccupiedHousing = elecHeatingOccupiedHousing(idx);  
+%    virtualBatteryData(i).countyId = Id(idx);
+%    virtualBatteryData(i).countId2 = Id2(idx);
+%    virtualBatteryData(i).totalHousing = totalHousing(idx);
+%    virtualBatteryData(i).detachedHousing = detachedHousing(idx);
+%    virtualBatteryData(i).occupiedHousing = occupiedHousing(idx);
+%    virtualBatteryData(i).elecHeatingOccupiedHousing = elecHeatingOccupiedHousing(idx);  
    
-   
-%    virtualBatteryData(i).countyId = housingData.Id(idx);   
-%    virtualBatteryData(i).countId2 = housingData.Id2(idx);   
-%    virtualBatteryData(i).totalHousing = housingData.totalHousing(idx);
-%    virtualBatteryData(i).detachedHousing = housingData.detachedHousing(idx);
-%    virtualBatteryData(i).occupiedHousing = housingData.occupiedHousing(idx);
-%    virtualBatteryData(i).elecHeatingOccupiedHousing = housingData.elecHeatingOccupiedHousing(idx);   
 end
 
 
 %% get IECC climate zone index for each county
-climateZones = readtable('.\climate_zone_files\climate_zones.txt');
-%climateZones = readtable('.\climate_zone_files\climate_zones.xlsx');
-climateZones = sortrows(climateZones,[1,2]);
+
+climateZones = readtable('.\climate_zone_files\climate_zones.txt'); %OCTAVE COMMENT
+
+% fileID = fopen('.\climate_zone_files\climate_zones.txt');       %OCTAVE UN-COMMENT
+% m = textscan(fileID,'%s %s %s %s %s','Delimiter',',');                   %OCTAVE UN-COMMENT
+% fclose(fileID);                                                 %OCTAVE UN-COMMENT
+% 
+% climateZones1(:,1) = m(:,1); %State
+% climateZones1(:,2) = m(:,2); %County
+% climateZones1(:,3) = m(:,3); %BAClimateZone
+% climateZones1(:,4) = m(:,4); %IECCClimateZone
+% climateZones1(:,5) = m(:,5); %IECCMoistureRegime
+
+
+
+% climateZones1 = table(m{1,1},m{1,2},m{1,3},m{1,4},m{1,5});
+% climateZones1.Properties.VariableNames{'Var1'} = 'State';
+% climateZones1.Properties.VariableNames{'Var2'} = 'County';
+% climateZones1.Properties.VariableNames{'Var3'} = 'BAClimateZone';
+% climateZones1.Properties.VariableNames{'Var4'} = 'IECCClimateZone';
+% climateZones1.Properties.VariableNames{'Var5'} = 'IECCMoistureRegime';
+% climateZones1(1,:)=[];
+
+%climateZones = readtable('.\climate_zone_files\climate_zones.xlsx');   %OCTAVE COMMENT
+climateZones = sortrows(climateZones,[1,2]);                          %OCTAVE COMMENT
+% climateZones1 = sortrows(climateZones1,[1,2]);
 
 % need to delete Alexandria (city) to match housing data
 str = 'Clifton Forge (city)';
-k = find(strncmp(climateZones.County, str,length(str)));
-climateZones(k,:) = [];
+k = find(strncmp(climateZones.County, str,length(str)));  %OCTAVE COMMENT
+% k = find(strncmp(climateZones1(:,2), str,length(str)));    %OCTAVE UN-COMMENT
+% climateZones1(k,:) = [];
 
 for i = 1:length(virtualBatteryData)
     stateCounties = virtualBatteryData(i).county;
     currCode = virtualBatteryData(i).stateCode;
+%     k = find(strcmp(climateZones1(:,1),currCode));
+    
     k = find(strcmp(climateZones.State,currCode));
     
     if(length(k) ~= length(stateCounties))
         debug = 1;
     end
+%     virtualBatteryData(i).IECCClimateZone = climateZones1(k,4);
+%     virtualBatteryData(i).BAClimateZone = climateZones1(k,3);
+%     virtualBatteryData(i).IECCMoistureRegime = climateZones1(k,5);    
+    
+    
     virtualBatteryData(i).IECCClimateZone = climateZones.IECCClimateZone(k);
     virtualBatteryData(i).BAClimateZone = climateZones.BAClimateZone(k);
-    virtualBatteryData(i).IECCMoistureRegime = climateZones.IECCMoistureRegime(k);    
+    virtualBatteryData(i).IECCMoistureRegime = climateZones.IECCMoistureRegime(k);   
 end
 
 

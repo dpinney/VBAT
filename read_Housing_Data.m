@@ -7,6 +7,14 @@ function housingData = read_Housing_Data() %function housingData = read_Housing_
 
 load('housingData_all.mat');
 
+if isempty(version('-release'))
+    load('housingData_prep.mat');
+    housingData = table(Id,Id2,Geography,totalHousing,detachedHousing,...
+        occupiedHousing,elecHeatingOccupiedHousing);
+else
+    load('housingData_all.mat');  
+end
+
 usedColumns = [1,2,3,4,28,244,256];
 
 housingData = housingData(:,usedColumns); 
