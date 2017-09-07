@@ -68,17 +68,17 @@ for i = 1:nCounty
     % update water heater results with He Hao's new model
     refHousing = 500; % get capacities for 500 houses and then scale up
     scaleFactor = nHousing/refHousing;
-    [minPCap_WH, maxPCap_WH, ECap_WH] = estimate_Capacity_core_update2_WH(refHousing, saturationRate);
-    minPCap_WH = minPCap_WH*scaleFactor;
-    maxPCap_WH = maxPCap_WH*scaleFactor;
-    ECap_WH = ECap_WH*scaleFactor;
+%     [minPCap_WH, maxPCap_WH, ECap_WH] = estimate_Capacity_core_update2_WH(refHousing, saturationRate);
+%     minPCap_WH = minPCap_WH*scaleFactor;
+%     maxPCap_WH = maxPCap_WH*scaleFactor;
+%     ECap_WH = ECap_WH*scaleFactor;
     % extract data from output minute data
     usedMinutes = 0:deltaT:1440;
     usedMinutes = usedMinutes+1;
     idx = usedMinutes(1:end-1);
-    minPCap.wh = minPCap_WH(idx,:);
-    maxPCap.wh = maxPCap_WH(idx,:);
-    ECap.wh = ECap_WH(idx,:);
+%     minPCap.wh = minPCap_WH(idx,:);
+%     maxPCap.wh = maxPCap_WH(idx,:);
+%     ECap.wh = ECap_WH(idx,:);
     
     % set NaN to 0 for now for ac and hp, which were due to the lack of temperature measurements
     nanIdx = find(isnan(ECap.ac));

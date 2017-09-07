@@ -52,15 +52,15 @@ for i = 1:nTemperature
         
     % update water heater results with He Hao's new model
     
-    [minPCap_WH, maxPCap_WH, ECap_WH] = estimate_Capacity_core_update2_WH(nHousing, saturationRate); %takes 1m43s
+%     [minPCap_WH, maxPCap_WH, ECap_WH] = estimate_Capacity_core_update2_WH(nHousing, saturationRate); %takes 1m43s
     
     % extract data from output minute data
     usedMinutes = 0:deltaT:1440;
     usedMinutes = usedMinutes+1;
     idx = usedMinutes(1:end-1);
-    minPCap.wh = minPCap_WH(idx,:);
-    maxPCap.wh = maxPCap_WH(idx,:);
-    ECap.wh = ECap_WH(idx,:);
+%     minPCap.wh = minPCap_WH(idx,:);
+%     maxPCap.wh = maxPCap_WH(idx,:);
+%     ECap.wh = ECap_WH(idx,:);
 
     % set NaN to 0 for now for ac and hp, which were due to the lack of temperature measurements
     nanIdx = find(isnan(ECap.ac));
