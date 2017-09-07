@@ -1,4 +1,5 @@
-# VBAT
+# VBAT Overview
+
 VirtualBatteries core load models and data preparation scripts.
 
 # Requirements and Installation
