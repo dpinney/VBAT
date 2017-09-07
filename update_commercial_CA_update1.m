@@ -1,5 +1,17 @@
 %%
 % 07/10/17 added codes to calculate the hourly capacities
+% Update commercial building virtual battery capacities for CA
+% 
+% Input: 
+%   * Virtual battery data structure: 'virtualBatteryData.mat'
+%   * CA NCDC observation station names and counties they are located: '.\temperature_files\NCDC_obs_locations_county_CA.csv'
+%   * Daily virtual battery capacities from simulation for counties that NCDC observation station are located: '.\SEB_CA_county_daily_temperature\';
+%   * Commercial building floor space for CA counties: '.\commercial_buildings\DS_California_County_Commercial_Space_for_input.xlsx'
+%   * File to map CA counties to CA NCDC observation station indices: '.\temperature_files\CA_county_station_map.csv'
+%
+% Output: updated virtual battery data structure with CA commercial building virtual battery capacities: 'virtualBatteryData.mat'
+%
+% Note: takes a very long time, over 24 hours to run. Long-running code is some kind of optimization routine.
 
 clear;
 clc

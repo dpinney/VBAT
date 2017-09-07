@@ -1,6 +1,12 @@
 %
 % 1/24/2017 updated to get 10-minute capacities for residential buildings
-%
+% Update virtual battery capacity for CA, WA, and OR
+% Input: 'virtualBatteryData_org.mat'
+% Functions called: 
+%   * updateVB_capacity_Temperrature_data() to update virtual battery capacities for CA
+%	* updateVB_capacity_State() to update virtual battery capacities for WA and OR
+% Output: updated virtual battery data structure with residential building virtual battery capacities for CA,% WA, and OR: 'virtualBatteryData.mat'
+% Note: this is probably what needs to be exposed in the OMF to user inputs.
 
 clc;
 clear;
