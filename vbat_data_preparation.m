@@ -25,10 +25,9 @@ clear
 % read the data
 
 % housingFile = '.\housing_county_DP04\ACS_12_5YR_DP04_with_ann.xlsx'; %USELESS
-% housingData = read_Housing_Data(housingFile);
+% housingData = vbat_read_housing_data(housingFile);
 
-housingData = read_Housing_Data();  %OCTAVE COMMENT
-% run('read_Housing_Data_Octave.m')  %OCTAVE UN-COMMENT
+housingData = vbat_read_housing_data();
 
 
 

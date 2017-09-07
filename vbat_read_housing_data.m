@@ -3,7 +3,7 @@
 %
 %
 
-function housingData = read_Housing_Data() %function housingData = read_Housing_Data(housingFile)
+function housingData = vbat_read_housing_data() %function housingData = vbat_read_housing_data(housingFile)
 
 load('housingData_all.mat');
 
