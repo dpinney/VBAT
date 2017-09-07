@@ -197,7 +197,7 @@ tempFile = '.\temperature_files\Oregon_zone_5_Temperature.csv';
 virtualBatteryData = updateTemperature_NCDC(virtualBatteryData, tempFile, 'Oregon', 5);
 
 %% load saturation rates
-saturationRateFile = '.\saturation_rate.csv';
+saturationRateFile = '.\other_inputs\saturation_rate.csv';
 virtualBatteryData = update_saturation_rate(virtualBatteryData, saturationRateFile);
 
 %% save the data

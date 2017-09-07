@@ -18,7 +18,7 @@ VirtualBatteries core load models and data preparation scripts
 		*	Temperature data for OR
 			*	Climate Zone #4: '.\temperature_files\Oregon_zone_4_Temperature.csv'
 			*	Climate Zone #5: '.\temperature_files\Oregon_zone_5_Temperature.csv'
-		*	Saturation rate data for CA, WA, and OR: '.\saturation_rate.csv'
+		*	Saturation rate data for CA, WA, and OR: '.\other_inputs\saturation_rate.csv'
 	*	Output: 'virtualBatteryData_org.mat'
 
 2. updateVB_capacity.m
