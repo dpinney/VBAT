@@ -5,14 +5,14 @@
 
 function housingData = vbat_read_housing_data() %function housingData = vbat_read_housing_data(housingFile)
 
-load('housingData_all.mat');
+load('virtualBattery_intermediate_housing_data.mat');
 
 if isempty(version('-release'))
     load('housingData_prep.mat');
     housingData = table(Id,Id2,Geography,totalHousing,detachedHousing,...
         occupiedHousing,elecHeatingOccupiedHousing);
 else
-    load('housingData_all.mat');  
+    load('virtualBattery_intermediate_housing_data.mat');  
 end
 
 usedColumns = [1,2,3,4,28,244,256];

@@ -15,7 +15,7 @@
 % Saturation rate for each state
 %
 % Output: 
-%   'virtualBatteryData_org.mat': a structure list with each US State as an structure element
+%   'virtualBattery_intermediate_output.mat': a structure list with each US State as an structure element
 %
 % 
 %
@@ -200,6 +200,6 @@ saturationRateFile = '.\other_inputs\saturation_rate.csv';
 virtualBatteryData = update_saturation_rate(virtualBatteryData, saturationRateFile);
 
 %% save the data
-save('virtualBatteryData_org.mat','virtualBatteryData');
+save('virtualBattery_intermediate_output.mat','virtualBatteryData');
 %Run_time = seconds(clock) - seconds(Run_time);Run_time = Run_time(6) %ends timer
 %seconds not octave supported, easily implementable ie convert = [0;0;60*60*24;60*60;60;1]

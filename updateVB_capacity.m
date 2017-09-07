@@ -1,7 +1,7 @@
 %
 % 1/24/2017 updated to get 10-minute capacities for residential buildings
 % Update virtual battery capacity for CA, WA, and OR
-% Input: 'virtualBatteryData_org.mat'
+% Input: 'virtualBattery_intermediate_output.mat'
 % Functions called: 
 %   * updateVB_capacity_Temperrature_data() to update virtual battery capacities for CA
 %	* updateVB_capacity_State() to update virtual battery capacities for WA and OR
@@ -12,7 +12,7 @@ clc;
 clear;
 
 %% load data set
-load('virtualBatteryData_org.mat');
+load('virtualBattery_intermediate_output.mat');
 
 %% update virtual battery capacity for CA
 % time interval of temperature data in minutes
