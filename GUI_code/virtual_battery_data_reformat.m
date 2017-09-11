@@ -5,15 +5,7 @@ ac = struct('minPData',-virtualBatteryData(5).cap_60_minute.minPCapTotal.ac(:)/1
     'minEData',-virtualBatteryData(5).cap_60_minute.minECapTotal.ac(:)/1e6,...
     'maxEData',-virtualBatteryData(5).cap_60_minute.maxECapTotal.ac(:)/1e6);
 
-% ac = struct2cell(ac);
-
 ac = struct2array(ac);
-% ac = num2str(ac);
-
-
-% ac1 = ones(8761,4);
-% ac1(2:8761,:) = ac;
-% ac1(1,:) = ('p','P','e','E');
 
 hp = struct('minPData',-virtualBatteryData(5).cap_60_minute.minPCapTotal.hp(:)/1e6,...
     'maxPData',-virtualBatteryData(5).cap_60_minute.maxPCapTotal.hp(:)/1e6,...
@@ -21,7 +13,6 @@ hp = struct('minPData',-virtualBatteryData(5).cap_60_minute.minPCapTotal.hp(:)/1
     'maxEData',-virtualBatteryData(5).cap_60_minute.maxECapTotal.hp(:)/1e6);
 
 hp = struct2array(hp);
-% hp = num2str(hp);
 
 office = struct('minPData',-virtualBatteryData(5).cap_60_minute.minPCapTotal.office(:)/1e6,...
     'maxPData',-virtualBatteryData(5).cap_60_minute.maxPCapTotal.office(:)/1e6,...
@@ -29,7 +20,6 @@ office = struct('minPData',-virtualBatteryData(5).cap_60_minute.minPCapTotal.off
     'maxEData',-virtualBatteryData(5).cap_60_minute.maxECapTotal.office(:)/1e6);
 
 office = struct2array(office);
-% office = num2str(office);
 
 rg = struct('minPData',-virtualBatteryData(5).cap_60_minute.minPCapTotal.rg(:)/1e6,...
     'maxPData',-virtualBatteryData(5).cap_60_minute.maxPCapTotal.rg(:)/1e6,...
@@ -37,7 +27,6 @@ rg = struct('minPData',-virtualBatteryData(5).cap_60_minute.minPCapTotal.rg(:)/1
     'maxEData',-virtualBatteryData(5).cap_60_minute.maxECapTotal.rg(:)/1e6);
 
 rg = struct2array(rg);
-% rg = num2str(rg);
 
 wh = struct('minPData',-virtualBatteryData(5).cap_60_minute.minPCapTotal.wh(:)/1e6,...
     'maxPData',-virtualBatteryData(5).cap_60_minute.maxPCapTotal.wh(:)/1e6,...
@@ -45,19 +34,11 @@ wh = struct('minPData',-virtualBatteryData(5).cap_60_minute.minPCapTotal.wh(:)/1
     'maxEData',-virtualBatteryData(5).cap_60_minute.maxECapTotal.wh(:)/1e6);
 
 wh = struct2array(wh);
-% wh = num2str(wh);
 
 California = struct('ac',ac,'hp',hp,'office',office,'rg',rg,'wh',wh);
 
 save('virtualBatteryDataReformat.mat','California')
 
-California = struct2cell(California);
-
-% x = string({'AC:minPData','AC:maxPData','AC:minEData','AC:maxEData'});
-% x = {'AC:minPData','AC:maxPData','AC:minEData','AC:maxEData'};
-% x = ['AC:minPData';'AC:maxPData';'AC:minEData';'AC:maxEData'];
-
-% fileID = fopen('virtualBatteryDataReformat.txt','w');
 fileID = fopen('virtualBatteryDataReformat.csv','w');
 
 fprintf(fileID,'%s\n','AC');
@@ -88,6 +69,5 @@ fprintf(fileID,'%f, %f, %f, %f,\n',wh);
 fclose(fileID);
 
 % csvwrite('virtualBatteryDataReformat.csv',California)
-
 % csvwrite('virtualBatteryDataReformat.csv',California,1,0)
 % dlmwrite('virtualBatteryDataReformat.csv',California,'-append')%,1,0)
