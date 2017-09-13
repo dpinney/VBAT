@@ -27,10 +27,10 @@ location_struct = struct('ACminPData',-virtualBatteryData(x).cap_60_minute.minPC
     'HPmaxPData',-virtualBatteryData(x).cap_60_minute.maxPCapTotal.hp(:)/1e6,...  %HP
     'HPminEData',-virtualBatteryData(x).cap_60_minute.minECapTotal.hp(:)/1e6,...  %HP
     'HPmaxEData',-virtualBatteryData(x).cap_60_minute.maxECapTotal.hp(:)/1e6,...  %HP
-    'OFFICEminPData',-virtualBatteryData(x).cap_60_minute.minPCapTotal.office(:)/1e6,...  %OFFICE
-    'OFFICEmaxPData',-virtualBatteryData(x).cap_60_minute.maxPCapTotal.office(:)/1e6,...  %OFFICE
-    'OFFICEminEData',-virtualBatteryData(x).cap_60_minute.minECapTotal.office(:)/1e6,...  %OFFICE
-    'OFFICEmaxEData',-virtualBatteryData(x).cap_60_minute.maxECapTotal.office(:)/1e6,...  %OFFICE
+	'OFFICEminPData',-virtualBatteryData(x).cap_60_minute.minPCapTotal.office(:)/1e6,...
+    'OFFICEmaxPData',-virtualBatteryData(x).cap_60_minute.maxPCapTotal.office(:)/1e6,...
+    'OFFICEminEData',-virtualBatteryData(x).cap_60_minute.minECapTotal.office(:)/1e6,...
+    'OFFICEmaxEData',-virtualBatteryData(x).cap_60_minute.maxECapTotal.office(:)/1e6,...
     'RGminPData',-virtualBatteryData(x).cap_60_minute.minPCapTotal.rg(:)/1e6,...  %RG
     'RGmaxPData',-virtualBatteryData(x).cap_60_minute.maxPCapTotal.rg(:)/1e6,...  %RG
     'RGminEData',-virtualBatteryData(x).cap_60_minute.minECapTotal.rg(:)/1e6,...  %RG
