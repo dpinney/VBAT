@@ -1,3 +1,15 @@
+%%%%
+% Export all virtualBatteryData.mat to csv
+% First Row gives device name for the 4 columns (including the one with the
+% device name
+% Column 1: minPCapTotal
+% Column 2: maxPCapTotal
+% Column 3: minECapTotal
+% Column 4: maxECapTotal
+%%%%
+
+
+
 load('virtualBatteryData.mat')
 
 ac = struct('minPData',-virtualBatteryData(5).cap_60_minute.minPCapTotal.ac(:)/1e6,...
