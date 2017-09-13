@@ -10,36 +10,43 @@
 % Column 20: maxECapTotal
 %%%%
 
-% function 
+function virtual_battery_data_reformat(location_name)
 
 load('virtualBatteryData.mat')
 
-California_Struct = struct('ACminPData',-virtualBatteryData(5).cap_60_minute.minPCapTotal.ac(:)/1e6,...  %AC 
-    'ACmaxPData',-virtualBatteryData(5).cap_60_minute.maxPCapTotal.ac(:)/1e6,...  %AC 
-    'ACminEData',-virtualBatteryData(5).cap_60_minute.minECapTotal.ac(:)/1e6,...  %AC
-    'ACmaxEData',-virtualBatteryData(5).cap_60_minute.maxECapTotal.ac(:)/1e6,...  %AC 
-    'HPminPData',-virtualBatteryData(5).cap_60_minute.minPCapTotal.hp(:)/1e6,...  %HP
-    'HPmaxPData',-virtualBatteryData(5).cap_60_minute.maxPCapTotal.hp(:)/1e6,...  %HP
-    'HPminEData',-virtualBatteryData(5).cap_60_minute.minECapTotal.hp(:)/1e6,...  %HP
-    'HPmaxEData',-virtualBatteryData(5).cap_60_minute.maxECapTotal.hp(:)/1e6,...  %HP
-    'OFFICEminPData',-virtualBatteryData(5).cap_60_minute.minPCapTotal.office(:)/1e6,...  %OFFICE
-    'OFFICEmaxPData',-virtualBatteryData(5).cap_60_minute.maxPCapTotal.office(:)/1e6,...  %OFFICE
-    'OFFICEminEData',-virtualBatteryData(5).cap_60_minute.minECapTotal.office(:)/1e6,...  %OFFICE
-    'OFFICEmaxEData',-virtualBatteryData(5).cap_60_minute.maxECapTotal.office(:)/1e6,...  %OFFICE
-    'RGminPData',-virtualBatteryData(5).cap_60_minute.minPCapTotal.rg(:)/1e6,...  %RG
-    'RGmaxPData',-virtualBatteryData(5).cap_60_minute.maxPCapTotal.rg(:)/1e6,...  %RG
-    'RGminEData',-virtualBatteryData(5).cap_60_minute.minECapTotal.rg(:)/1e6,...  %RG
-    'RGmaxEData',-virtualBatteryData(5).cap_60_minute.maxECapTotal.rg(:)/1e6,...  %RG
-    'WHminPData',-virtualBatteryData(5).cap_60_minute.minPCapTotal.wh(:)/1e6,...  %WH
-    'WHmaxPData',-virtualBatteryData(5).cap_60_minute.maxPCapTotal.wh(:)/1e6,...  %WH
-    'WHminEData',-virtualBatteryData(5).cap_60_minute.minECapTotal.wh(:)/1e6,...  %WH
-    'WHmaxEData',-virtualBatteryData(5).cap_60_minute.maxECapTotal.wh(:)/1e6);    %WH
+for i=1:51
+    if strcmp(location_name,virtualBatteryData(i).state)
+        x = i;
+    end
+end
+location_struct = struct('ACminPData',-virtualBatteryData(x).cap_60_minute.minPCapTotal.ac(:)/1e6,...  %AC 
+    'ACmaxPData',-virtualBatteryData(x).cap_60_minute.maxPCapTotal.ac(:)/1e6,...  %AC 
+    'ACminEData',-virtualBatteryData(x).cap_60_minute.minECapTotal.ac(:)/1e6,...  %AC
+    'ACmaxEData',-virtualBatteryData(x).cap_60_minute.maxECapTotal.ac(:)/1e6,...  %AC 
+    'HPminPData',-virtualBatteryData(x).cap_60_minute.minPCapTotal.hp(:)/1e6,...  %HP
+    'HPmaxPData',-virtualBatteryData(x).cap_60_minute.maxPCapTotal.hp(:)/1e6,...  %HP
+    'HPminEData',-virtualBatteryData(x).cap_60_minute.minECapTotal.hp(:)/1e6,...  %HP
+    'HPmaxEData',-virtualBatteryData(x).cap_60_minute.maxECapTotal.hp(:)/1e6,...  %HP
+    'OFFICEminPData',-virtualBatteryData(x).cap_60_minute.minPCapTotal.office(:)/1e6,...  %OFFICE
+    'OFFICEmaxPData',-virtualBatteryData(x).cap_60_minute.maxPCapTotal.office(:)/1e6,...  %OFFICE
+    'OFFICEminEData',-virtualBatteryData(x).cap_60_minute.minECapTotal.office(:)/1e6,...  %OFFICE
+    'OFFICEmaxEData',-virtualBatteryData(x).cap_60_minute.maxECapTotal.office(:)/1e6,...  %OFFICE
+    'RGminPData',-virtualBatteryData(x).cap_60_minute.minPCapTotal.rg(:)/1e6,...  %RG
+    'RGmaxPData',-virtualBatteryData(x).cap_60_minute.maxPCapTotal.rg(:)/1e6,...  %RG
+    'RGminEData',-virtualBatteryData(x).cap_60_minute.minECapTotal.rg(:)/1e6,...  %RG
+    'RGmaxEData',-virtualBatteryData(x).cap_60_minute.maxECapTotal.rg(:)/1e6,...  %RG
+    'WHminPData',-virtualBatteryData(x).cap_60_minute.minPCapTotal.wh(:)/1e6,...  %WH
+    'WHmaxPData',-virtualBatteryData(x).cap_60_minute.maxPCapTotal.wh(:)/1e6,...  %WH
+    'WHminEData',-virtualBatteryData(x).cap_60_minute.minECapTotal.wh(:)/1e6,...  %WH
+    'WHmaxEData',-virtualBatteryData(x).cap_60_minute.maxECapTotal.wh(:)/1e6);    %WH
 
-California = struct2array(California_Struct);
+location = struct2array(location_struct);
 
-save('virtual_battery_data_reformat.mat','California_Struct');
+mat_name = [location_name,'_data_reformat.mat'];
+save(mat_name,'location_struct');
 
-fileID = fopen('virtual_battery_data_reformat.csv','w');
+csv_name = [location_name, '_data_reformat.csv'];
+fileID = fopen(csv_name,'w');
 
 fprintf(fileID,'%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,\n',...
     'AC','','','','HP','','','','OFFICE','','','','RG','','','','WH','','','');
@@ -49,6 +56,6 @@ fprintf(fileID,'%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,\n',
     'minPCapTotal','maxPCapTotal','minECapTotal','maxECapTotal',...
     'minPCapTotal','maxPCapTotal','minECapTotal','maxECapTotal',...
     'minPCapTotal','maxPCapTotal','minECapTotal','maxECapTotal');
-fprintf(fileID,'%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,\n',California);
+fprintf(fileID,'%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,%f,\n',location);
 
 fclose(fileID);
