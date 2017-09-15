@@ -97,17 +97,18 @@ if county_id == 9000
     csv_name = [state_name,'_data_reformat.csv'];
     fileID = fopen(csv_name,'w');
     
-    data_spaces = [repmat('%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,',1,(n_county+1)), '\n'];
+    data_spaces1 = repmat('%s,',1,(n_county+1)*20);
+    data_spaces2 = ['\n',repmat('%s,',1,(n_county+1)*20) ];
     column_names = ['minPCapTotal,','maxPCapTotal,','minECapTotal,','maxECapTotal,'];
     column_names = [repmat(column_names,1,((5*(n_county+1))-1)),'minPCapTotal,','maxPCapTotal,','minECapTotal,','maxECapTotal'];  
 %     column_names = repmat(column_names,1,5*(n_county+1));
     device_names = ['AC,',',',',',',','HP,',',',',',',','OFFICE,',',',',',',','RG,',',',',',',','WH,',',',',',','];
     device_names = [repmat(device_names,1,n_county),'AC,',',',',',',','HP,',',',',',',','OFFICE,',',',',',',','RG,',',',',',',','WH,',',',','];
 %     device_names = repmat(device_names,1,n_county+1);
-    variable_spaces = [repmat('%f,',1,(n_county+1)*20), '\n'];
+    variable_spaces = ['\n',repmat('%f,',1,(n_county+1)*20)];
     
-    fprintf(fileID,data_spaces,device_names);
-    fprintf(fileID,data_spaces,column_names);
+    fprintf(fileID,data_spaces1,device_names);
+    fprintf(fileID,data_spaces2,column_names);
     fprintf(fileID,variable_spaces,state);
     
     fclose(fileID);
