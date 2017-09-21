@@ -38,20 +38,28 @@ for i = 1:length(P_upper)
     fprintf(fid, '%f, %f, %f, %f\n', P_upper(i), -P_lower(i), E_UL(i), -E_UL(i));    
 end
 
-%% plot 
+%% plot
+dates = datetime(2017,1,1,0,0,0):hours(1):datetime(2017,12,31,23,0,0);
 figure
 subplot(2,1,1)
-plot(P_upper)
+% plot(P_upper)
+plot(dates,P_upper)
 hold on
-plot(-P_lower,'r')
-plot(zeros(length(P_upper),1),'k--')
+% plot(-P_lower,'r')
+plot(dates,-P_lower,'r')
+% plot(zeros(length(P_upper),1),'k--')
+plot(dates,zeros(length(P_upper),1),'k--')
 ylabel('Power (kW)')
 xlabel('Time (timestep)')
 subplot(2,1,2)
-plot(E_UL)
+% plot(E_UL)
+plot(dates,E_UL)
+
 hold on
-plot(-E_UL,'r')
-plot(zeros(length(E_UL),1),'k--')
+% plot(-E_UL,'r')
+plot(dates,-E_UL,'r')
+% plot(zeros(length(E_UL),1),'k--')
+plot(dates,zeros(length(E_UL),1),'k--')
 ylabel('Energy (kWh)')
 xlabel('Time (timestep)')
 

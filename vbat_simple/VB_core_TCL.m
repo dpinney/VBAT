@@ -45,6 +45,3 @@ P_upper=max(P_upper,0); % set negative power upper bound to 0
 E_UL = N*participation*mean(C)*mean(delta)/2/mean(eta);
 
 end
-
-
-
