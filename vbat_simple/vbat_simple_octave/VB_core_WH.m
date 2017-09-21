@@ -37,12 +37,16 @@ for i = 1:N_wh
     k = unidrnd(size(m_water,2));
     water_draw(:,i) = circshift(m_water(:, k), [1, unidrnd(15)-15]) + m_water(:, k)*0.1*(rand-0.5);
 end
-Po = zeros(T, N_wh);
-for t = 1:T
-    for i = 1:N_wh
-        Po(t, i) = -(theta_a(t)-theta_s_wh(i))/R_wh(i) - 4.2*water_draw(t, i)*((55-32)*5/9 - theta_s_wh(i));
-    end
-end
+% Po = zeros(T, N_wh);
+Po = -(repmat(theta_a,1,N_wh)-repmat(theta_s_wh',T,1))./repmat((R_wh'),T,1) - 4.2*water_draw.*((55-32).*5/9 - repmat(theta_s_wh',T,1));
+% for t = 1:T
+%     for i = 1:N_wh
+%         Po(t, i) = -(theta_a(t)-theta_s_wh(i))/R_wh(i) - 4.2*water_draw(t, i)*((55-32)*5/9 - theta_s_wh(i));
+% %         Po(t, i) = -(theta_a(t)-theta_s_wh(i))/R_wh(i);
+% %         Po(t,i) = - 4.2*water_draw(t, i)*((55-32)*5/9 - theta_s_wh(i));
+% %         Po(t,i) =  - 4.2*water_draw(t, i)*((55-32)*5/9 - theta_s_wh(i));
+%     end
+% end
 
 % Po_total is the analytically predicted aggregate baseline power
 Po_total = sum(Po,2);
@@ -57,11 +61,30 @@ theta(:,1) = theta_s_wh;
 m = ones(N_wh,T);
 m(1:N_wh*0.8,1) = 0;
 
+theta1 = theta_s_wh;
+
+for t=1:1:T-1
+    theta1(:,t+1) = (1-h./(C_wh(:).*3600)./R_wh(:)).*theta1(:,t)+ h./(C_wh(:).*3600)./R_wh(:).*theta_a(t);
+    
+    for i=1:N_wh
+        theta1(i,t+1) = theta1(i,t+1) + h./(C_wh(i).*3600).*m(i,t).*P_wh(i);
+        if theta(i,t+1) > theta_upper_wh(i)
+            m(i,t+1) = 0;
+        elseif theta(i,t+1) < theta_lower_wh(i)
+            m(i,t+1) = 1;
+        else
+            m(i,t+1) = m(i,t);
+        end
+    end
+end
 
 for t=1:1:T-1
     for i=1:N_wh
+%         theta(i,t+1) = (1-h/(C_wh(i)*3600)/R_wh(i))*theta(i,t) + h/(C_wh(i)*3600)/R_wh(i)*theta_a(t)...
+%             + h/(C_wh(i)*3600)*m(i,t)*P_wh(i) ;
         theta(i,t+1) = (1-h/(C_wh(i)*3600)/R_wh(i))*theta(i,t) + h/(C_wh(i)*3600)/R_wh(i)*theta_a(t)...
             + h/(C_wh(i)*3600)*m(i,t)*P_wh(i) ;
+        
         if theta(i,t+1) > theta_upper_wh(i)
             m(i,t+1) = 0;
         elseif theta(i,t+1) < theta_lower_wh(i)
