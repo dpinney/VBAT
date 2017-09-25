@@ -38,6 +38,8 @@ for i = 1:N_wh
     water_draw(:,i) = circshift(m_water(:, k), [1, unidrnd(15)-15]) + m_water(:, k)*0.1*(rand-0.5);
 end
 
+
+
 Po = -(repmat(theta_a,1,N_wh)-repmat(theta_s_wh',T,1))./repmat((R_wh'),T,1) - 4.2*water_draw.*((55-32).*5/9 - repmat(theta_s_wh',T,1));
 
 % Po_total is the analytically predicted aggregate baseline power
@@ -54,7 +56,7 @@ m = ones(N_wh,T);
 m(1:N_wh*0.8,1) = 0;
 
 theta1 = theta;
-
+start1 = clock;
 for t=1:1:T-1
     theta1(:,t+1) = (1-h./(C_wh(:).*3600)./R_wh(:)).*theta1(:,t)...
         + h./(C_wh(:).*3600)./R_wh(:).*theta_a(t);%...
@@ -70,7 +72,9 @@ for t=1:1:T-1
         end
     end
 end
-
+end1 = clock-start1;
+n = m;
+start2 = clock;
 for t=1:1:T-1
     for i=1:N_wh
         theta(i,t+1) = (1-h/(C_wh(i)*3600)/R_wh(i))*theta(i,t) ...
@@ -85,7 +89,7 @@ for t=1:1:T-1
         end
     end
 end
-
+end2 = clock-start2;
 % initialize the temperature and on/off state of WHs at stead-state
 theta(:,1) = theta(:,end);
 m(:,1) = m(:,end);
@@ -135,5 +139,3 @@ P_lower_wh = mean(P_lower_wh1);
 E_UL_wh = E_UL_wh1(60:60:length(E_UL_wh1));
 
 end
-
-

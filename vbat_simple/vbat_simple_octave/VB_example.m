@@ -4,7 +4,7 @@
 
 clear,clc, close all
 
-TCL_idx = 4; %TCL type index: 1, AC; 2, HP; 3, RG; 4, WH
+TCL_idx = 3; %TCL type index: 1, AC; 2, HP; 3, RG; 4, WH
 
 if TCL_idx <=2 % WH model is different than the other TCLs because of water draw
     % read tempeature file
