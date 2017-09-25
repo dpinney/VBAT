@@ -4,7 +4,7 @@
 
 clear,clc, close all
 
-TCL_idx = 3; %TCL type index: 1, AC; 2, HP; 3, RG; 4, WH
+TCL_idx = 4; %TCL type index: 1, AC; 2, HP; 3, RG; 4, WH
 
 if TCL_idx <=2 % WH model is different than the other TCLs because of water draw
     % read tempeature file
@@ -39,7 +39,6 @@ for i = 1:length(P_upper)
 end
 
 %% plot
-% dates = datetime(2017,1,1,0,0,0):hours(1):datetime(2017,12,31,23,0,0);
 figure
 subplot(2,1,1)
 plot(P_upper)
