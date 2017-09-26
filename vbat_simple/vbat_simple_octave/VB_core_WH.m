@@ -2,8 +2,13 @@ function [P_upper_wh, P_lower_wh, E_UL_wh] = VB_core_WH(paraFile)
 % Author: He Hao (PNNL)
 % Last update time: September 19, 2017
 % This function is used to characterize VB capacity from a population of WH considering water draw
-para = csvread(paraFile);
-% para = xlsread(paraFile);
+
+if version('-release') == 0
+    para = csvread(paraFile);
+else
+    para = xlsread(paraFile);
+end
+
 para(1,:)=[];
 
 N_wh = size(para,1); % number of TCL
@@ -47,14 +52,13 @@ Po=-(theta_a*ones(1,N_wh)-ones(T,1)*theta_s_wh')./(ones(T,1)*R_wh')-4.2*water_dr
 Po_total = sum(Po,2);
 Po_total(find(Po_total>sum(P_wh))) = sum(P_wh);
 
-
 % theta is the temperature of TCLs
 theta = zeros(N_wh, T);
 theta(:,1) = theta_s_wh;
 
 % m is the indicator of on-off state: 1 is on, 0 is off
 m = ones(N_wh,T);
-m(1:N_wh*0.8,1) = 0;
+m(1:floor(N_wh*0.8),1) = 0;
 
 for t=1:1:T-1
     theta(:,t+1) = (1-h./(C_wh*3600)./R_wh).*theta(:,t) + h./(C_wh*3600)./R_wh*theta_a(t) + h./(C_wh*3600).*m(:,t).*P_wh;

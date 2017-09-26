@@ -10,7 +10,6 @@
 %out_temp = 'outdoor_temperature.csv';
 % VB_func('outdoor_temperature.csv',1)
 function VB_func(out_temp,device_type)%,para)
-start1 = clock;
 if device_type == 3
     temperature_a = 20*ones(8760,1);
 else
@@ -62,5 +61,3 @@ plot(zeros(length(E_UL),1),'k--')
 title('VBAT Energy')
 ylabel('Energy (kWh)')
 xlabel('Time (timestep)')
-
-end1 = clock -start1
