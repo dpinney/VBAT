@@ -38,9 +38,8 @@ for i = 1:N_wh
     water_draw(:,i) = circshift(m_water(:, k), [1, unidrnd(15)-15]) + m_water(:, k)*0.1*(rand-0.5);
 end
 
-
-
-Po = -(repmat(theta_a,1,N_wh)-repmat(theta_s_wh',T,1))./repmat((R_wh'),T,1) - 4.2*water_draw.*((55-32).*5/9 - repmat(theta_s_wh',T,1));
+Po = -(repmat(theta_a,1,N_wh)-repmat(theta_s_wh',T,1))./repmat((R_wh'),T,1)...
+    - 4.2*water_draw.*((55-32).*5/9 - repmat(theta_s_wh',T,1));
 
 % Po_total is the analytically predicted aggregate baseline power
 Po_total = sum(Po,2);
@@ -56,40 +55,42 @@ m = ones(N_wh,T);
 m(1:N_wh*0.8,1) = 0;
 
 theta1 = theta;
+n = m;
+
 start1 = clock;
+
 for t=1:1:T-1
     theta1(:,t+1) = (1-h./(C_wh(:).*3600)./R_wh(:)).*theta1(:,t)...
-        + h./(C_wh(:).*3600)./R_wh(:).*theta_a(t);%...
-        %+ h./(C_wh(:).*3600).*m(:,t).*P_wh(:);
+        + h./(C_wh(:).*3600)./R_wh(:).*theta_a(t)...
+        + h./(C_wh(:).*3600).*n(:,t).*P_wh(:);
     for i=1:N_wh
-        theta1(i,t+1) = theta1(i,t+1) + h./(C_wh(i).*3600).*m(i,t).*P_wh(i);
         if theta1(i,t+1) > theta_upper_wh(i)
-            m(i,t+1) = 0;
+            n(i,t+1) = 0;
         elseif theta1(i,t+1) < theta_lower_wh(i)
-            m(i,t+1) = 1;
+            n(i,t+1) = 1;
         else
-            m(i,t+1) = m(i,t);
+            n(i,t+1) = n(i,t);
         end
     end
 end
 end1 = clock-start1;
-n = m;
-start2 = clock;
-for t=1:1:T-1
-    for i=1:N_wh
-        theta(i,t+1) = (1-h/(C_wh(i)*3600)/R_wh(i))*theta(i,t) ...
-            + h/(C_wh(i)*3600)/R_wh(i)*theta_a(t)...
-            + h/(C_wh(i)*3600)*m(i,t)*P_wh(i) ;
-        if theta(i,t+1) > theta_upper_wh(i)
-            m(i,t+1) = 0;
-        elseif theta(i,t+1) < theta_lower_wh(i)
-            m(i,t+1) = 1;
-        else
-            m(i,t+1) = m(i,t);
-        end
-    end
-end
-end2 = clock-start2;
+
+% start2 = clock;
+% for t=1:1:T-1
+%     for i=1:N_wh
+%         theta(i,t+1) = (1-h/(C_wh(i)*3600)/R_wh(i))*theta(i,t) ...
+%             + h/(C_wh(i)*3600)/R_wh(i)*theta_a(t)...
+%             + h/(C_wh(i)*3600)*m(i,t)*P_wh(i) ;
+%         if theta(i,t+1) > theta_upper_wh(i)
+%             m(i,t+1) = 0;
+%         elseif theta(i,t+1) < theta_lower_wh(i)
+%             m(i,t+1) = 1;
+%         else
+%             m(i,t+1) = m(i,t);
+%         end
+%     end
+% end
+% end2 = clock-start2;
 % initialize the temperature and on/off state of WHs at stead-state
 theta(:,1) = theta(:,end);
 m(:,1) = m(:,end);
@@ -100,8 +101,10 @@ Po_total_sim(1) = sum(m(:,1).*P_wh);
 
 for t=1:1:T-1
     for i=1:N_wh
-        theta(i,t+1) = (1-h/(C_wh(i)*3600)/R_wh(i))*theta(i,t) + h/(C_wh(i)*3600)/R_wh(i)*theta_a(t)...
-            + h/(C_wh(i)*3600)*m(i,t)*P_wh(i) + h*4.2*water_draw(t,i)*((55-32)*5/9 - theta(i,t))/(C_wh(i)*3600);
+        theta(i,t+1) = (1-h/(C_wh(i)*3600)/R_wh(i))*theta(i,t) ...
+            + h/(C_wh(i)*3600)/R_wh(i)*theta_a(t)...
+            + h/(C_wh(i)*3600)*m(i,t)*P_wh(i) ...
+            + h*4.2*water_draw(t,i)*((55-32)*5/9 - theta(i,t))/(C_wh(i)*3600);
         
         if theta(i,t+1) > theta_upper_wh(i)
             m(i,t+1) = 0;
