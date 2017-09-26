@@ -3,14 +3,15 @@
 % This script is used to estimate the power and energy capacities for a population of residential TCLs
 
 clear,clc, close all
+tic
 
-TCL_idx = 4; %TCL type index: 1, AC; 2, HP; 3, RG; 4, WH
+TCL_idx = 1; %TCL type index: 1, AC; 2, HP; 3, RG; 4, WH
 
 if TCL_idx <=2 % WH model is different than the other TCLs because of water draw
     % read tempeature file
     tempFile = 'outdoor_temperature.csv'; % hourly ourdoor temperature data in C
     tempData = csvread(tempFile);
-    temperature_a=tempData(:,2);
+    temperature_a=tempData(2:end,2);
 elseif TCL_idx ==3
     temperature_a=20*ones(8760,1); %ambient temperature for RG is assumed to be 20 degree in C
 end
@@ -37,8 +38,9 @@ fprintf(fid, 'upper_power(kW), lower_power(kW), upper_energy(kWh), lower_energy(
 for i = 1:length(P_upper)
     fprintf(fid, '%f, %f, %f, %f\n', P_upper(i), -P_lower(i), E_UL(i), -E_UL(i));    
 end
-
-%% plot
+fclose(fid);
+toc
+%% plot 
 figure
 subplot(2,1,1)
 plot(P_upper)
@@ -49,7 +51,6 @@ ylabel('Power (kW)')
 xlabel('Time (timestep)')
 subplot(2,1,2)
 plot(E_UL)
-
 hold on
 plot(-E_UL,'r')
 plot(zeros(length(E_UL),1),'k--')
