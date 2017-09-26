@@ -54,26 +54,20 @@ theta(:,1) = theta_s_wh;
 m = ones(N_wh,T);
 m(1:N_wh*0.8,1) = 0;
 
-theta1 = theta;
-n = m;
-
-start1 = clock;
-
 for t=1:1:T-1
-    theta1(:,t+1) = (1-h./(C_wh(:).*3600)./R_wh(:)).*theta1(:,t)...
+    theta(:,t+1) = (1-h./(C_wh(:).*3600)./R_wh(:)).*theta(:,t)...
         + h./(C_wh(:).*3600)./R_wh(:).*theta_a(t)...
-        + h./(C_wh(:).*3600).*n(:,t).*P_wh(:);
+        + h./(C_wh(:).*3600).*m(:,t).*P_wh(:);
     for i=1:N_wh
-        if theta1(i,t+1) > theta_upper_wh(i)
-            n(i,t+1) = 0;
-        elseif theta1(i,t+1) < theta_lower_wh(i)
-            n(i,t+1) = 1;
+        if theta(i,t+1) > theta_upper_wh(i)
+            m(i,t+1) = 0;
+        elseif theta(i,t+1) < theta_lower_wh(i)
+            m(i,t+1) = 1;
         else
-            n(i,t+1) = n(i,t);
+            m(i,t+1) = m(i,t);
         end
     end
 end
-end1 = clock-start1;
 
 % start2 = clock;
 % for t=1:1:T-1
