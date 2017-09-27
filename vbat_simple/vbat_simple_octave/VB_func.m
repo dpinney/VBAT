@@ -6,9 +6,6 @@
 % 3 is RG
 % 4 is WH
 
-
-%out_temp = 'outdoor_temperature.csv';
-% VB_func('outdoor_temperature.csv',1)
 function VB_func(out_temp,device_type)%,para)
 if device_type == 3
     temperature_a = 20*ones(8760,1);
@@ -35,7 +32,9 @@ end
 
     
     %% write output file
-fid = fopen('VB_output.csv','w');
+plotname = strrep(paraFile,'.csv','');
+output_file = strcat('VB_output_', plotname, '.csv');
+fid = fopen(output_file,'w');
 fprintf(fid, 'upper_power(kW), lower_power(kW), upper_energy(kWh), lower_energy(kWh)\n');
 for i = 1:length(P_upper)
     fprintf(fid, '%f, %f, %f, %f\n', P_upper(i), -P_lower(i), E_UL(i), -E_UL(i));    
@@ -43,13 +42,15 @@ end
 
 %% plot
 
+plotname = strrep(plotname,'_',' ');
+
 figure
 subplot(2,1,1)
 plot(P_upper)
 hold on
 plot(-P_lower,'r')
 plot(zeros(length(P_upper),1),'k--')
-title('VBAT Power')
+title(strcat(plotname,' Power'))
 ylabel('Power (kW)')
 xlabel('Time (timestep)')
 subplot(2,1,2)
@@ -58,6 +59,6 @@ plot(E_UL)
 hold on
 plot(-E_UL,'r')
 plot(zeros(length(E_UL),1),'k--')
-title('VBAT Energy')
+title(strcat(plotname,' Energy'))
 ylabel('Energy (kWh)')
 xlabel('Time (timestep)')
