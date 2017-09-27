@@ -3,13 +3,14 @@ function [P_upper_wh, P_lower_wh, E_UL_wh] = VB_core_WH(paraFile)
 % Last update time: September 19, 2017
 % This function is used to characterize VB capacity from a population of WH considering water draw
 
-if version('-release') == 0
+if isempty(version('-release')) == 1
     para = csvread(paraFile);
+    para(1,:)=[];
 else
     para = xlsread(paraFile);
 end
 
-para(1,:)=[];
+
 
 N_wh = size(para,1); % number of TCL
 C_wh = para(:,1); % thermal capacitance
