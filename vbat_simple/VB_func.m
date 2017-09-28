@@ -10,8 +10,15 @@ function VB_func(out_temp,device_type)%,para)
 if device_type == 3
     temperature_a = 20*ones(8760,1);
 else
-    tempData = csvread(out_temp);
-    temperature_a=tempData(:,2);
+    if isempty(version('-release')) == 1
+        tempData = csvread(out_temp);
+        tempData(1,:)=[];
+        temperature_a=tempData(:,2);
+    else
+        tempData = xlsread(out_temp);
+        temperature_a=tempData(:,2);
+    end
+    
 end
 
 switch device_type

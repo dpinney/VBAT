@@ -10,8 +10,6 @@ else
     para = xlsread(paraFile);
 end
 
-
-
 N_wh = size(para,1); % number of TCL
 C_wh = para(:,1); % thermal capacitance
 R_wh = para(:,2); % thermal resistance
@@ -46,7 +44,6 @@ for i = 1:N_wh
     water_draw(:,i) = circshift(m_water(:, k), [1, unidrnd(15)-15]) + m_water(:, k)*0.1*(rand-0.5);
 end
 
-
 Po=-(theta_a*ones(1,N_wh)-ones(T,1)*theta_s_wh')./(ones(T,1)*R_wh')-4.2*water_draw.*((55-32)*5/9 -ones(T,1)*theta_s_wh');
 
 % Po_total is the analytically predicted aggregate baseline power
@@ -60,7 +57,7 @@ theta(:,1) = theta_s_wh;
 % m is the indicator of on-off state: 1 is on, 0 is off
 m = ones(N_wh,T);
 m(1:floor(N_wh*0.8),1) = 0;
-n = m;
+
 for t=1:1:T-1
     theta(:,t+1) = (1-h./(C_wh*3600)./R_wh).*theta(:,t) + h./(C_wh*3600)./R_wh*theta_a(t) + h./(C_wh*3600).*m(:,t).*P_wh;
     m(theta(:,t+1) > theta_upper_wh,t+1)=0;
