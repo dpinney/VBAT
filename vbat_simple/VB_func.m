@@ -1,12 +1,14 @@
 %This function takes the inputs:
 %out_temp : a csv file containing outdoor temperature
+%
 %device_type : a number from 1 to 4 for which
 % 1 is AC
 % 2 is HP
 % 3 is RG
 % 4 is WH
 
-function VB_func(out_temp,device_type)%,para)
+function VB_func(out_temp,device_type, device_parameters)
+
 if device_type == 3
     temperature_a = 20*ones(8760,1);
 else
@@ -24,18 +26,28 @@ end
 switch device_type
     case 1
         paraFile = 'para_AC.csv';
-        [P_lower, P_upper, E_UL] = VB_core_TCL(paraFile, temperature_a,device_type);
     case 2
         paraFile = 'para_HP.csv';
-        [P_lower, P_upper, E_UL] = VB_core_TCL(paraFile, temperature_a,device_type);
     case 3
         paraFile = 'para_RG.csv';
-        [P_lower, P_upper, E_UL] = VB_core_TCL(paraFile, temperature_a,device_type);
     case 4
         paraFile = 'para_WH.csv';
-        [P_upper, P_lower, E_UL] = VB_core_WH(paraFile);
 end
 
+if device_parameters ~= 0
+	paraFile = device_parameters;
+end
+
+switch device_type
+    case 1
+        [P_lower, P_upper, E_UL] = VB_core_TCL(paraFile, temperature_a,device_type);
+    case 2
+        [P_lower, P_upper, E_UL] = VB_core_TCL(paraFile, temperature_a,device_type);
+    case 3
+        [P_lower, P_upper, E_UL] = VB_core_TCL(paraFile, temperature_a,device_type);
+    case 4
+        [P_upper, P_lower, E_UL] = VB_core_WH(paraFile);
+end
 
     
     %% write output file
