@@ -58,9 +58,9 @@ fprintf(fid, 'upper_power(kW), lower_power(kW), upper_energy(kWh), lower_energy(
 for i = 1:length(P_upper)
     fprintf(fid, '%f, %f, %f, %f\n', P_upper(i), -P_lower(i), E_UL(i), -E_UL(i));    
 end
+fclose(fid);
 
 %% plot
-
 plotname = strrep(plotname,'_',' ');
 
 figure
