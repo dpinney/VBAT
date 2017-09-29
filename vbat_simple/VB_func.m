@@ -51,7 +51,7 @@ end
 
     
     %% write output file
-plotname = strrep(paraFile,'.csv','');
+plotname = num2str(strrep(paraFile,'.csv',''));
 output_file = strcat('VB_output_', plotname, '.csv');
 fid = fopen(output_file,'w');
 fprintf(fid, 'upper_power(kW), lower_power(kW), upper_energy(kWh), lower_energy(kWh)\n');
