@@ -9,6 +9,15 @@
 
 function VB_func(out_temp,device_type, device_parameters)
 
+switch out_temp
+    case 94128
+        out_temp = 'outdoor_temperature_zipCode_94128.csv';
+    case 97218
+        out_temp = 'outdoor_temperature_zipCode_97218.csv';
+    case 98158
+        out_temp = 'outdoor_temperature_zipCode_98158.csv';
+end
+
 if device_type == 3
     temperature_a = 20*ones(8760,1);
 else
@@ -51,7 +60,12 @@ end
 
     
     %% write output file
-plotname = num2str(strrep(paraFile,'.csv',''));
+if ischar(paraFile)
+    plotname = num2str(strrep(paraFile,'.csv',''));
+else
+    plotname = num2str(paraFile);
+end
+% plotname = num2str(strrep(paraFile,'.csv',''));
 output_file = strcat('VB_output_', plotname, '.csv');
 fid = fopen(output_file,'w');
 fprintf(fid, 'upper_power(kW), lower_power(kW), upper_energy(kWh), lower_energy(kWh)\n');
