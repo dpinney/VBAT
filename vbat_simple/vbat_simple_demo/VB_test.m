@@ -9,7 +9,7 @@
 
 % VB_func('outdoor_temperature.csv',3,0) %RG
 
-VB_func('outdoor_temperature.csv',4,0) %WH
+% VB_func('outdoor_temperature.csv',4,0) %WH
 
 %%% User inputed parameters
 
@@ -22,6 +22,6 @@ VB_func('outdoor_temperature.csv',4,0) %WH
 % 97218
 % 98158
 
-%VB_func(98158,1,0)
+% VB_func(98158,1,0)
 
-%VB_func(97218,2,[1,2,3,4,5,6,7])
+% VB_func(97218,2,[1,2,3,4,5,6,7])
