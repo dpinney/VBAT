@@ -57,7 +57,11 @@ switch device_type
     case 4
         [P_upper, P_lower, E_UL] = VB_core_WH(paraFile);
 end
-
+P_lower
+disp('\n')
+P_upper
+disp('\n')
+E_UL
     
     %% write output file
 if ischar(paraFile)
@@ -66,7 +70,8 @@ else
     plotname = num2str(paraFile);
 end
 % plotname = num2str(strrep(paraFile,'.csv',''));
-output_file = strcat('VB_output_', plotname, '.csv');
+% output_file = strcat('VB_output_', plotname, '.csv');
+output_file = 'VB_output.csv';
 fid = fopen(output_file,'w');
 fprintf(fid, 'upper_power(kW), lower_power(kW), upper_energy(kWh), lower_energy(kWh)\n');
 for i = 1:length(P_upper)
@@ -74,7 +79,7 @@ for i = 1:length(P_upper)
 end
 fclose(fid);
 
-%% plot
+% %% plot
 plotname = strrep(plotname,'_',' ');
 
 figure
