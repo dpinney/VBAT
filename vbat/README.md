@@ -26,11 +26,11 @@ b (the device type):
  - 2 for Heat Pump
  - 3 for Refridgerator
  - 4 for Water Heater
-The following values must be positive floats
-c (capacitance)
-d (resistance)
-e (power)
-f (cop)
-g (deadband)
-h (setpoint)
-i (number of devices) - must be a positive int
+The following values must be positive floats:
+ - c (capacitance)
+ - d (resistance)
+ - e (power)
+ - f (cop)
+ - g (deadband)
+ - h (setpoint)
+ - i (number of devices) - must be a positive int
