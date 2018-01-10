@@ -37,3 +37,6 @@ Must be a positive float
 Must be a positive float
 ##### i (number of devices):
 Must be a positive int
+
+# Output
+The default output is three sets of 8760 values simply output to the command window of Octave/Matlab. To have more legible results the lines 92 and onwards of the file named VB_func.m must be uncommented.
