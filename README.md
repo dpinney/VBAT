@@ -38,4 +38,4 @@ Must be a positive float
 ##### i (number of devices):
 Must be a positive int
 
-The output is three sets of 8760 hourly results to the command window of Octave/Matlab: the load's minimum power, maximum power and energy consumed. If you would like to see the results plotted, uncomment lines 92 and after in VB_func.m.
+The output is three sets of 8760 hourly results to the command window of Octave/Matlab: the load's minimum power, maximum power and energy consumed. If you would like to see the results plotted, uncomment lines 62 and after in VB_func.m.
